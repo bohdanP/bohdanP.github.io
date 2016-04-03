@@ -1,0 +1,117 @@
+<div class='viewport'>
+					<ul class='slidewrapper' data-current=0>
+						<li class='slide'>
+							<div class="border">
+									<span class="st">St </span>
+									<span class="num">1. </span>
+									<span class="text"><h5>Create a prototype of application</h5>Lorem ipsup tratatam tratatam. Lorem ipsup tratatam tratatam</span>
+							</div>
+						</li>
+						<li class='slide second'>
+							<div class="border">
+									<span class="st">St </span>
+									<span class="num">2. </span>
+									<span class="text"><h5>Create a prototype of application</h5>Lorem ipsup tratatam tratatam. Lorem ipsup tratatam tratatam</span>
+							</div>
+						</li>
+						<li class='slide third'>
+							<div class="border">
+									<span class="st">St </span>
+									<span class="num">3. </span>
+									<span class="text"><h5>Create a prototype of application</h5>Lorem ipsup tratatam tratatam. Lorem ipsup tratatam tratatam</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+
+
+.slider
+{
+	position: absolute;
+	top: 555px;
+
+
+}
+
+.viewport{
+    width: 525px;
+    height: 83px;
+   overflow: hidden;
+    position: relative;
+    border-radius:8px;
+    z-index: 3;
+}
+.slidewrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+     width: 525px;
+    height: 83px;
+    margin: 0;
+    padding: 0;    
+}
+.slide{
+    width: 525px;
+    height: 83px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/slider_border.png);
+
+}
+
+#prev_slide img
+{
+	position: absolute;
+	top: 0px;
+	left: -60px;
+}
+#next_slide img
+{
+	position: absolute;
+	top: 0px;
+	left: 465px;
+}
+
+.border
+{
+	position: absolute;
+	top:4px;
+	left:4px;
+	width: 490px;
+    height: 46px;
+	background: url(../img/slider_g.png) 60px 0 no-repeat,
+				url(../img/slider_bg.png) 0 0 repeat-x;
+	border-radius:5px;
+	color:#fff;
+	font-family:Arial, sans-serif;
+	padding: 15px;
+}
+
+.border span
+{
+	float: left;
+}
+.st
+{
+	font-size: 18px;
+	margin-top: 24px;
+	margin-right: 7px;
+}
+.num
+{
+	font-size: 50px;
+	margin-top: -5px;
+	margin-right: 7px;
+}
+h5
+{
+	font-size: 22px;
+	text-shadow: rgba(0,0,0,.6) 1px 2px;
+}
+.text
+{
+	font-size: 14px;
+}
