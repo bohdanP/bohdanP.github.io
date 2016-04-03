@@ -1,0 +1,53 @@
+body 
+{
+  background-color: #BFF67F;
+}
+#chd,#znd
+{
+  float: left;
+}
+.znamen,.znam, button, p
+{
+  clear: both;
+}
+table
+{
+  /*background-color: rgba(152,189,202,.5);   url(../Ey-YBwyILSY.gif);*/
+  border:none;
+  box-shadow: 0 0 40px rgba(95,122,63,.9);
+  margin: 30px auto;
+  padding: 10px;
+  font-weight: 900;
+  opacity: 1 !important;
+  background: white;
+}
+#eee, #rrr
+{
+  border-left:2px solid black;
+}
+#eee, #aaa, .bottom
+{
+  border-bottom:2px solid black;
+}
+.znamen p, .chysl p
+{
+  border:2px dotted red;
+  width: 250px;
+  padding: 20px;
+  background: #C76AD2;
+  font-weight: 900;
+  align:center;
+  color:#FFC0FF;
+  text-shadow: 2px 2px #2F232F;
+  box-shadow: 0 0 40px rgba(95,122,63,.9);
+  margin: 20px auto;
+  text-align: center;
+}
+.result p
+{
+      padding: 0px;
+}
+sup
+{
+  font-size: small;
+}
