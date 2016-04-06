@@ -1,0 +1,195 @@
+@font-face{
+  font-family: "myriad";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MyriadPro-Regular.otf")
+}
+
+
+body 
+{
+  padding: 0;
+  margin: 0;
+  background-color: #CACACA;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  font-family: myriad;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.wrapper 
+{
+  width: 800px;
+  height: 480px;
+  background: red;
+  margin: auto;
+  background: url(../background-big.png);
+  background-size: cover;
+}
+.top_buttons
+{
+  width: 100%;
+  height: 55px;
+  background-color: #171717;
+}
+.table
+{
+  position: relative;
+  width: 551px;
+  height: 252px;
+  margin: 34px 130px 0 96px;
+  border: 15px solid #000;
+  border-radius: 150px;
+  background: radial-gradient(ellipse closest-corner at center, #489EBF,#235E7A);
+}
+.table:after 
+{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  border: solid 3px #DCDFE0;
+  border-radius: 150px;
+  width: 517px;
+  height: 217px;
+  z-index: 10;
+}
+.table div img
+{
+ height: 47px;
+ width: 53px;
+ border-right: 1px solid #fff;
+ border-radius: 3px;
+ float: left;
+}
+.table div
+{
+  position: absolute;
+  height: 46px;
+  width: 142px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background: rgba(0,0,0,.7);
+  z-index: 100;
+}
+.table .bet
+{
+  border: 1px solid #fff;
+  top: -22px;
+  left: 214px;
+}
+.table .nickname
+{
+  top: 93px;
+  left: 495px;
+}
+.top_buttons h3
+{
+  margin-top: 12px;
+}
+.top_buttons
+{
+  padding left: 502px;
+}
+.top_buttons div
+{
+  height: 38px;
+  width: 66px;
+  float: left;
+  margin: 3px 19px 0 0;
+  border-radius: 9px;
+  border: 4px solid #C8C8C8;
+}
+.top_buttons .add
+{
+  border: 4px solid #fff;
+  margin-left: 502px;
+}
+
+.buttons
+{
+  margin: 30px;
+}
+.buttons div
+{
+  height: 59px;
+  width: 95px;
+  background: #8E000B;
+  float: left;
+  margin-right: 9px;
+  border-radius: 9px;
+
+}
+.buttons .fold
+{
+  background: #F30000;
+}
+.buttons .fold h3
+{
+  margin-top: 20px;
+}
+.buttons .range
+{
+  width: 373px;
+  margin: 0;
+  float: right;
+}
+#range
+{
+  background: #171717;
+  float: left;
+  border-radius: 4px;
+  width: 71px;
+  height: 34px;
+  line-height: 34px;
+  vertical-align: middle;
+  margin: 0 8px;
+}
+h3
+{
+  margin-top: 13px;
+}
+h2
+{
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+}
+.bank
+{
+  color: #B9F1B3;
+}
+#bet_
+{
+  color: #CFCA35;
+}
+
+#bet_cheaps, #nickname_cheaps, #cheaps
+{
+ position: absolute;
+ z-index: 101;
+ font-size: 11px;
+ letter-spacing: 0;
+}
+#bet_cheaps
+{
+ top: 43px;
+ left: 280px;
+ 
+}
+#nickname_cheaps
+{
+  top: 114px;
+  right: 90px;
+}
+#cheaps
+{
+  
+  top: 167px;
+  left: 280px;
+}
