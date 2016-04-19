@@ -1,0 +1,94 @@
+.wrapperTips
+{
+  width: 100%;
+  overflow: hidden;
+}
+.tip
+{
+  background: #9CC4E4;
+  width: 180px;
+  height: 180px;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  font-size: 20px;
+  float: left;
+  transition:all 0.3s ease;
+  position: relative;
+  padding: 20px;
+  border-top: 2px solid #3A89C9;
+}
+.backgroundTip:hover
+{
+  -webkit-transform:scale(1.4);
+  transform:scale(1.4);
+}
+.numberTip
+{
+  margin-left: 10px;
+  padding: 0;
+  text-align: left;
+  color: grey;
+  text-transform: uppercase;
+  text-shadow: 0 0 1px #000;
+}
+.blues
+{
+  background: #3A89C9;
+  border-top: 2px solid #9CC4E4;
+}
+.backgroundTip
+{
+  width: 100%;
+  height: 100%;
+  font-size: 190px;
+  position: absolute;
+  color: rgba(255,255,255,.2);
+  top: 0px;
+  left:0px;
+  font-weight: 900;
+  transition:all 0.3s ease;
+}
+.tip>p
+{
+ text-shadow: 0 0 1px #000;
+}
+
+
+
+
+
+.wrapper
+{
+  width: 880px;
+}
+.clear
+{
+  clear:both;
+}
+@media (max-width: 900px)
+{
+  .tip
+  {
+    width: 50vw;
+    padding: 0;
+   
+  }
+  .wrapperTips, .wrapper
+  {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 600px)
+{
+  .wrapperTips, .wrapper,.tip
+  {
+    width: 100vw;
+    padding: 0;
+    
+  }
+
+
+}
