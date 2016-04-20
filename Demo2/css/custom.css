@@ -69,13 +69,14 @@
 .lastTip
 {
   width: 100%;
-  height: 80px;
+  height: 95px;
   padding: 0;
+  padding-top: 15px;
 }
 .lastTip .backgroundTip
 {
   font-size: 80px;
-  top: 0px;
+  top: 15px;
 }
 .lastTip p{
 
@@ -138,7 +139,10 @@
     width: 50vw;
     padding: 0;
     height: 80px;
-
+  }
+  .lastTip .backgroundTip
+  {
+    top: 0px;
   }
   .lastTip
   {
