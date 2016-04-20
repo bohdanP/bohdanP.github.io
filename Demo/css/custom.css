@@ -28,7 +28,6 @@
   position: relative;
   padding: 20px;
   border-top: 2px solid #3A89C9;
-  box-shadow: 0 0 3px #000;
 }
 
 .backgroundTip:hover
@@ -44,7 +43,7 @@
   text-align: left;
   color: grey;
   text-transform: uppercase;
-  text-shadow: 0 0 1px #000;
+
 }
 .blues
 {
@@ -65,7 +64,7 @@
 }
 .tip>p
 {
- text-shadow: 0 0 5px #000;
+ 
  padding-top: 15px;
 }
 .tip:hover
