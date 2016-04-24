@@ -4,16 +4,24 @@
   stroke: black;
   stroke-width: .1%;
 }
-.fil0:hover
+.fil0:not(.bone):hover
 {
   fill: #F197F1;
   stroke: black;
   stroke-width: 1px;
 }
+.bone
+{
+  fill: #fff;
+}
 svg
 {
   display: block;
   width: 50%;
+}
+.sisi:hover
+{
+  fill: red;
 }
 @media (max-width: 600px)
 {
