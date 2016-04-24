@@ -1,18 +1,12 @@
 .fil0
 {
-  fill: #6F9CDF;
-  stroke: black;
-  stroke-width: .1%;
-}
-.fil0:not(.bone):hover
-{
-  fill: #F197F1;
-  stroke: black;
-  stroke-width: 1px;
-}
-.bone
-{
   fill: #fff;
+  stroke: black;
+  stroke-width: .2%;
+}
+.colorM:hover
+{
+  fill: #2a80c9;
 }
 svg
 {
