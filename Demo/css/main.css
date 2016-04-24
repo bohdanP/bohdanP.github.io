@@ -96,3 +96,14 @@
 .mini-menu .sub > a.active:before{
     color: #f2bd00;
 }
+.fil0
+{
+	fill: green;
+	stroke: red;
+ stroke-width: 100px;
+ 
+}
+.fil0:hover
+{
+		fill: red;
+}

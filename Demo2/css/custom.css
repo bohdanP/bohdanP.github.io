@@ -2,11 +2,24 @@
 {
   fill: #6F9CDF;
   stroke: black;
-  stroke-width: 100px;
+  stroke-width: .1%;
 }
 .fil0:hover
 {
   fill: #F197F1;
   stroke: black;
-  stroke-width: 80px;
+  stroke-width: 1px;
+}
+svg
+{
+  display: block;
+  width: 50%;
+}
+@media (max-width: 600px)
+{
+  svg
+  {
+    width: 100%;
+
+  }
 }
