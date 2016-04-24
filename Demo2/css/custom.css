@@ -1,12 +1,12 @@
 .fil0
 {
-  fill: #fff;
+  fill: #2a80c9;
   stroke: black;
   stroke-width: .2%;
 }
 .colorM:hover
 {
-  fill: #2a80c9;
+  fill: #fff;
 }
 svg
 {
