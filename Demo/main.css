@@ -1,0 +1,89 @@
+.btn
+{
+    background-color: #327AB7;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+}
+.btn:hover, .btn:active
+{
+   background-color:#1F4C72;
+}
+.mini-menu {
+    display: none;
+    margin: 0px;
+    max-width: 220px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #C1C1C1;
+    overflow: hidden;
+    font: normal 14px Helvetica, Arial, sans-serif;
+}
+.mini-menu ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.mini-menu > ul > li {
+    position: relative;
+}
+.mini-menu > ul > li > a {
+    display: block; 
+    padding: .7em 1em;  
+    outline: 0; 
+    border-bottom: 1px solid #EEEEEE;
+    color:#000;
+    text-decoration: none;  
+    font-weight: normal;
+}
+.mini-menu > ul > li > a:hover, 
+.mini-menu > ul > li > a.active {
+    color:#5FA7E4;
+}
+.mini-menu .sub  ul {
+    display: none;
+    overflow: hidden;
+    background: #EDEDED;
+    border-bottom: 1px solid #000;
+}
+.mini-menu .sub ul li a {
+    display: block;
+    padding: .7em 1em;
+    color:#000;
+    text-decoration: none;
+    
+}
+.mini-menu .sub ul li a:hover,
+.mini-menu .sub ul li a.active {
+    background: #EDEDED;
+    color:#5FA7E4;
+
+}
+.mini-menu .sub ul li a:after{
+    float: left;
+    margin-right:6px;
+    line-height: 12px;
+}
+.arrow {
+    position: relative;
+    display: inline-block;
+    float: right;
+    top: 13px;
+    right: 13px;
+    border: 5px solid transparent;
+    border-left-color: #323232;
+    border-right: 0;
+    z-index: 10;
+    transition: all .1s ease;
+
+}
+/* Р°РєС‚РёРІРЅС‹Р№ РїРµСЂРµРєР»СЋС‡Р°С‚РµР»СЊ */
+.mini-menu .sub > a.active:before{
+    color: #C1C1C1;
+}
+.rotate
+{
+    transform: rotate(90deg);
+}
