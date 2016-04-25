@@ -16,12 +16,12 @@ $(document).ready(function () {
 	$('.mini-menu > ul > li > a').click(function(){
 		$('.mini-menu > ul > li > a, .sub a').removeClass('active');
 		$(this).addClass('active');
-
+		$('.rotate').removeClass('rotate');
 	}),
 	$('.sub ul li a').click(function(){
 		$('.sub ul li a').removeClass('active');
 		$(this).addClass('active');
-
+		$('.rotate').removeClass('rotate');
 
 	});
 	$('.sub>a').click(function(){
