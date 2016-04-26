@@ -1,0 +1,126 @@
+@font-face {                                   /* Adding Lato font*/
+  font-family: "LatoBold";
+  src: url("../fonts/LatoBold/LatoBold.eot");
+  src: url("../fonts/LatoBold/LatoBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/LatoBold/LatoBold.woff") format("woff"),
+  url("../fonts/LatoBold/LatoBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+.tip
+{
+  font-family: 'Lato', sans-serif;;
+  background: #9CC4E4;
+  width: 220px;
+  height: 220px;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  font-size: 26px;
+  float: left;
+  transition:all 0.3s ease;
+  position: relative;
+  padding: 20px;
+
+}
+
+body .wrapperTip .tip .backgroundTip:hover 
+{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  color: rgba(255,255,255,.2);
+}
+.numberTip
+{
+  margin-left: 10px;
+  padding: 0;
+  text-align: left;
+  color: grey;
+  text-transform: uppercase;
+  font-size: 24px;
+
+}
+
+.backgroundTip
+{
+  width: 100%;
+  height: 100%;
+  font-size: 220px;
+  position: absolute;
+  color: rgba(255,255,255,.2);
+  left:0px;
+  font-weight: 900;
+  transition:all 0.3s ease;
+  text-decoration: none;
+  top: -10px; 
+}
+
+.tip>p
+{
+ padding-top: 0px;
+}
+.tip:hover
+{
+  text-transform: uppercase;
+}
+.lastTip
+{
+  width: 1300px; 
+  height: 120px;
+  padding: 0;
+  padding-top: 15px;
+}
+.lastTip .backgroundTip
+{
+  font-size: 130px;
+top: -10px;
+}
+.lastTip p{
+
+ margin-top: 5px;
+}
+
+
+.wrapperTips
+{
+  width: 1300px;
+  overflow: hidden;
+margin: 0 auto;
+}
+.clearTip
+{
+  clear:both;
+}
+
+.color1
+{
+  background: #6DCBFF;
+
+}
+.color2
+{
+  background: #7BD529;
+
+}
+.color3
+{
+  background: #FB9338;
+
+}
+.color4
+{
+  background: #7FA1DC;
+
+}
+.color5
+{
+  background: #FDBD22;
+
+}
+.color6
+{
+  background: #B47BDD;
+
+}
