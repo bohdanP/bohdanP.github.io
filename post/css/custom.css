@@ -9,6 +9,7 @@
 }
 .tip
 {
+  display: table;
   font-family: 'Lato', sans-serif;;
   background: #9CC4E4;
   width: 220px;
@@ -17,12 +18,11 @@
   color: white;
   font-weight: 900;
   text-align: center;
-  font-size: 26px;
+  font-size: 30px;
   float: left;
   transition:all 0.3s ease;
   position: relative;
   padding: 20px;
-
 }
 
 body .wrapperTip .tip .backgroundTip:hover 
@@ -32,17 +32,21 @@ body .wrapperTip .tip .backgroundTip:hover
   transform: scale(1.3);
   color: rgba(255,255,255,.2);
 }
-.numberTip
+.tip .numberTip
 {
   margin-left: 10px;
   padding: 0;
-  text-align: left;
+  text-align: center;
   color: grey;
   text-transform: uppercase;
   font-size: 24px;
-
+  position: absolute;
+  padding-left: 33%;
 }
-
+.lastTip .numberTip
+{
+  padding-left: 47.5%;
+}
 .backgroundTip
 {
   width: 100%;
@@ -57,9 +61,10 @@ body .wrapperTip .tip .backgroundTip:hover
   top: -10px; 
 }
 
-.tip>p
+.tip>p, .lastTip>p
 {
- padding-top: 0px;
+ display: table-cell;
+ vertical-align: middle;
 }
 .tip:hover
 {
@@ -70,18 +75,14 @@ body .wrapperTip .tip .backgroundTip:hover
   width: 1300px; 
   height: 120px;
   padding: 0;
-  padding-top: 15px;
+  padding: 8px;
+  display: table;
 }
 .lastTip .backgroundTip
 {
   font-size: 130px;
 top: -10px;
 }
-.lastTip p{
-
- margin-top: 5px;
-}
-
 
 .wrapperTips
 {
