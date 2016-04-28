@@ -1,0 +1,53 @@
+.wrapperM
+{
+  width: 100%;
+}
+.facing
+{
+   display: block;
+  float: left;
+  width: 28%;
+  margin-left: 50px;
+
+}
+.fil0                 /*class for every shape*/
+{
+  fill: #fff;        
+  stroke: black;
+  stroke-width: .2%;
+}
+.colorM               /*class for active shape*/
+{
+  fill: #2a80c9;
+}
+.colorM:hover
+{
+  fill: #fff;
+}
+svg
+{
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 900px)
+{
+
+  .facing
+  {
+
+    width: 90%;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 750px)
+{
+
+  .facing
+  {
+
+    width: 90%;
+    margin-left: 10px;
+  }
+}
