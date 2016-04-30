@@ -1,0 +1,12 @@
+
+
+.pic
+{
+	width: 98%;
+	height: 600px;
+	background-image: url(Dollarphotoclub_79864456-700x466.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	z-index: -10;
+}

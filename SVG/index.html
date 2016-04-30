@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Orbita</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="pic"></div>
+	<svg class="qq" width="750" height="600" viewBox="0 0 550 550">
+
+		<defs>
+			<radialGradient id="Gradient2" >
+				<stop offset="0%" stop-color="rgba(102,118,92,.9)" />
+				<stop offset="50%" stop-color="rgba(102,118,92,.7)" />
+				<stop offset="80%" stop-color="rgba(102,118,926,.1)" />
+				<stop offset="90%" stop-color="transparent" />
+			</radialGradient>
+		</defs>
+
+		<desc>Green pear to show effects of matching viewport and viewBox.</desc>
+
+		<g class="q">
+			<circle id="cir1" cx="250" cy="330" r="200" fill="rgba(30,136,158,.7)" />
+			<circle id="cir2"cx="330" cy="240" r="220" fill="rgba(21,80,106,.7)" />
+			<circle id="cir3" cx="160" cy="250" r="170" fill="rgba(52,108,54,.7)" />
+		</g>
+		<g class="qq">
+			<circle id="bokeh" cx="25" cy="33" r="15" fill="url(#Gradient2)" />
+			<circle id="bokeh2" cx="5" cy="163" r="15" fill="url(#Gradient2)" />
+			<circle id="bokeh3" cx="85" cy="83" r="15" fill="url(#Gradient2)" />
+		</g>
+
+		<animateMotion xlink:href="#cir1" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" path="m10,15 C55,35 100,25 10,18z" </animateMotion>
+
+			<animateMotion 
+			xlink:href="#cir2"
+			dur="12s"
+			begin="0s"
+			
+			repeatCount="indefinite"
+			path="m10,55 C5,75 5,10 10,75z"
+		</animateMotion>
+
+		<animateMotion 
+		xlink:href="#cir3"
+		dur="12s"
+		begin="0s"
+		fill="freeze"
+		repeatCount="indefinite"
+		path="m0,55 C65,35 50,5 88,55z"
+	</animateMotion>
+
+	<animateMotion 
+		xlink:href="#bokeh"
+		dur="52s"
+		begin="0s"
+		fill="freeze"
+		repeatCount="indefinite"
+		path="m0,0 88,55z"
+	</animateMotion>
+
+	<animateMotion 
+		xlink:href="#bokeh2"
+		dur="52s"
+		begin="0s"
+		fill="freeze"
+		repeatCount="indefinite"
+		path="m0,0 -20,55z"
+	</animateMotion>
+
+<animateMotion 
+		xlink:href="#bokeh3"
+		dur="52s"
+		begin="0s"
+		fill="freeze"
+		repeatCount="indefinite"
+		path="m0,0  -28,5z"
+	</animateMotion>
+</svg>
+
+
+</body>
+</html>
