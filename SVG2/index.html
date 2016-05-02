@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Orbita</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<svg class="loading" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="300px" height="300px" viewBox="0 0 120 120" enable-background="brown" xml:space="preserve">
+	<defs>
+		<pattern id="water" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
+			<path fill="#FD7D00" d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z"/>
+		</pattern>
+
+
+		<circle id="text" transform="matrix(1 0 0 1 -8.0684 116.7852)" cx="68" cy="-56" r="57" fill="white" />
+
+		<mask id="text_mask">
+			<use x="0" y="0" xlink:href="#text" opacity="1" fill="red"/>
+		</mask>
+	</defs>
+
+	<!--<use x="0" y="0" xlink:href="#text" fill="#222"/>-->
+
+	<rect  fill="#E1E1E1" x="0" y="0" width="120" height="120"/>
+	<circle cx="60" cy="60" r="57" fill="#F7D9BC" />
+	<rect class="water-fill" mask="url(#text_mask)" fill="url(#water)" x="-400" y="0" width="1600" height="120"/>
+
+</svg>
+
+
+
+</body>
+</html>
