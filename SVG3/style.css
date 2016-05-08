@@ -1,7 +1,7 @@
-#bgpoly polygon:nth-child(2n)
+/*#bgpoly polygon:nth-child(2n)
 {
 	animation-name: poly1; 
-	animation-duration: 12s; 
+	animation-duration: 6s; 
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 
@@ -26,8 +26,12 @@ to {transform: translateX(0));}
 	50% {transform: rotate(60deg);}
 	to {transform: rotate(0deg);}
 }
+*/
+#bgpoly2
+{
+	transform: translateX(1200px);
 
-
+}
 .rotate {
 	transform-origin:center;
 	-webkit-animation-name: rotate; 
@@ -92,4 +96,38 @@ to {transform: translateX(0));}
 	from {transform: rotate(0deg);}
 	50% {transform: rotate(1deg);}
 	to {transform: rotate(0deg);}
+}
+
+
+.carUP {
+	-webkit-animation-name: carUP; 
+	-webkit-animation-duration: 1s; 
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: carUP; 
+	-moz-animation-duration: 1s; 
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	animation-name: carUP; 
+	animation-duration: 1s; 
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+@-webkit-keyframes carUP {
+	from {transform: rotate(0deg);}
+	50% {transform: rotate(1deg);}
+	to {transform: rotate(0deg);}
+}
+
+@-moz-keyframes carUP {
+	from {transform: rotate(0deg);}
+	50% {transform: rotate(1deg);}
+	to {transform: rotate(0deg);}
+}
+
+@keyframes carUP {
+	from {transform: translateY(0px);}
+	50% {transform: translateY(-3px);}
+	to {transform: translateY(0px);}
 }
