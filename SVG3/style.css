@@ -27,7 +27,7 @@ to {transform: translateX(0));}
 	to {transform: rotate(0deg);}
 }
 */
-#bgpoly2
+#bgpoly2, #bgpoly4
 {
 	transform: translateX(1200px);
 
