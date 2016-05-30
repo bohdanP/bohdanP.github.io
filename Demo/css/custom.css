@@ -9,7 +9,7 @@
   width: 28%;
   margin-left: 50px;
 
-}
+ }
 .fil0                 /*class for every shape*/
 {
   fill: #fff;        
@@ -30,24 +30,21 @@ svg
   width: 100%;
 }
 
-@media (max-width: 900px)
-{
-
-  .facing
-  {
-
-    width: 90%;
-    margin-left: 10px;
-  }
-}
-
 @media (max-width: 750px)
 {
 
   .facing
   {
-
     width: 90%;
     margin-left: 10px;
   }
+  
+}
+@media (max-width: 750px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  
+  .facing:nth-child(2)
+  {
+    margin-top: 100%;
+  }
+
 }
