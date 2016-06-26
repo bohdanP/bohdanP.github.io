@@ -1,0 +1,54 @@
+.str1 {stroke:#FEFEFE;stroke-width:50}
+.str0 {stroke:#fff;stroke-width:50}
+.fil5 {fill:none}
+
+.fil6 {fill:#9D9E9E}
+
+
+.anotherland
+{
+  fill:#F6EFC3; 
+}
+.roads
+{
+  fill: #D6D6D6;
+}
+.river
+{
+  fill: #A8D2EA;
+}
+.sold
+{
+  fill: #4B4B4B;
+}
+.lot2
+{
+  font-family: Arial;
+  font-size: 350px;
+  fill: #fff;
+  font-weight: 900;
+  stroke-width: 20;
+  stroke-linejoin: miter;
+  stroke: #000;
+}
+.text
+{
+  font-family: Arial;
+  font-size: 280px;
+  fill: #000;
+  font-weight: 600;
+  
+  
+  letter-spacing: 180px;
+}
+
+.text2
+{
+  font-family: Arial;
+  font-size: 280px;
+  fill: #000;
+  font-weight: 700;
+  
+
+}
+
