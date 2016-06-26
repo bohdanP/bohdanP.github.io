@@ -1,3 +1,8 @@
+function dismiss(){
+			$("#myModal").slideUp();
+			$(".map g").attr("style","");
+		}
+
 var regions=[
     {
         "Property_Name": "Lot 1",
