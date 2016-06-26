@@ -165,6 +165,15 @@ var regions=[
     	"Size":'11,500',
     	"street": 0,
     	"Original": "$39,000"
+    },
+    {
+    	"Property_Name": "Lot 15",
+    	"region_code": "Park",
+    	"group": "There are 2 ponds with great fishing!",
+    	"lot": "Lot #15",
+    	"Size":'11,500',
+    	"street": 0,
+    	"Original": "$39,000"
     }
     ];
 
@@ -185,28 +194,39 @@ var regions=[
 
 
 
-    		$('#'+ regions[i].region_code).click(function (e) {
+    		$('#'+ regions[i].region_code).hover(function (e) {
     			var region_data=$(this).data('region');
     			var map_id=$(this).attr("id"); 
     			$('.map g').attr('style','');
-    			$(this).next().attr('style','fill:#c9bc40 !important');
+    			$(this).attr('style','fill:#c9bc40 !important');
 		//$(".popup").fadeOut();
 		//$(".popup").fadeIn(500);
 		
 		$("#myModal").slideUp(function(){
 			$("#myModal").slideDown(); 
 		});
-		if(  map_id =='lot_2' || map_id == 'lot_3' || map_id =='lot_4' || map_id =='lot_5'
-			|| map_id =='lot_9' || map_id =='lot_17' || map_id =='lot_18' || map_id =='lot_19')
+
+
+		if(  map_id =='Park')
 		{ 
 
-			$(".popup").html('<h4>'+ region_data.Property_Name+ '</h4><a id="cls_btn" onclick="dismiss();" class="close_btn" data-dismiss="modal" aria-label="Close">x</a>' +
-				'<ul class="popup_list"><li class="half">'+'<b>'+ region_data.group +'</b><span class="lot_box">' + region_data.lot + '<span></li>' +
-				'<li class="half">'+' <a  class="sold_out">SOLD</a>' +'</ul>');
+			$(".popup").html('<h4>'+ 'Community park'+ '</h4><a id="cls_btn" onclick="dismiss();" class="close_btn" data-dismiss="modal" aria-label="Close">x</a>' +
+				'<ul class="popup_list"><li class="half">'+'<b>'+ region_data.group +'</b>');
 		}
-		
-		else
-		{
+
+		else {
+
+			if(  map_id =='lot_2' || map_id == 'lot_3' || map_id =='lot_4' || map_id =='lot_5'
+				|| map_id =='lot_9' || map_id =='lot_17' || map_id =='lot_18' || map_id =='lot_19')
+			{ 
+
+				$(".popup").html('<h4>'+ region_data.Property_Name+ '</h4><a id="cls_btn" onclick="dismiss();" class="close_btn" data-dismiss="modal" aria-label="Close">x</a>' +
+					'<ul class="popup_list"><li class="half">'+'<b>'+ region_data.group +'</b><span class="lot_box">' + region_data.lot + '<span></li>' +
+					'<li class="half">'+' <a  class="sold_out">SOLD</a>' +'</ul>');
+			}
+
+			else
+			{
 		 // $(".popup").animate({ 'zoom': 1.6}, 400);
 		/*$(".popup").html('<h4>'+ region_data.Property_Name+ '</h4><a id="cls_btn" onclick="dismiss();" class="close_btn" data-dismiss="modal" aria-label="Close">X</a>' +
 					  '<ul class="popup_list"><li class="half">'+'<b>'+ region_data.group +'</b><span class="lot_box">' + region_data.lot + '<span></li>' +
@@ -230,17 +250,18 @@ var regions=[
 					  	'<li class="half">'+'<b>Street: </b>' + region_data.street + '&nbsp; </li>' +
 					  	'<li class="half_border"></li>' +	
 					  	'<li class="full m1">'+' Listing Price <span class="hst">(CAN)</span><span class="c_black">:</span> </b><span class="price_box">' + region_data.Original +'<span class="hst">&nbsp;&nbsp;(plus HST)</span></span></li>'+
-					  	'<li class="half m2 dl_link"><a href="http://lloydslanding.com/LL-ProtectiveCovenants.pdf" target="_blank" class="myButton dl_icon">Download Covenants</a></li>'+ 
-					  	'<li class="half dl_link realtor_link"><a href="http://lloydslanding.com/contact/" target="_blank" class="myButton dl_icon cont_realtor">Contact Mariana C.</a></li>'+ '</ul>');
+					  	'<li class="half m2 dl_link"><a href="http://riverdalestates.ca/wp-content/uploads/2016/06/Riverdale-Estates-Protective-Covenants.pdf" target="_blank" class="myButton dl_icon">Download Covenants</a></li>'+ 
+					  	'<li class="half dl_link realtor_link"><a href="http://riverdalestates.ca/contact-us/" target="_blank" class="myButton dl_icon cont_realtor">Contact Mariana</a></li>'+ '</ul>');
 
 
 		}//else
+	}
       }); //click
 
 
     	}
     });
-
+/*
 $(function() {
 
   wW = $('.map').width();
@@ -256,6 +277,7 @@ $(function() {
     x = e.pageX-fW+25;
     y = e.pageY-25;
 
+
     if (x >= wW+oL-fW) {x = wW+oL-fW;};
     if (x <= oL) {x = oL;};
     if (y >= wH+oT-fH) {y = wH+oT-fH;};
@@ -264,4 +286,4 @@ $(function() {
     $('#myModal').css('top', y).css('left', x);
   });
   
-});
+});*/

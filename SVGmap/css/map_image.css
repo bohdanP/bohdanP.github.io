@@ -29,32 +29,30 @@
 }
 .lot2
 {
-  font-family: Arial;
+  font-family: 'Arial';
   font-size: 350px;
   fill: #fff;
-  font-weight: 900;
-  stroke-width: 20;
-  stroke-linejoin: miter;
-  stroke: #000;
+  font-weight: bold;
+ 
+  text-shadow: 1px 1px 1px #333;
 }
 .text
 {
-  font-family: Arial;
+  font-family: 'Arial';
   font-size: 280px;
   fill: #000;
   font-weight: 600;
   
   
-  letter-spacing: 180px;
 }
 
 .text2
 {
-  font-family: Arial;
+  font-family: 'Arial';
   font-size: 280px;
-  fill: #000;
+  fill: #333;
   font-weight: 700;
-  
+   text-shadow: 1px 1px 1px #333;
 
 }
 
@@ -201,7 +199,7 @@
 }
 .modal {
     position: fixed;
-    right: 15% !important;
+    right: 10% !important;
     right:auto;
     bottom:auto;
     height: auto;
