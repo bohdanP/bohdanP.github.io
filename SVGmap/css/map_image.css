@@ -1,14 +1,14 @@
 .map
 {
-    width: 800px;
+    width: 100%;
 }
 
 
-.str1 {stroke:#FEFEFE;stroke-width:50}
+.map g path,.map g polygon{stroke:#FEFEFE;stroke-width:50}
 .str0 {stroke:#fff;stroke-width:50}
 .fil5 {fill:none}
 
-.fil6 {fill:#9D9E9E}
+
 
 
 .anotherland
@@ -23,9 +23,17 @@
 {
   fill: #A8D2EA;
 }
+.park
+{
+    fill:#638761
+}
 .sold
 {
   fill: #4B4B4B;
+}
+.sell
+{
+  fill: #8A8A8A;;
 }
 .lot2
 {

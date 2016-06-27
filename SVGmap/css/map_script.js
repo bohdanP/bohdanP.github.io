@@ -1,266 +1,430 @@
 function dismiss(){
-	$("#myModal").slideUp();
-	$(".map g").attr("style","");
+    $("#myModal").slideUp();
+    $(".map g").attr("style","");
 }
 
 var regions=[
 {
-	"Property_Name": "Lot 1",
-	"region_code": "lot_1",
-	"lot": "Lot #1",
-	"group": "Ocean View Lot",
-	"Size":9152.6,
-	"street": "20 Keigan Dr",
-	"Original": "$48,000"
+    "Property_Name": "2",
+    "region_code": "lot_2",
 },
 {
-	"Property_Name": "Lot 2",
-	"region_code": "lot_2",
-	"lot": "Lot #2",
-	"group": "Ocean View Lot",
-	"Size":6670,
-	"street": 55,
-	"Original": "$297,000"
+    "Property_Name": "3",
+    "region_code": "lot_3",
 },
+{
+    "Property_Name": "4",
+    "region_code": "lot_4",
+},
+{
+    "Property_Name": "5",
+    "region_code": "lot_5",
+},
+{
+    "Property_Name": "17",
+    "region_code": "lot_17",
+},
+{
+    "Property_Name": "18",
+    "region_code": "lot_18",
+},
+{
+    "Property_Name": "19",
+    "region_code": "lot_19",
+},
+{
+    "Property_Name": "43AB",
+    "region_code": "lot_43AB",
+},
+{
+    "Property_Name": "60",
+    "region_code": "lot_60",
+},
+{
+    "Property_Name": "66",
+    "region_code": "lot_66",
+},
+{
+    "Property_Name": "67",
+    "region_code": "lot_67",
+},
+{
+    "Property_Name": "68",
+    "region_code": "lot_68",
+},
+{
+    "Property_Name": "69",
+    "region_code": "lot_69",
+},
+{
+    "Property_Name": "76",
+    "region_code": "lot_76",
+},
+{
+    "Property_Name": "77",
+    "region_code": "lot_77",
+},
+{
+    "Property_Name": "78",
+    "region_code": "lot_78",
+},
+{
+    "Property_Name": "79",
+    "region_code": "lot_79",
+},
+{
+    "Property_Name": "82",
+    "region_code": "lot_82",
+},
+{
+    "Property_Name": "84",
+    "region_code": "lot_84",
+},
+{
+    "Property_Name": "109",
+    "region_code": "lot_109",
+},
+{
+    "Property_Name": "110",
+    "region_code": "lot_110",
+},
+{
+    "Property_Name": "111",
+    "region_code": "lot_111",
+},
+{
+    "Property_Name": "112",
+    "region_code": "lot_112",
+},
+{
+    "Property_Name": "113",
+    "region_code": "lot_113",
+},
+{
+    "Property_Name": "114",
+    "region_code": "lot_114",
+},
+{
+    "Property_Name": "116",
+    "region_code": "lot_116",
+},
+{
 
-{
-	"Property_Name": "Lot 3",
-	"region_code": "lot_3",
-	"group": "Ocean View Lot",
-	"lot": "Lot #3",
-	"group": "Ocean View Lot",
-	"Size":6670,
-	"street": 55,
-	"Original": "$297,000"
+    "region_code": "Park",
+    "group": "Enjoy two ponds with great fishing!",
+
 },
 {
-	"Property_Name": "Lot 4",
-	"region_code": "lot_4",
-	"group": "Ocean View Lot",
-	"lot": "Lot #4",
-	"group": "Ocean View Lot",
-	"Size":6670,
-	"street": 55,
-	"Original": "$297,000"
+    "Property_Name": "1",
+    "region_code": "lot_1",
+    "Size":9152.6,
+    "MLS": 41265349,
+    "Original": "$48,000",
+
 },
 {
-	"Property_Name": "Lot 5",
-	"region_code": "lot_5",
-	"group": "Ocean View Lot",
-	"lot": "Lot #5",
-	"group": "Ocean View Lot",
-	"Size":6670,
-	"street": 55,
-	"Original": "$297,000"
+    "Property_Name": "6",
+    "region_code": "lot_6",
+    "Size":6218.3,
+    "MLS": 41265398,
+    "Original": "$47,500"
 },
 {
-	"Property_Name": "Lot 6",
-	"region_code": "lot_6",
-	"group": "Coastal Lot",
-	"lot": "Lot #6",
-	"group": "Ocean View Lot",
-	"Size":6396,
-	"street": 60,
-	"Original": "$315,000"
+    "Property_Name": "7",
+    "region_code": "lot_7",
+    "Size":7019.8,
+    "MLS": 41265406,
+    "Original": "$47,500"
 },
 {
-	"Property_Name": "Lot 7",
-	"region_code": "lot_7",
-	"group": "Coastal Lot",
-	"lot": "Lot #7",
-	"group": "Ocean View Lot",
-	"Size":6240,
-	"street": 38,
-	"Original": "$283,000"
+    "Property_Name": "8",
+    "region_code": "lot_8",
+    "Size":24348.8,
+    "MLS": 41265414,
+    "Original": "$77,900"
 },
 {
-	"Property_Name": "Lot 8",
-	"region_code": "lot_8",
-	"group": "Coastal Lot",
-	"lot": "Lot #8",
-	"group": "Ocean View Lot",
-	"Size":5752,
-	"street": 67,
-	"Original": "$274,000"
+    "Property_Name": "9",
+    "region_code": "lot_9",
+    "Size":21570.9,
+    "MLS": 41265422,
+    "Original": "$77,900"
 },
-	/*
-	 {
-        "Property_Name": "Lot 7",
-        "region_code": "lot_7",
-		"group": "SOLD Lot",
-		"lot": "Lot #9",
-        "group": "Ocean View Lot",
-        "Size":5752,
-		"street": 67,
-		"Original": "$274,000"
-    },
-    */
-    {
-    	"Property_Name": "Lot 9",
-    	"region_code": "lot_9",
-    	"group": "SOLD Lot",
-    	"lot": "Lot #9",
-    	"group": "Ocean View Lot",
-    	"Size":5752,
-    	"street": 67,
-    	"Original": "$274,000"
-    },
-    {
-    	"Property_Name": "Lot 10",
-    	"region_code": "lot_10",
-    	"group": "Coastal Lot",
-    	"lot": "Lot #10",
-    	"group": "Ocean View Lot",
-    	"Size":5752,
-    	"street": 67,
-    	"Original": "$274,000"
-    },
-    {
-    	"Property_Name": "Lot 11",
-    	"region_code": "lot_11",
-    	"group": "Coastal Lot",
-    	"lot": "Lot #11",
-    	"group": "Ocean View Lot",
-    	"Size":5752,
-    	"street": 67,
-    	"Original": "$274,000"
-    },
-    {
-    	"Property_Name": "Lot 12",
-    	"region_code": "lot_12",
-    	"group": "SOLD Lot",
-    	"lot": "Lot #12",
-    	"group": "Ocean View Lot",
-    	"Size":'18,974' ,
-    	"street": 0,
-    	"Original": "$95,000"
+{
+    "Property_Name": "10",
+    "region_code": "lot_10",
+    "Size":24949.4,
+    "MLS": 41265430,
+    "Original": "$79,900"
+},
+{
+    "Property_Name": "11",
+    "region_code": "lot_11",
+    "Size":21835.3,
+    "MLS": 41265489,
+    "Original": "$76,900"
+},
+{
+    "Property_Name": "12",
+    "region_code": "lot_12",
+    "Size":19925,
+    "MLS": 41265497,
+    "Original": "$79,900"
+},
+{
+    "Property_Name": "13",
+    "region_code": "lot_13",
+    "Size":18803.6,
+    "MLS": 41265505,
+    "Original": "$74,900"
+},
+{
+    "Property_Name": "14",
+    "region_code": "lot_14",
+    "Size":17887.9,
+    "MLS": 41265513,
+    "Original": "$74,900"
+},
+{
+    "Property_Name": "15",
+    "region_code": "lot_15",
+    "Size":17701.2,
+    "MLS": 41265521,
+    "Original": "$79,900"
+},
+{
+    "Property_Name": "16",
+    "region_code": "lot_16",
+    "Size":17588,
+    "MLS": 41265539,
+    "Original": "$74,900"
+},
+{
+    "Property_Name": "20",
+    "region_code": "lot_20",
+    "Size":19269.9,
+    "MLS": 41265570,
+    "Original": "$72,500"
+},
+{
+    "Property_Name": "59",
+    "region_code": "lot_59",
+    "Size":10011.8,
+    "MLS": 41265596,
+    "Original": "$49,900"
+},
+{
+    "Property_Name": "61",
+    "region_code": "lot_61",
+    "Size":12983.7,
+    "MLS": 41265612,
+    "Original": "$475,900"
+},
+{
+    "Property_Name": "62",
+    "region_code": "lot_62",
+    "Size":14057.1,
+    "MLS": 41265620,
+    "Original": "$47,500"
+},
+{
+    "Property_Name": "63",
+    "region_code": "lot_63",
+    "Size":17026.9,
+    "MLS": 41265596,
+    "Original": "$45,000"
+},
+{
+    "Property_Name": "64",
+    "region_code": "lot_64",
+    "Size":14997.5,
+    "MLS": 41265646,
+    "Original": "$47,500"
+},
+{
+    "Property_Name": "65",
+    "region_code": "lot_65",
+    "Size":24158.6,
+    "MLS": 41265653,
+    "Original": "$47,500"
+},
+{
+    "Property_Name": "70",
+    "region_code": "lot_70",
+    "Size":9969,
+    "MLS": 41265703,
+    "Original": "$52,000"
+},
+{
+    "Property_Name": "71",
+    "region_code": "lot_71",
+    "Size":7775.3,
+    "MLS": 41265711,
+    "Original": "$52,000"
+},
+{
+    "Property_Name": "72",
+    "region_code": "lot_72",
+    "Size":7841.4,
+    "MLS": 41265729,
+    "Original": "$49,900"
+},
+{
+    "Property_Name": "73",
+    "region_code": "lot_73",
+    "Size":7448.2,
+    "MLS": 41265448,
+    "Original": "$52,000"
+},
+{
+    "Property_Name": "74",
+    "region_code": "lot_74",
+    "Size":74701,
+    "MLS": 41265455,
+    "Original": "$52,000"
+},
+{
+    "Property_Name": "75",
+    "region_code": "lot_75",
+    "Size":7471,
+    "MLS": 41265463,
+    "Original": "$52,000"
+},
+{
+    "Property_Name": "80",
+    "region_code": "lot_80",
+    "Size":7454.3,
+    "MLS": 41265778,
+    "Original": "$52,500"
+},
+{
+    "Property_Name": "81",
+    "region_code": "lot_81",
+    "Size":7536.4,
+    "MLS": 41265786,
+    "Original": "$52,500"
+},
+{
+    "Property_Name": "83",
+    "region_code": "lot_83",
+    "Size":8889,
+    "MLS": 41265802,
+    "Original": "$54,500"
+},
+{
+    "Property_Name": "85",
+    "region_code": "lot_85",
+    "Size":9519.6,
+    "MLS": 41265828,
+    "Original": "$39,000"
+},
+{
+    "Property_Name": "86",
+    "region_code": "lot_86",
+    "Size":10009.1,
+    "MLS": 41265836,
+    "Original": "$54,000"
+},
+{
+    "Property_Name": "87",
+    "region_code": "lot_87",
+    "Size":9086.8,
+    "MLS": 41265844,
+    "Original": "$54,500"
+},
+{
+    "Property_Name": "88",
+    "region_code": "lot_88",
+    "Size":8718.2,
+    "MLS": 41265851,
+    "Original": "$54,500"
+},
+{
+    "Property_Name": "112",
+    "region_code": "lot_112",
+    "Size":10240.4,
+    "MLS": 41265893,
+    "Original": "$52,500"
+},
+{
+    "Property_Name": "115",
+    "region_code": "lot_115",
+    "Size":7780.7,
+    "MLS": 41265927,
+    "Original": "$52,500"
+}
+];
+
+var temp_array= regions.map(function(item){
+    return item.population;
+});
+var highest_value = Math.max.apply(Math, temp_array);
+
+
+
+$(function() {
+
+    for(i = 0; i < regions.length; i++) {
+
+        $('#'+ regions[i].region_code)
+        .css({'fill': 'rgba(11, 104, 170,' + regions[i].Property_Name/highest_value +')'})
+        .data('region', regions[i]);
+
+
+
+        $('#'+ regions[i].region_code).click(function (e) {
+            var region_data=$(this).data('region');
+            var map_id=$(this).attr("id"); 
+            $('.map g').attr('style','');
+            $(this).attr('style','fill:#c9bc40 !important');
+        //$(".popup").fadeOut();
+        //$(".popup").fadeIn(500);
+        
+        $("#myModal").slideUp(function(){
+            $("#myModal").slideDown(); 
+        });
+
+  
+
+
+        if(  map_id =='Park')
+        { 
+
+            $(".popup").html('<h4>'+ 'Community park'+ '</h4><a id="cls_btn" onclick="dismiss();" class="close_btn" data-dismiss="modal" aria-label="Close">x</a>' +
+                '<ul class="popup_list"><li class="half">'+'<b>'+ region_data.group +'</b>');
+        }
+
+        else {
+
+            if($(this).attr('class')!='sell')
+            { 
+
+                $(".popup").html('<h4>Lot '+ region_data.Property_Name+ '</h4><a id="cls_btn" onclick="dismiss();" class="close_btn" data-dismiss="modal" aria-label="Close">x</a>' +
+                    '<ul class="popup_list">'+
+                    '<li class="half">'+' <a  class="sold_out">SOLD</a>' +'</ul>');
+            }
+
+            else
+            {
+
+
+              $(".popup").html('<h4>Lot '+ region_data.Property_Name+ '</h4><a id="cls_btn" onclick="dismiss();" class="close_btn" data-dismiss="modal" aria-label="Close">x</a>' +
+                '<ul class="popup_list">' +
+                '<li class="half">'+'<b>Size (sq meters): </b>' + region_data.Size + '&nbsp; </li>' +
+                '<li class="half">'+'<b>MLS/PID: </b>' + region_data.MLS + '&nbsp; </li>' +
+                '<li class="half_border"></li>' +   
+                '<li class="full m1">'+' Listing Price <span class="c_black">:</span> </b><span class="price_box">' + region_data.Original +'</li>'+
+                '<li class="half m2 dl_link"><a href="http://riverdalestates.ca/wp-content/uploads/2016/06/LOT-'+region_data.Property_Name+'.pdf" target="_blank" class="myButton dl_icon">Download Lot Plan</a></li>'+ 
+                '<li class="half dl_link realtor_link"><a href="http://riverdalestates.ca/contact-us/" target="_blank" class="myButton dl_icon cont_realtor">Contact Mariana</a></li>'+ '</ul>');
+
+
+        }//else
     }
-    ,
-    {
-    	"Property_Name": "Lot 13",
-    	"region_code": "lot_13",
-    	"group": "Prestige Lot",
-    	"lot": "Lot #13",
-    	"group": "Ocean View Lot",
-    	"Size":'18,974' ,
-    	"street": 67,
-    	"Original": "$95,000"
-    },
-    {
-    	"Property_Name": "Lot 14",
-    	"region_code": "lot_14",
-    	"group": "Prestige Lot",
-    	"lot": "Lot #14",
-    	"group": "Ocean View Lot",
-    	"Size":'18,974' ,
-    	"street": 67,
-    	"Original": "$95,000"
-    },
-    {
-    	"Property_Name": "Lot 15",
-    	"region_code": "lot_15",
-    	"group": "Prestige Lot",
-    	"lot": "Lot #15",
-    	"group": "Ocean View Lot",
-    	"Size":'11,500',
-    	"street": 0,
-    	"Original": "$39,000"
-    },
-    {
-    	"Property_Name": "Lot 15",
-    	"region_code": "Park",
-    	"group": "There are 2 ponds with great fishing!",
-    	"lot": "Lot #15",
-    	"Size":'11,500',
-    	"street": 0,
-    	"Original": "$39,000"
-    }
-    ];
-
-    var temp_array= regions.map(function(item){
-    	return item.population;
-    });
-    var highest_value = Math.max.apply(Math, temp_array);
-
-
-
-    $(function() {
-
-    	for(i = 0; i < regions.length; i++) {
-
-    		$('#'+ regions[i].region_code)
-    		.css({'fill': 'rgba(11, 104, 170,' + regions[i].Property_Name/highest_value +')'})
-    		.data('region', regions[i]);
-
-
-
-    		$('#'+ regions[i].region_code).hover(function (e) {
-    			var region_data=$(this).data('region');
-    			var map_id=$(this).attr("id"); 
-    			$('.map g').attr('style','');
-    			$(this).attr('style','fill:#c9bc40 !important');
-		//$(".popup").fadeOut();
-		//$(".popup").fadeIn(500);
-		
-		$("#myModal").slideUp(function(){
-			$("#myModal").slideDown(); 
-		});
-
-
-		if(  map_id =='Park')
-		{ 
-
-			$(".popup").html('<h4>'+ 'Community park'+ '</h4><a id="cls_btn" onclick="dismiss();" class="close_btn" data-dismiss="modal" aria-label="Close">x</a>' +
-				'<ul class="popup_list"><li class="half">'+'<b>'+ region_data.group +'</b>');
-		}
-
-		else {
-
-			if(  map_id =='lot_2' || map_id == 'lot_3' || map_id =='lot_4' || map_id =='lot_5'
-				|| map_id =='lot_9' || map_id =='lot_17' || map_id =='lot_18' || map_id =='lot_19')
-			{ 
-
-				$(".popup").html('<h4>'+ region_data.Property_Name+ '</h4><a id="cls_btn" onclick="dismiss();" class="close_btn" data-dismiss="modal" aria-label="Close">x</a>' +
-					'<ul class="popup_list"><li class="half">'+'<b>'+ region_data.group +'</b><span class="lot_box">' + region_data.lot + '<span></li>' +
-					'<li class="half">'+' <a  class="sold_out">SOLD</a>' +'</ul>');
-			}
-
-			else
-			{
-		 // $(".popup").animate({ 'zoom': 1.6}, 400);
-		/*$(".popup").html('<h4>'+ region_data.Property_Name+ '</h4><a id="cls_btn" onclick="dismiss();" class="close_btn" data-dismiss="modal" aria-label="Close">X</a>' +
-					  '<ul class="popup_list"><li class="half">'+'<b>'+ region_data.group +'</b><span class="lot_box">' + region_data.lot + '<span></li>' +
-					  '<li class="half">'+'<b>Area On Deed (Acres): </b>' + region_data.Area_on_Deed + '</li>' +
-					  '<li class="half">'+'<b>Land Type: </b>' + region_data.Land_Type + '</li>' +
-					  '<li class="half">'+'<b>Ocean Frontage (Feet): </b>' + region_data.Oceanfrontage + '</li>' +
-					  
-					  '<li class="half">'+'<b>Assessment Account Number: </b>' + region_data.Assessment + '</li>' +
-					  '<li class="half">'+'<b>Nova Scotia Land Registry PID Number: </b>' + region_data.Nova + '</li>' +
-				   
-					  '<li class="full">'+'<b>Special Features: </b>' + region_data.Special + '</li>' +
-					  '<li class="half_border"></li>' +	
-					  '<li class="full m1">'+' Listing Price <span class="hst">(CAN)</span><span class="c_black">:</span> </b><span class="price_box">' + region_data.Original +'<span class="hst">&nbsp;&nbsp;(plus HST)</span></span></li>' +
-					  
-					  '<li class="half">'+'<a href="#" class="myButton">Download Detailed Map (PDF)</a>'+'</li>' +
-					  '<li class="half m2">'+'<a href="#" class="myButton">Download Covenants <br/>(PDF)</a>'+'</li></ul>');
-					  */
-					  $(".popup").html('<h4>'+ region_data.Property_Name+ '</h4><a id="cls_btn" onclick="dismiss();" class="close_btn" data-dismiss="modal" aria-label="Close">x</a>' +
-					  	'<ul class="popup_list"><li class="half">'+'<b>'+ region_data.group +'</b><span class="lot_box">' + region_data.lot + '<span></li>' +
-					  	'<li class="half">'+'<b>Size (sq meters): </b>' + region_data.Size + '&nbsp; </li>' +
-					  	'<li class="half">'+'<b>Street: </b>' + region_data.street + '&nbsp; </li>' +
-					  	'<li class="half_border"></li>' +	
-					  	'<li class="full m1">'+' Listing Price <span class="hst">(CAN)</span><span class="c_black">:</span> </b><span class="price_box">' + region_data.Original +'<span class="hst">&nbsp;&nbsp;(plus HST)</span></span></li>'+
-					  	'<li class="half m2 dl_link"><a href="http://riverdalestates.ca/wp-content/uploads/2016/06/Riverdale-Estates-Protective-Covenants.pdf" target="_blank" class="myButton dl_icon">Download Covenants</a></li>'+ 
-					  	'<li class="half dl_link realtor_link"><a href="http://riverdalestates.ca/contact-us/" target="_blank" class="myButton dl_icon cont_realtor">Contact Mariana</a></li>'+ '</ul>');
-
-
-		}//else
-	}
       }); //click
 
 
-    	}
-    });
+    }
+});
 /*
 $(function() {
 
