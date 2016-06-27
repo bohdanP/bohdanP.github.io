@@ -414,7 +414,7 @@ $(function() {
                 '<li class="half">'+'<b>MLS/PID: </b>' + region_data.MLS + '&nbsp; </li>' +
                 '<li class="half_border"></li>' +   
                 '<li class="full m1">'+' Listing Price <span class="c_black">:</span> </b><span class="price_box">' + region_data.Original +'</li>'+
-                '<li class="half m2 dl_link"><a href="http://riverdalestates.ca/wp-content/uploads/2016/06/LOT-'+region_data.Property_Name+'.pdf" target="_blank" class="myButton dl_icon">Download Lot Plan</a></li>'+ 
+                '<li class="half m2 dl_link"><a href="http://riverdalestates.ca/wp-content/uploads/2016/06/lot-'+region_data.Property_Name+'.pdf" target="_blank" class="myButton dl_icon">Download Lot Plan</a></li>'+ 
                 '<li class="half dl_link realtor_link"><a href="http://riverdalestates.ca/contact-us/" target="_blank" class="myButton dl_icon cont_realtor">Contact Mariana</a></li>'+ '</ul>');
 
 
