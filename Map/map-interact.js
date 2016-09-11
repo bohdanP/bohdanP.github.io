@@ -56,6 +56,27 @@ $(function(){
 	addEvent('map_48');
 	addEvent('map_49');
 	addEvent('map_50');
+	addEvent('map_51');
+	addEvent('map_52');
+	addEvent('map_53');
+	addEvent('map_54');
+	addEvent('map_55');
+	addEvent('map_56');
+	addEvent('map_57');
+	addEvent('map_58');
+	addEvent('map_59');
+	addEvent('map_60');
+	addEvent('map_61');
+	addEvent('map_62');
+	addEvent('map_63');
+	addEvent('map_64');
+	addEvent('map_65');
+	addEvent('map_66');
+	addEvent('map_67');
+	addEvent('map_68');
+	addEvent('map_69');
+	addEvent('map_70');
+	addEvent('map_71');
 }) 
 $(function(){
 	if($('#lakes').find('path').eq(0).attr('fill') != 'undefined'){

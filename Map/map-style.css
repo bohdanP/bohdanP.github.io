@@ -7,9 +7,15 @@
 }
 #map_base svg {
 	max-height: 100%;
-	width: 100%;
+	width: 90%;
 	margin: 0;
+	margin-left: 5%;
 }
+
+
+
+
+/*
 @media screen and (max-width: 320px){
 	#map_base svg {
 		height:140px;
@@ -57,9 +63,9 @@
 }
 @media screen and (min-width: 1281px) {
 	#map_base svg {
-		height:792px;
+		/*height:792px;
 	}
-}
+}*/
 #map-tip {
     font: 14px/16px Trebuchet MS, Helvetica, Arial, sans-serif;
     display: none;
