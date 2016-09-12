@@ -165,7 +165,14 @@ When adjusting the reset is adviced to check up the elements on your page, as th
 #tabbed input#t-40:checked ~ .wrapper .tab-40, #tabbed input#t-41:checked ~ .wrapper .tab-41, #tabbed input#t-42:checked ~ .wrapper .tab-42,
 #tabbed input#t-43:checked ~ .wrapper .tab-43, #tabbed input#t-44:checked ~ .wrapper .tab-44, #tabbed input#t-45:checked ~ .wrapper .tab-45,
 #tabbed input#t-46:checked ~ .wrapper .tab-46, #tabbed input#t-47:checked ~ .wrapper .tab-47, #tabbed input#t-48:checked ~ .wrapper .tab-48,
-#tabbed input#t-49:checked ~ .wrapper .tab-49, #tabbed input#t-50:checked ~ .wrapper .tab-50 {
+#tabbed input#t-49:checked ~ .wrapper .tab-49, #tabbed input#t-50:checked ~ .wrapper .tab-50, #tabbed input#t-51:checked ~ .wrapper .tab-51,
+#tabbed input#t-52:checked ~ .wrapper .tab-52, #tabbed input#t-53:checked ~ .wrapper .tab-53, #tabbed input#t-54:checked ~ .wrapper .tab-54, 
+#tabbed input#t-55:checked ~ .wrapper .tab-55, #tabbed input#t-56:checked ~ .wrapper .tab-56, #tabbed input#t-57:checked ~ .wrapper .tab-57,
+#tabbed input#t-58:checked ~ .wrapper .tab-58, #tabbed input#t-59:checked ~ .wrapper .tab-59, #tabbed input#t-60:checked ~ .wrapper .tab-60,
+#tabbed input#t-61:checked ~ .wrapper .tab-61, #tabbed input#t-62:checked ~ .wrapper .tab-62, #tabbed input#t-63:checked ~ .wrapper .tab-63,
+#tabbed input#t-64:checked ~ .wrapper .tab-64, #tabbed input#t-65:checked ~ .wrapper .tab-65, #tabbed input#t-66:checked ~ .wrapper .tab-66,
+#tabbed input#t-67:checked ~ .wrapper .tab-67, #tabbed input#t-68:checked ~ .wrapper .tab-68, #tabbed input#t-69:checked ~ .wrapper .tab-69,
+#tabbed input#t-70:checked ~ .wrapper .tab-70, #tabbed input#t-71:checked ~ .wrapper .tab-71, #tabbed input#t-101:checked ~ .wrapper .tab-101 {
 	position: relative;
 	float: left;
 	z-index: 10;

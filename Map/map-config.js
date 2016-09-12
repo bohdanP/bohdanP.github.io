@@ -19,7 +19,7 @@ var map_config = {
 	},
 	/*BlueZone*/
 	'map_1':{
-		'hover': 'SAFEWAY | P: (703) 494-8858 | 2205 OLD BRIDGE RD.', //state hover content
+		'hover': 'Patient First | P: (703) 357-9707 | 2199 OLD BRIDGE RD.', //state hover content
 		'url':'', //Goto URL
 		'target':'same_window', //open link in new window:new_window, open in current window:same_window, or none for nothing.
 		'upColor':colorBlueZone, //state's color when page loads
@@ -28,7 +28,7 @@ var map_config = {
 		'enable':true,//true/false to enable/disable this state
 	},
 	'map_2':{
-		'hover': 'SAFEWAY | P: (703) 494-8858 | 2205 OLD BRIDGE RD.', 
+		'hover': 'Dunkin Donuts | (703) 490-5135 | 2201 OLD BRIDGE RD..', 
 		'url':'', 
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -37,7 +37,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_3':{
-		'hover': 'ARIZONA',
+		'hover': ' Safeway | P: (703) 494-8858 | 2205 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -46,7 +46,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_4':{
-		'hover': 'ARKANSAS',
+		'hover': 'Layla’s Lebanese Restaurant | P: (703) 492-1500 | 2217 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -55,7 +55,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_5':{
-		'hover': 'CALIFORNIA',
+		'hover': 'Massage | P: (703) 497-5567 | 2219 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -64,7 +64,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_6':{
-		'hover': 'COLORADO',
+		'hover': 'Edgemoor Art Studio | P: (703) 490-2355| 2221 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -73,7 +73,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_7':{
-		'hover': 'CONNECTICUT',
+		'hover': 'Curves | P: (703) 497-4244 | 2223 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -82,7 +82,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_8':{
-		'hover': 'DELAWARE',
+		'hover': 'Virginia ABC | P: (703) 494-0329 | 2225 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -91,7 +91,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_9':{
-		'hover': 'FLORIDA',
+		'hover': 'Classic Travel | P: (703) 494-2882 | 2227 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -100,7 +100,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_10':{
-		'hover': 'GEORGIA',
+		'hover': 'Lake Ridge Pizzeria | P: (703) 494-2134 | 2229 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -109,7 +109,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_11':{
-		'hover': 'HAWAII',
+		'hover': 'NT Salon | P: (703) 492-935 | 2231 OLD BRIDGE DR.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -118,7 +118,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_12':{
-		'hover': 'IDAHO',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -127,7 +127,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_13':{
-		'hover': 'ILLINOIS',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -136,7 +136,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_14':{
-		'hover': 'INDIANA',
+		'hover': 'Woodbridge Academy of Dance | P: (703) 583-2623 | 2235 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -145,7 +145,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_15':{
-		'hover': 'IOWA',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -154,7 +154,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_16':{
-		'hover': 'KANSAS',
+		'hover': 'Lake Ridge Library | P: (703) 792-5675 | 2239 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -163,7 +163,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_17':{
-		'hover': 'KENTUCKY',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -172,7 +172,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_18':{
-		'hover': 'LOUISIANA',
+		'hover': '9Round Kickboxing | P: (866) 619-797 | 2243C OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -181,7 +181,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_19':{
-		'hover': 'MAINE',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -190,7 +190,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_20':{
-		'hover': 'MARYLAND',
+		'hover': 'PenFed Realty | P: (703) 897-4663 | 2253A OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -199,7 +199,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_21':{
-		'hover': 'MASSACHUSETTS',
+		'hover': 'Lake Ridge Florist / Boomers | P: (703) 494-2299 | 2253B OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -208,7 +208,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_22':{
-		'hover': 'MICHIGAN',
+		'hover': 'May, Hettler, and Assoc. Optometrists | P: (703) 494-8900 | 2253C OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -217,7 +217,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_23':{
-		'hover': 'MINNESOTA',
+		'hover': 'Statements The Salon | P: (703) 494-2400 | 2253D OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -226,7 +226,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_24':{
-		'hover': 'MISSISSIPPI',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -235,7 +235,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_25':{
-		'hover': 'MISSOURI',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -249,7 +249,7 @@ var map_config = {
 	/*GreenZone*/
 
 	'map_26':{
-		'hover': 'MONTANA',
+		'hover': 'Polaris Press | P: (703) 680-6060 | 2212 TACKETTS MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -258,7 +258,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_27':{
-		'hover': 'NEBRASKA',
+		'hover': 'Kumon Learning Center | P: (703) 492-0690| 2214 TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -267,7 +267,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_28':{
-		'hover': 'NEVADA',
+		'hover': 'The Arc | P: (703) 670-4800 | 2216 TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -276,7 +276,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_29':{
-		'hover': 'NEW HAMPSHIRE',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -285,7 +285,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_30':{
-		'hover': 'NEW JERSEY',
+		'hover': 'RGS Title | P: (703) 491-9600 | 2220 TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -294,7 +294,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_31':{
-		'hover': 'NEW MEXICO',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -303,7 +303,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_32':{
-		'hover': 'NEW YORK',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -312,7 +312,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_33':{
-		'hover': 'NORTH CAROLINA',
+		'hover': 'Clearbrook Center of the Arts | P: (703) 491-2611 | 2230B TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -321,7 +321,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_34':{
-		'hover': 'NORTH DAKOTA',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -330,16 +330,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_35':{
-		'hover': 'OHIO',
-		'url':'',
-		'target':'same_window',
-		'upColor':colorGreenZone,
-		'overColor':colorGreenZoneHover, 
-		'downColor':downColor,
-		'enable':true,
-	},
-	'map_36':{
-		'hover': 'OKLAHOMA',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -348,7 +339,16 @@ var map_config = {
 		'enable':true,
 	},
 	'map_37':{
-		'hover': 'OREGON',
+		'hover': 'Pet Value | P: (571) 408-4129 | 2233 OLD BRIDGE DR.',
+		'url':'',
+		'target':'same_window',
+		'upColor':colorGreenZone,
+		'overColor':colorGreenZoneHover, 
+		'downColor':downColor,
+		'enable':true,
+	},
+	'map_36':{
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -357,7 +357,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_38':{
-		'hover': 'PENNSYLVANIA',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -366,7 +366,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_39':{
-		'hover': 'RHODE ISLAND',
+		'hover': 'Pediatric Achievements | P: (703) 491-1044 | 2239 C/D TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -375,7 +375,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_40':{
-		'hover': 'SOUTH CAROLINA',
+		'hover': 'Pediatric Achievements | P: (703) 491-1044 | 2239 C/D TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -384,7 +384,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_41':{
-		'hover': 'SOUTH DAKOTA',
+		'hover': 'RDT, INC. | P: (703) 499-9188 | 2235B TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -393,7 +393,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_42':{
-		'hover': 'TENNESSEE',
+		'hover': 'Slender Spa | P: (703) 490-6667 | 2235A TACKETT1S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -402,7 +402,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_43':{
-		'hover': 'TEXAS',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -411,7 +411,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_44':{
-		'hover': 'UTAH',
+		'hover': 'State Farm | P: (703) 490-6324 | 2237C TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -425,7 +425,7 @@ var map_config = {
 	/*RedZone*/
 
 	'map_45':{
-		'hover': 'VERMONT',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -434,7 +434,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_46':{
-		'hover': 'VIRGINIA',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -443,7 +443,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_47':{
-		'hover': 'WASHINGTON',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -452,7 +452,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_48':{
-		'hover': 'WEST VIRGINIA',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -461,7 +461,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_49':{
-		'hover': 'WISCONSIN',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -470,7 +470,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_50':{
-		'hover': 'WYOMING',
+		'hover': 'After the Fall | P: (703) 497-0333 | 2239K TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -479,7 +479,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_51':{
-		'hover': 'WYOMING',
+		'hover': 'Joel R. Braunfeld, DDS | P: (703) 491-2200 | 2239L TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -488,7 +488,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_52':{
-		'hover': 'WYOMING',
+		'hover': 'Kite Architecture | P: (703) 492-2002 | 2239M TACKETT1S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -497,7 +497,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_53':{
-		'hover': 'WYOMING',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -506,7 +506,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_54':{
-		'hover': 'WYOMING',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -515,7 +515,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_55':{
-		'hover': 'WYOMING',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -524,7 +524,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_56':{
-		'hover': 'WYOMING',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -533,7 +533,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_57':{
-		'hover': 'WYOMING',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -542,7 +542,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_58':{
-		'hover': 'WYOMING',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -551,7 +551,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_59':{
-		'hover': 'WYOMING',
+		'hover': 'Occoquan Supervisor | 2241K TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -560,7 +560,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_60':{
-		'hover': 'WYOMING',
+		'hover': 'Jenn Elisabeth Studios | 2241H TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -569,7 +569,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_61':{
-		'hover': 'WYOMING',
+		'hover': 'Benjamin`s Counseling | P: (703) 494-1434 | 2241G TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -578,7 +578,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_62':{
-		'hover': 'WYOMING',
+		'hover': 'Prince William Conservation Alliance | P: (703) 459-4954 | 2241F TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -587,7 +587,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_63':{
-		'hover': 'WYOMING',
+		'hover': 'VA State Referee Program | P: (703) 491-1717 | 2241E TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -596,7 +596,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_64':{
-		'hover': 'WYOMING',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -605,7 +605,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_65':{
-		'hover': 'WYOMING',
+		'hover': 'Congressman Gerry Connolly | P: (571) 408-4407 | 2241D TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -614,7 +614,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_66':{
-		'hover': 'WYOMING',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -623,7 +623,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_67':{
-		'hover': 'WYOMING',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -632,7 +632,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_68':{
-		'hover': 'WYOMING',
+		'hover': 'Panda Chinese | P: (703) 497-6688 | 2241A TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -641,7 +641,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_69':{
-		'hover': 'WYOMING',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -650,7 +650,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_70':{
-		'hover': 'WYOMING',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -659,7 +659,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_71':{
-		'hover': 'WYOMING',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
