@@ -354,7 +354,7 @@ var map_config = {
 		'upColor':colorGreenZone,
 		'overColor':colorGreenZoneHover, 
 		'downColor':downColor,
-		'enable':true,
+		'enable':false,
 	},
 	'map_38':{
 		'hover': 'VACANT',
@@ -656,7 +656,7 @@ var map_config = {
 		'upColor':colorRedZone,
 		'overColor':colorRedZoneHover, 
 		'downColor':downColor,
-		'enable':true,
+		'enable':false,
 	},
 	'map_71':{
 		'hover': 'VACANT',
