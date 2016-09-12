@@ -1,0 +1,3045 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)http://www.slidesharegurus.com/MiyaNeha/Fiverr/Nicasiri/mapdemo/map.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Map</title>
+<link rel="stylesheet" type="text/css" href="map-style.css">
+<link rel="stylesheet" type="text/css" href="tabbed.css" media="screen">
+<link rel="stylesheet" type="text/css" href="custom-styles.css">
+<script src="jquery.min.js" type="text/javascript"></script>
+<script src="map-config.js" type="text/javascript"></script>
+<script src="map-interact.js" type="text/javascript"></script>
+<script src="scripts.js" type="text/javascript"></script>
+</head>
+<body>
+
+  <!-- MAP STARTS HERE -->
+  <span id="map-tip" style="box-shadow: rgb(102, 102, 102) 2px 3px 6px; display: inline; left: 505px; top: 399px;"></span>
+  <div id="mapwrapper">
+   <div id="map_base">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595.3 595.3" xml:space="preserve">
+      <?xml version="1.0" encoding="utf-8"?>
+      <defs>
+        <path id="vertLine" d="M451.1,166.7c0-4.5,0-8.1,0-10.6c0-1.6,0-3.2,0-5.7c0-2.7,0-4.9-0.1-6.4"/>
+      </defs>
+
+
+
+      <g id="regions">
+        <rect id="map_1" vector-effect="non-scaling-stroke"   x="454.7" y="120.4" width="49.7" height="50" onclick="emulateClick(&#39;t-1&#39;);" cursor="pointer" />
+        <rect id="map_2" vector-effect="non-scaling-stroke" onclick="emulateClick(&#39;t-2&#39;);" cursor="pointer"   x="441.7" y="139.2" class="st0" width="11.9" height="31.3"/>
+        <rect id="map_3" vector-effect="non-scaling-stroke" onclick="emulateClick(&#39;t-3&#39;);" cursor="pointer"   x="428.7" y="120.4" class="st0" width="11.9" height="50"/>
+        <rect id="map_4" vector-effect="non-scaling-stroke" onclick="emulateClick(&#39;t-4&#39;);" cursor="pointer"   x="415.7" y="139.2" class="st0" width="11.9" height="31.3"/>
+        <rect id="map_5" vector-effect="non-scaling-stroke" onclick="emulateClick(&#39;t-5&#39;);" cursor="pointer"   x="406.2" y="139.2" class="st0" width="8.4" height="31.3"/>
+
+
+
+
+
+
+      </g><!--regions-->
+
+
+      <g id="text-abb" fill="#919191">
+       <text  transform="matrix(1 0 0 1 458 138)" font-family="&#39;Arial&#39;"  onclick="emulateClick(&#39;t-1&#39;);" cursor="pointer">SAFEWAY</text>
+       <text id="map_1" transform="matrix(1 0 0 1 470 158)" font-family="&#39;Arial&#39;"  onclick="emulateClick(&#39;t-1&#39;);" cursor="pointer">2205</text>
+
+       <text id="map_2"  font-family="&#39;Arial&#39;"  onclick="emulateClick(&#39;t-2&#39;);" cursor="pointer"  >  <textPath xlink:href="#vertLine"> 2217 </textPath></text>
+
+       <text id="map_3"  font-family="&#39;Arial&#39;"  onclick="emulateClick(&#39;t-3&#39;);" cursor="pointer"  transform='translate(-13 0)'>  <textPath xlink:href="#vertLine"> 2219 </textPath></text>
+
+       <text id="map_4"  font-family="&#39;Arial&#39;"  onclick="emulateClick(&#39;t-4&#39;);" cursor="pointer"  transform='translate(-26 0)'>  <textPath xlink:href="#vertLine"> 2221 </textPath></text>
+       <text id="map_5"  font-family="&#39;Arial&#39;"  onclick="emulateClick(&#39;t-5&#39;);" cursor="pointer"  transform='translate(-38 0)'>  <textPath xlink:href="#vertLine"> 2223 </textPath></text>
+
+
+
+
+
+     </g>
+
+
+     <rect x="270.5" y="232.1" class="st0" width="18.1" height="13.8"/>
+     <rect x="270.5" y="215.9" class="st0" width="18.1" height="13.8"/>
+     <rect x="270.5" y="200.9" class="st0" width="18.1" height="13.8"/>
+     <polygon class="st0" points="288.6,199.8 270.5,199.8 270.5,167.3 278.5,167.3 278.5,135 288.6,135 "/>
+     <rect x="270.5" y="135" class="st0" width="7.3" height="31.1"/>
+     <rect x="270.5" y="114.1" class="st0" width="18.1" height="19.8"/>
+     <polygon class="st0" points="118.8,244.7 118.8,238.3 144.2,238.3 144.2,264.3 118.8,264.3 118.8,252.8 113.3,252.8 113.3,244.7 "/>
+     <polygon class="st0" points="158.3,231.8 136.8,231.8 136.8,212.5 131.5,212.5 131.5,198.8 136.5,198.8 136.5,187.5 147.8,187.5 
+     147.8,194 158.3,194 158.3,198.3 168.2,198.3 168.2,219.3 158.2,219.3 "/>
+     <rect x="151.2" y="178.8" class="st0" width="12.5" height="11.8"/>
+     <rect x="166.5" y="180" class="st0" width="10.2" height="14"/>
+     <polygon class="st0" points="178.5,194 178.5,187.5 197.5,187.5 197.5,194 203.7,194 203.7,205 182.7,205 182.7,194 "/>
+     <polygon class="st0" points="177.7,218.5 177.7,211.7 182.7,211.7 182.7,206.3 208.2,206.3 208.2,218.5 "/>
+     <rect x="177.7" y="219.5" class="st0" width="30.5" height="12.3"/>
+     <rect x="226.3" y="212.1" class="st0" width="15.8" height="26"/>
+     <polygon class="st0" points="226.3,211 242.1,211 242.1,198.1 237.3,198.1 237.3,194 215.2,194 215.2,198.8 226.3,198.8 "/>
+     <rect x="109.1" y="158.6" class="st0" width="9.1" height="10.6"/>
+     <rect x="109.1" y="146.9" class="st0" width="9.1" height="10.6"/>
+     <rect x="109.1" y="135.1" class="st0" width="9.1" height="10.6"/>
+     <rect x="109.1" y="123.6" class="st0" width="9.1" height="10.6"/>
+     <polygon class="st0" points="109.1,122.6 118.3,122.6 118.3,111.4 104.3,111.4 104.3,119.2 109.1,119.2 "/>
+     <polygon class="st0" points="122.9,111.4 122.9,149.8 138.3,149.8 138.3,143.3 132.8,143.3 132.8,111.4 "/>
+     <rect x="146.1" y="118.6" class="st0" width="9.5" height="19.1"/>
+     <rect x="156.5" y="118.6" class="st0" width="8.8" height="13.1"/>
+     <rect x="166.1" y="118.6" class="st0" width="8.8" height="13.1"/>
+     <polygon class="st0" points="147,150.8 160.9,150.8 160.9,156.9 165.3,156.9 165.3,163.1 156.5,163.1 156.5,169.3 147,169.3 "/>
+     <rect x="166.1" y="150.8" class="st0" width="8.8" height="12.4"/>
+     <rect x="179" y="118.6" class="st0" width="9.4" height="19.1"/>
+     <rect x="189.1" y="118.6" class="st0" width="8.9" height="19.1"/>
+     <rect x="198.9" y="125.8" class="st0" width="9" height="12"/>
+     <rect x="209.3" y="118.6" class="st0" width="7.5" height="26.3"/>
+     <rect x="217.6" y="118.6" class="st0" width="4.8" height="26.3"/>
+     <rect x="226.1" y="118.6" class="st0" width="8.9" height="26.3"/>
+     <rect x="178.5" y="150.6" class="st0" width="9.9" height="18.7"/>
+     <rect x="189.1" y="150.6" class="st0" width="8.9" height="18.7"/>
+     <rect x="198.9" y="156.9" class="st0" width="9" height="12.3"/>
+     <rect x="208.9" y="150.8" class="st0" width="3.8" height="26.3"/>
+     <rect x="213.5" y="150.8" class="st0" width="3.8" height="26.3"/>
+     <rect x="218.1" y="150.8" class="st0" width="3.8" height="26.3"/>
+     <rect x="226.1" y="150.8" class="st0" width="8.9" height="26.3"/>
+     <rect x="224.3" y="93.8" class="st0" width="10.7" height="18.7"/>
+     <polygon class="st0" points="223.6,100.5 223.6,112.4 213,112.4 213,106.9 218.8,106.9 218.8,100.5 "/>
+     <polygon class="st0" points="223.6,99.8 223.6,93.8 177.4,93.8 177.4,112.4 211.9,112.4 211.9,106.5 218.3,106.5 218.3,99.8 "/>
+     <rect x="189.5" y="233.9" class="st0" width="7.1" height="6"/>
+     <rect x="480.5" y="261.8" class="st0" width="25.7" height="21.3"/>
+     <rect x="480.5" y="318" class="st0" width="25.7" height="52.8"/>
+     <rect x="173.2" y="343" class="st0" width="76.8" height="29.8"/>
+     <rect x="416.5" y="316.5" class="st0" width="18.6" height="46.4"/>
+     <rect x="359.3" y="409.3" class="st0" width="44.3" height="27.3"/>
+     <rect x="463.3" y="404" class="st0" width="21.3" height="19.3"/>
+     <rect x="289" y="469" class="st0" width="29.3" height="19"/>
+     <rect x="283.7" y="413.7" class="st0" width="18.3" height="23"/>
+     <rect x="211.6" y="435.5" class="st0" width="29.4" height="28"/>
+     <rect x="156" y="423" class="st0" width="35" height="35"/>
+     <rect x="108.3" y="406" class="st0" width="29.3" height="36"/>
+     <rect x="365.3" y="451.7" class="st0" width="44.7" height="36.3"/>
+     <rect x="488" y="456" class="st0" width="7" height="13.8"/>
+     <polygon class="st0" points="463.3,448.9 463.3,435.1 484.7,435.1 484.7,448.9 476.5,448.9 476.5,463.5 482.6,463.5 482.6,481.6 
+     454.3,481.6 454.3,463.8 469.5,463.8 469.5,449 "/>
+     <rect x="62.1" y="287.2" transform="matrix(0.866 -0.5 0.5 0.866 -135.4625 81.3617)" class="st0" width="44" height="12.4"/>
+     <path class="st1" d="M17,97c0.4-1.5,2.3-2.4,3.7-2.7c2.4-0.5,4.5,0.7,5,1c6.1,3.3,22.8-2.6,41.7-3.3c10-0.4,16.8-0.6,22.7,4
+     c1,0.7,7.5,6,8.3,13.7c0.3,2.6-0.4,2.4-0.3,6.7c0.2,7.7,2.6,11.5,0.7,13.3c-1.3,1.2-2.8,0-4.7,1.3c-2.1,1.5-2.6,5-2,7.7
+     c0,0,0.6,2.8,8.7,10l0,0c0,0-11,18.3-11,18.3l0,0c0,0,4.3,33,4.3,33l0,0c0,0,3.2,8.1,3.7,9.3c3.8,10.4-9,20.1-12.7,42.3
+     c-2.2,13.4-3.3,20.1-2,25c0.1,0.5,0.6,2.2,0,4c-1.2,3.6-6.1,6.3-9.7,6c-4-0.3-7.7-4.5-14.7-23c-7.9-20.8-9.7-30.3-9.7-30.3
+     c-7.9-42-0.5-50-8-78.3c0,0-1.3-5-22.1-53.1l0,0L17,97z"/>
+     <path class="st1" d="M96.5,299.5c2.2-0.2,21,15.3,24.3,18c1.4,2,2.8,4,4.3,6c1,0.1,2,0.2,3,0.3c2.3,3.7,3.4,4.4,4,4.3
+     c0.7-0.2,0.5-1.5,1.8-2.5c0.9-0.8,2.6-1.3,3.3-0.8c1.1,1-1.4,4.5-2.8,11c-0.4,1.7-0.8,3.7-0.8,6c0.1,7.9,5.4,10.5,6.5,18.8
+     c0.4,2.7,0.7,5.4-0.5,8.3c-4.8,11-28.1,8.7-36,5.5c-1.5-0.6-5.1-2-6.3-5.3c-0.6-1.7-0.3-3.2-0.3-3.8c1.2-7.4,0.5-32.6-5.3-43.3
+     c-0.5-0.9-2.2-3.8-2.3-7.8c0-1.5-0.1-3.5,1-5.8c1.5-3.1,3.8-3.7,4-6.3c0-0.5,0-1.6,0.8-2.3C95.3,300,95.7,299.6,96.5,299.5z"/>
+     <rect x="309.1" y="176.5" class="st2" width="5.3" height="5.3"/>
+     <rect x="208.9" y="142.8" class="st0" width="3.8" height="26.3"/>
+     <text transform="matrix(1.2252 0 0 1 158.5 280.5)" class="st3 st4">LAKESIDE</text>
+     <text transform="matrix(1.2252 0 0 1 160 307.875)" class="st3 st4">PARKING</text>
+     <text transform="matrix(1.2252 0 0 1 371.3336 243.75)" class="st3 st4">PARKING</text>
+     <text transform="matrix(1.325 0 0 1 346 327.6611)" class="st3 st5">PARKING</text>
+     <text transform="matrix(1.2252 0 0 1 173.1663 57.4167)" class="st3 st4">PARKING</text>
+     <text transform="matrix(1.3053 -0.1942 0.1471 0.9891 334.6945 530.8483)" class="st3 st6">MINNIEVILLE RD</text>
+     <text transform="matrix(1.2252 0 0 1 220.4165 404.8701)" class="st3 st7">HARBOR DRIVE</text>
+     <text transform="matrix(1.392565e-002 1.4837 -1 9.385656e-003 540.581 190.8146)" class="st3 st8">OLD BRIDGE ROAD</text>
+     <text transform="matrix(1.3907 0 0 1 344.8317 368.7559)" class="st3 st9">TO THE</text>
+     <text transform="matrix(1.35 0 0 1 345.332 378.7559)" class="st3 st9">LAKESIDE</text>
+     <text transform="matrix(1.2035 0 0 1 180.6665 245.3647)" class="st3 st10">DIRECTRORY</text>
+     <text transform="matrix(5.403398e-011 -0.9912 1 3.697616e-011 319 192.1665)" class="st3 st10">DIRECTRORY</text>
+     <polygon class="st11" points="515.3,410.3 530.8,424.1 546.2,410.3 538.8,410.3 538.8,400.1 523,400.1 523,410.3 "/>
+     <path class="st11" d="M657.5,381.5"/>
+     <polygon class="st1" points="316.9,366.3 312.9,360.6 319.6,359.7 318.6,362.3 321.3,363.6 322.4,364.3 323.8,365.5 324.6,366.9 
+     325.2,368.3 325.6,369.9 325.8,371.8 326,373.3 326,379.4 323.8,379.4 323.8,373.3 323.6,372.1 323.4,370.2 322.9,368.5 
+     322.3,367.3 321.2,366.2 320.5,365.7 317.9,364.5 "/>
+   </svg>
+
+
+   <g id="map_points"></g>
+ </svg>
+</div>
+</div>
+<!-- MAP ENDS HERE -->
+
+<div class="clear"></div>
+
+<!-- SUB SECTION ENDS HERE -->
+
+
+<!-- TABS STARTS FROM HERE -->
+<div id="tab-container">
+ <section id="tabbed">
+  <!-- Tab 1 - Button & Label -->
+  <input id="t-1" name="tabbed-tabs" type="radio" checked="checked">
+  <label for="t-1" class="tabs shadow" title="ALABAMA">2205</label>
+
+  <!-- Tab 2 - Button & Label -->
+  <input id="t-2" name="tabbed-tabs" type="radio">
+  <label for="t-2" class="tabs shadow" title="ALASKA">2217</label>
+
+  <!-- Tab 3 - Button & Label -->
+  <input id="t-3" name="tabbed-tabs" type="radio">
+  <label for="t-3" class="tabs shadow" title="ARIZONA">2219</label>
+
+  <!-- Tab 4 - Button & Label -->
+  <input id="t-4" name="tabbed-tabs" type="radio">
+  <label for="t-4" class="tabs shadow" title="ARKANSAS">2221</label>
+
+  <!-- Tab 5 - Button & Label -->
+  <input id="t-5" name="tabbed-tabs" type="radio">
+  <label for="t-5" class="tabs shadow" title="CALIFORNIA">2223</label>
+
+
+  <!-- Tabs wrapper -->
+  <div id="tab-content" class="wrapper shadow">
+
+   <!-- Tab 1 content -->
+   <div class="tab-1">
+    <div class="row">
+     <div class="cell w-100">
+      <!-- Large title -->
+      <div class="title large">Shopping, Upper Level
+      </div>
+    </div>
+  </div>
+
+  <div class="clrfx mt-20"></div>
+  <div class="row">
+   <div class="cell w-66">
+    <div class="cell w-100">
+     <!-- Normal title -->
+     <div class="title normal"><a href="http://www.safeway.com/"><img src="header_logo_safeway.png" alt=""></a></div>
+   </div>
+   <div class="cell w-100">
+     <!-- Medium paragraph -->
+     <p class="large">At Safeway, we provide high quality groceries to our community. We may be one of the largest grocery store chains in the country, but we were founded around the philosophy of offering customers the products they wanted to buy at a fair price..</p>
+   </div>
+
+
+ </div>
+
+
+
+ <div class="cell w-32">
+  <!-- Framed quote paragraph with left arrow -->
+  <p class="framed-quote arrow-left"><span class="title inline">WEBSITE: <a href="http://www.safeway.com" target="_blank">safeway.com</a></span><br><span class="title inline">Phone: (703) 494-8858</span><br><span class="title inline">Adress: 2205 OLD BRIDGE RD.</span></p>
+</div>
+</div>
+
+</div>
+<!-- / Tab 1 content -->
+
+<!-- Tab 2 content -->
+<div class="tab-2">
+	<div class="row">
+		<div class="cell w-100">
+      <!-- Large title -->
+      <div class="title large">Shoppdgffddfhing, Upper Level
+      </div>
+    </div>
+  </div>
+
+  <div class="clrfx mt-20"></div>
+  <div class="row">
+   <div class="cell w-66">
+    <div class="cell w-100">
+     <!-- Normal title -->
+     <div class="title normal"><a href="http://www.safeway.com/"><img src="header_lodggo_safeway.png" alt=""></a></div>
+   </div>
+   <div class="cell w-100">
+     <!-- Medium paragraph -->
+     <p class="large">At Safeway, we provide high quality groceries to our community. We may be one of the largest grocery store chains in the country, but we were founded around the philosophy of offering customers the products they wanted to buy at a fair price..</p>
+   </div>
+
+
+ </div>
+
+
+
+ <div class="cell w-32">
+  <!-- Framed quote paragraph with left arrow -->
+  <p class="framed-quote arrow-left"><span class="title inline">WEBSITE: <a href="http://www.safeway.com" target="_blank">safeway.com</a></span><br><span class="title inline">Phone: (703) 494-8858</span><br><span class="title inline">Adress: 2205 OLD BRIDGE RD.</span></p>
+</div>
+</div>
+
+</div>
+<!-- / Tab 2 content -->
+
+<!-- Tab 3 content -->
+<div class="tab-3">
+	<div class="row">
+		<div class="cell w-100">
+      <!-- Large title -->
+      <div class="title large">Shofdsgfpping, Upper Level
+      </div>
+    </div>
+  </div>
+
+  <div class="clrfx mt-20"></div>
+  <div class="row">
+   <div class="cell w-66">
+    <div class="cell w-100">
+     <!-- Normal title -->
+     <div class="title normal"><a href="http://www.safeway.com/"><img src="header_dflogo_safeway.png" alt=""></a></div>
+   </div>
+   <div class="cell w-100">
+     <!-- Medium paragraph -->
+     <p class="large">At Safeway, we provide high quality groceries to our community. We may be one of the largest grocery store chains in the country, but we were founded around the philosophy of offering customers the products they wanted to buy at a fair price..</p>
+   </div>
+
+
+ </div>
+
+
+
+ <div class="cell w-32">
+  <!-- Framed quote paragraph with left arrow -->
+  <p class="framed-quote arrow-left"><span class="title inline">WEBSITE: <a href="http://www.safeway.com" target="_blank">safeway.com</a></span><br><span class="title inline">Phone: (703) 494-8858</span><br><span class="title inline">Adress: 2205 OLD BRIDGE RD.</span></p>
+</div>
+</div>
+
+</div>
+<!-- / Tab 3 content -->
+
+<!-- Tab 4 content -->
+<div class="tab-4">
+	<div class="row">
+		<div class="cell w-100">
+      <!-- Large title -->
+      <div class="title large">Shoppifgdsgfng, Upper Level
+      </div>
+    </div>
+  </div>
+
+  <div class="clrfx mt-20"></div>
+  <div class="row">
+   <div class="cell w-66">
+    <div class="cell w-100">
+     <!-- Normal title -->
+     <div class="title normal"><a href="http://www.safeway.com/"><img src="header_logo_ssgdafeway.png" alt=""></a></div>
+   </div>
+   <div class="cell w-100">
+     <!-- Medium paragraph -->
+     <p class="large">At Safeway, we provide high quality groceries to our community. We may be one of the largest grocery store chains in the country, but we were founded around the philosophy of offering customers the products they wanted to buy at a fair price..</p>
+   </div>
+
+
+ </div>
+
+
+
+ <div class="cell w-32">
+  <!-- Framed quote paragraph with left arrow -->
+  <p class="framed-quote arrow-left"><span class="title inline">WEBSITE: <a href="http://www.safeway.com" target="_blank">safeway.com</a></span><br><span class="title inline">Phone: (703) 494-8858</span><br><span class="title inline">Adress: 2205 OLD BRIDGE RD.</span></p>
+</div>
+</div>
+
+</div>
+<!-- / Tab 4 content -->
+
+<!-- Tab 5 content -->
+<div class="tab-5">
+	<div class="row">
+		<div class="cell w-100">
+     <!-- Large title -->
+     <div class="title large">fgfgfgShopping, Upper Level
+     </div>
+   </div>
+ </div>
+
+ <div class="clrfx mt-20"></div>
+ <div class="row">
+   <div class="cell w-66">
+    <div class="cell w-100">
+     <!-- Normal title -->
+     <div class="title normal"><a href="http://www.safeway.com/"><img src="hfgfgeader_logo_safeway.png" alt=""></a></div>
+   </div>
+   <div class="cell w-100">
+     <!-- Medium paragraph -->
+     <p class="large">At Safeway, we provide high quality groceries to our community. We may be one of the largest grocery store chains in the country, but we were founded around the philosophy of offering customers the products they wanted to buy at a fair price..</p>
+   </div>
+
+
+ </div>
+
+
+
+ <div class="cell w-32">
+  <!-- Framed quote paragraph with left arrow -->
+  <p class="framed-quote arrow-left"><span class="title inline">WEBSITE: <a href="http://www.safeway.com" target="_blank">safeway.com</a></span><br><span class="title inline">Phone: (703) 494-8858</span><br><span class="title inline">Adress: 2205 OLD BRIDGE RD.</span></p>
+</div>
+</div>
+
+</div>
+<!-- / Tab 5 content -->
+
+<!-- Tab 6 content -->
+<div class="tab-6">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">F</span>COLORADO</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Michael Bennet — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Unsurprisingly, Colorado's senators have been eager to help back legislation that will allow their state's legal cannabis industry to grow without interference from the federal government. Backing both bills to allow cannabis as treatment for epilepsy, and an initiative to allow cannabis businesses to work with banks, Sen. Michael Bennet has been tirelessly championing the cause his state voted for.</p>
+
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: YES</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Cory Gardner — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Though a Republican, Sen. Gardner shares many of his fellow Colorado senator's views on cannabis. He has helped co-sponsor bills to remove financial obstacles for cannabis businesses, as well as legislation to allow for cannabis as treatment for seizures and epilepsy in children and adults.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: YES</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 6 content -->
+
+<!-- Tab 7 content -->
+<div class="tab-7">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">G</span>CONNECTICUT</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Richard Blumenthal — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">While not as obviously proactive as the other Connecticut Senator, Chris Murphy, Sen. Blumenthal does seem to be a supporter of legal marijuana, speaking out against the hurdles marijuana producers and distributors face even in states where cannabis is legal. The Daily Chronic noted in 2013 that Sen. Blumenthal was among those speaking up in hearings about the issue: "Democrats Leahy, Richard Blumenthal of Connecticut, and Sheldon Whitehouse of Rhode Island....They were all more interested in removing obstacles to a workable legalization than in turning back the clock."</p><p class="large">Like many senators, Blumenthal hasn't specifically discussed recreational marijuana much, but his track record indicates he is in support of legalization in general.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: YES</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Chris Murphy — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Senator Murphy is on the right side of history, actively pushing for federal decriminalization. WTNH reports that the Senator visited dispensaries in Connecticut and made the following statement about cannabis policy: “This drug is currently classified as a narcotic with absolutely no medical benefits. That means research can’t be done at the federal level, and government is getting in the way of science”.</p><p class="large">While fully in favor of medical marijuana, Sen. Murphy has not commented much on recreational marijuana use by adults over 21.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 7 content -->
+
+<!-- Tab 8 content -->
+<div class="tab-8">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">H</span>DELAWARE</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Chris Coons — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Coons has not released any statements regarding his feelings on cannabis legalization, but his votes are somewhat telling. In July of 2015, Sen Coons voted YES on the bill introduced by Senators Merkley and Murray to prohibit the Treasury from using federal funds to punish banks for working with legal marijuana businesses. At the very least, this shows that Sen. Coons respects the states' rights to legalize marijuana if they choose. Votes speak louder than words, at least in Chris Coons' case.</p>
+
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: YES</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Tom Carper — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Not as open-minded as many other Democratic Senators, Tom Carper has been quiet on marijuana issues over the past decade or so, but press releases during the early 2000s reveal his approval of the war on drugs. However, his state does allow medical marijuana, and has said his views on cannabis are "evolving". We'll see if he starts speaking out more in the future.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: UNKNOWN</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 8 content -->
+
+<!-- Tab 9 content -->
+<div class="tab-9">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">I</span>FLORIDA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Bill Nelson — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Bill Nelson has been advocating heavily for medical marijuana in the last few years. Natural News reports that in 2013, Nelson spoke in St. Croix about the issue: "If we don't move soon, we will miss that rising economic wave as it relates to the policy, the legalization of marijuana, ganja, weed...."We need not be afraid of saying these words. We just need to understand that, take it away from that street mentality. Let's take it to the corporate mentality."</p><p class="large">While that might lead us to believe that the senator supports full legalization, other comments made to the Tampa Bay Post contradict that impression: "During the session with reporters, Nelson also talked about the move to legalize marijuana in Florida. He said he opposes across the board legalization of the drug because he believes it is harmful. But 'marijuana used as a medical relief for people that are desperate, I agree that ought to be legal,' he said."</p>
+
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Marco Rubio — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Some Senators have been very quiet on cannabis legalization, but not Marco Rubio. Rubio takes a strong anti-marijuana stance, comparing cannabis to opioids and cocaine, according to the Washington Post: “There is no responsible way to use cocaine,” he said. “There is no responsible way to smoke marijuana repeatedly. There’s nothing good about it. [If] there’s a medicinal use, go through the FDA process.”</p><p class="large">Is it possible he threw in that line about medical marijuana simply to appease voters? Whatever the reason, he's not winning any favor from the majority of Americans on this issue.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 9 content -->
+
+<!-- Tab 10 content -->
+<div class="tab-10">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">J</span>GEORGIA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Johnny Isakson — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Johnny Isakson may have co-sponsored a bill to legalize hemp oil for the purpose of treating seizures, but  his support of cannabis products seems to stop there. In an interview with The Red &amp; Black, Senator Isakson made the following statement: "Not everybody who’s ever smoked marijuana is a drug addict, but every drug addict started on marijuana, so you’ve got to be very careful with any legalization. The cannabis oil, which is medicinal, is proven to help infants and small children who have abnormalities in terms of seizures. That’s something we ought to be investigating, but I don’t think that legalizing the growth of marijuana within the state allegedly for medical purposes is a good idea. You know what ends up happening in Colorado and Oregon, and I don’t think that would be good for Georgia."</p><p class="large">At this time, it does not appear that Sen. Isakson understands cannabis, let alone supports anything more than cannabis oil for one specific purpose.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">David Perdue — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">David Perdue's track record indicates that he supports medical marijuana, and the states' rights to make their own decisions about the issues, stating: “I believe this is a states issue, and one that we need to stay away from on the federal level.”</p><p class="large">In comparing Perdue with his since-defeated rival Michelle Nunn, Huffpost Politics noted that the Senator supports medical marijuana.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 10 content -->
+
+
+<!-- Tab 11 content -->
+<div class="tab-11">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">K</span>HAWAII</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Brian Schatz — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Schatz isn't opening up much on the subject of cannabis, and it looks like he's interested in sitting back and watching other states for a while before he makes any firmer statements. According to the Washington Examiner in 2014, Schatz commented: "States are the laboratory of democracy, and democracy is occurring when it comes to this issue. I don’t think Hawaii is ready for it; I don’t think we’re ready for nationwide legislation."</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Mazie Hirono — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">We haven't heard much from Sen. Hirono on cannabis since her days in the House of Representatives, but even back in 2007 she voted Yea on an amendment to prevent federal funds from being used to prosecute legal medical marijuana businesses in states which have adopted cannabis legislation allowing medical marijuana. While we don't know much else about her stance on cannabis, it's safe to say that Sen. Hirono is in favor of legalizing medical marijuana, or at least supporting states' rights to do so.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 11 content -->
+
+<!-- Tab 12 content -->
+<div class="tab-12">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">M</span>IDAHO</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Mike Crapo — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Mike Crapo has waged a war on drugs, though not specifically marijuana, during his time in office. His focus has been more on drugs like meth, and he has said little about cannabis directly. He has no related voting record, except for voting against harsher penalties for drug offenses, but a press release in 2015 shows that he believes in: “...limited government and a free and open economy. The government should not be caretakers.”</p><p class="large">Given his crusades against drugs in the past, there is little to believe he would support legalization of cannabis. He has had his own brushes with the law, arrested for a DUI in 2012, which sent shock throughout his constituency, as Sen. Crapo is a devout Mormon.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Jim Risch — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">According to Don Fitch at Marijuana Politics, Jim Risch is proving to be among the class of Republicans stuck in the past, opposing sentencing reform measures with Tom Cotton.  Risch seems clear: he's never going to be pro-cannabis, he's in favor of strict drug laws, and he's going to be left behind when constituents vote for cannabis.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 12 content -->
+
+<!-- Tab 13 content -->
+<div class="tab-13">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">N</span>ILLINOIS</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Dick Durbin — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Dick Durbin has made some strong statements about where he falls on the issue of cannabis legalization. While he has said on several occasions that he supports medical marijuana to some extent, he is still cautious even on this issue, stating to Peoria Public Radio: "No, I tell ya, I think we ought to … let’s approach it this way: let’s watch how the states deal with medical marijuana before we try to establish a national policy."</p><p class="large">On recreational use, he's not backing down: "Now there are some who want to say, 'now let's open the doors. Let's treat marijuana like chewing gum....I'm not, I’m not there yet.” His answer to that, however, may show that someday he will change his mind. For now, that's all speculation. For now, he'd like to see fewer drug penalties to keep non-violent offenders out of prison.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Mark Kirk — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Back when he was a state representative, Kirk took a hard stance on marijuana, in favor of bringing penalties up to as much as 25 years in prison for certain offenses. His views haven't changed much since 2009, either. According to NBC 8 in Chicago, in a piece about both Illinois Senators on cannabis: "Kirk did not address medical marijuana specifically, but said he favored full restrictions on the drug."</p><p class="large">Responding to more recent legislation regarding access to therapeutic cannabis for veterans, Kirk yet again took the unpopular opinion, stating: "I want to make sure we're not forcing this 60s culture onto current group of veterans,..We do not have too few veterans who are high right now. I don't see that as a problem in our country."</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 13 content -->
+
+<!-- Tab 14 content -->
+<div class="tab-14">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">O</span>INDIANA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Dan Coats — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Though Dan Coats doesn't have much to say on the subject of cannabis, he did vote to use international funds on drug control in 1996, and has shown no signs of being in favor of marijuana legalization. Like many ultra-conservative legislators, it will be difficult to convince Sen. Coats that cannabis has value.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Joe Donnelly — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Unlike many Democratic Senators, who tend to be more vocal in support of medical marijuana, Joe Donnelly has been very quiet on the issue of cannabis, and his past record indicates he is in the camp of being tough on drugs. NORML (National Organization for the Reform of Marijuana Laws) has rated Donnelly at 25%, indicating opposition to most, if not all legalization initiatives.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 14 content -->
+
+<!-- Tab 15 content -->
+<div class="tab-15">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">L</span>IOWA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Chuck Grassley — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">The revolutionary CARERS Act would reschedule marijuana from a Schedule I to a Schedule II drug, making it less strictly prohibited, as well as easier to access and study in states where cannabis is legal. While Sen. Grassley claims to believe that cannabis has viable medicinal use in some cases, he is refusing to support the legislation. Currently, he is blocking hearings on this revolutionary legislation, which is stalling the Act's progress. The Des Moines Register reports on the Senators comments regarding the legislation: "I oppose moving marijuana from a Schedule I to a Schedule II drug, based on the current science on the risks and benefits....Recent studies suggest marijuana use by young people can cause long-term and possibly permanent damage to brain development...for children suffering from severe epileptic seizures, the anecdotal evidence says components of the marijuana plant might help. I want to help those children. The key is aggressive medical research."</p><p class="large">And how do you achieve aggressive research on cannabis, Senator? Reclassify marijuana so it's easier to study. Current efforts to sway Senator Grassley on the issue are involving his constituents and will hopefully prove fruitful.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Joni Ernst — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Much like Chuck Grassley, Sen. Ernst is upfront about her feelings on cannabis—and they're not very open-minded opinions. According to Siouxland Matters, the Senator spoke out in opposition of the bill to expand medical marijuana availability in Iowa: "While the Senator says she has supported the use of cannabis oil in the past, she says she is against the opening of those dispensaries, and the general use of medical marijuana. 'What I would like to see happen first is to see concrete medical evidence that this can be appropriately controlled and utilized in a very very controlled manner,' says Ernst. 'I would like to see additional research done on medical marijuana before we throw it at Iowans.'"</p><p class="large">From this, it doesn't look like Sen. Ernst will be supporting legalization anytime soon.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 15 content -->
+
+<!-- Tab 16 content -->
+<div class="tab-16">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">P</span>KANSAS</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Pat Roberts — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Pat Roberts most recently made headlines on marijuana legalization in late 2014, when he came out in support of allowing states to make their own decisions regarding cannabis. The Huffington Post quoted Sen. Roberts on the topic from a debate he participated in around that time:</p><p class="large">“That’s not a federal issue....That’s a state issue. If you want to get a Rocky Mountain high, go west. That should be for the Kansas legislature and the governor to decide, not federally."</p><p class="large">This is quite a change from past Republican ideologies on drugs, though it fits in with the model of limiting federal government power in the states that Republicans are ostensibly fond of. Hopefully it's a sign of the times that even many deeply conservative Senators are starting to support the will of the people in individual states when it comes to cannabis.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Jerry Moran — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Jerry Moran hasn't said too much about marijuana legalization in the past, partly because the constituents he talks to on a regular basis are not terribly concerned about the issue. However, when called upon to vote for the bill that would prevent federal funds from being used to penalize legal cannabis in states that have voted for legalization, he initially voted "no," but later switched his vote to "yes," indicating his stance on the issue may be starting to evolve in a positive direction.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 16 content -->
+
+<!-- Tab 17 content -->
+<div class="tab-17">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">Q</span>KENTUCKY</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Mitch McConnell — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Senator Mitch McConnell is no friend to the pro-cannabis movement. In June of 2015, MintPress News assessed McConnell's attitudes on the country's shifting views on marijuana legalization:</p><p class="large">"McConnell acknowledges that marijuana is 'not in the same category as heroin,' even if it is treated as such by the DEA. Still, he said that legalizing the plant could 'completely transform your society in a way that I think certainly most Kentuckians would not agree with....'I don’t think an answer to this, honestly, is to go in a direction of legalizing any of these currently illegal drugs,' McConnell explained. 'This whole movement in various parts of the country is a big mistake.'"</p><p class="large">Interestingly, McConnell has been as passionate about protecting hemp as he has been on prohibiting marijuana. Also in 2015, McConnell fought to allow hemp seeds to be brought into Kentucky for cultivation, with the hope of a new viable crop for industrial use. However, hemp is a different type of cannabis, containing very little THC, making McConnell's support less hypocritical than some might think.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Rand Paul — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">In contrast to his fellow Kentucky Senator Mitch McConnell, Rand Paul has actively petitioned for legislation to make access to marijuana more realistic for Americans. As a co-sponsor of the CARERS Act to reclassify cannabis and remove many federal restrictions, Sen. Paul is an active advocate for allowing states to make their own laws about regulating cannabis.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 17 content -->
+
+<!-- Tab 18 content -->
+<div class="tab-18">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">R</span>LOUISIANA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">David Vitter — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">During the race for Louisiana Governor in late 2015, we got a good look at David Vitter's views on marijuana—and they aren't impressive. According to the Advocate, Vitter and his opponent (John Bel Edwards) had differing opinions on some aspects of the issue:</p><p class="large">"Opposing the recreational use of marijuana is another issue on which Vitter and Edwards agree. Neither candidate has tried it.</p><p class="large">But Edwards supported legislation that would allow the medicinal use of the drug. Vitter disagrees, saying the bill puts physicians, who would have to prescribe marijuana use, in jeopardy of losing their licenses to practice."</p><p class="large">Perhaps this is one of the reasons Vitter's bid for becoming governor was not successful. Perhaps in time he'll loosen up his stance as progress continues.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Bill Cassidy — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Sen. Cassidy is among a growing number of Republican lawmakers who does support the legalization of medical marijuana. According to The Times-Picayune, John Cummins, a spokesperson for Sen. Cassidy has stated:</p><p class="large">"There are specific uses of medical marijuana recognized, such as a treatment for chemotherapy induced nausea. There are drugs which approximate marijuana, but may not be as effective in certain people. Dr. Cassidy is supportive when used for a defined medical purpose and prescribed by the patient's doctor."</p><p class="large">Cassidy's voting record backs up his claims of support for medical cannabis. The article notes, however, that Bill Cassidy is still opposed to the legalization of recreational cannabis.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 18 content -->
+
+<!-- Tab 19 content -->
+<div class="tab-19">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">U</span>MAINE</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Susan Collins — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Senator Susan Collins has been extraordinarily non-committal on cannabis throughout her incumbency. The Portland Press Herald tried to get more insight into the Senator's opinions on marijuana in 2014, with little success:</p><p class="large">"A spokesman for Republican Sen. Susan Collins said: 'While Senator Collins believes that the president and Congress should be focusing like a laser on jobs and the economy, she would look for guidance from Maine’s law enforcement and medical communities in the unlikely event that legalization legislation is debated by the full Senate.'</p><p class="large">Collins’ office did not respond to subsequent questions about whether she would support legalization in Maine. She has avoided taking sides in statewide referendum campaigns in the past."</p><p class="large">With state and federal legislation coming in on a regular basis, Sen. Collins may need to take a stand on marijuana either way sooner than she thinks.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: UNKNOWN</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Angus King — I</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">As far back as 1999, Sen. King has spoken out on the subject of medical cannabis, choosing to believe that there is reason to doubt the medical benefits of cannabis, despite the opinions of healthcare professionals and voters. According to Cannabis News in 1999:</p><p class="large">"King said the medical marijuana proposal would put Maine on a 'slippery slope' leading to wider use of the drug. In California, he said, a similar law has 'really opened the door to abuse."'</p><p class="large">Little suggests that the Senator has evolved his opinions on marijuana over the last few decades, making him one of the relics of a bygone era.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 19 content -->
+
+<!-- Tab 20 content -->
+<div class="tab-20">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">T</span>MARYLAND</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Barbara Mikulski — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Senator Mikulski understands the challenges facing states that have adopted medical marijuana legalization, and she's working hard to remove obstacles for these states. In June of 2015, Sen. Mikulski introduced an amendment to prohibit federal funds from being used to prosecute states for legal medical cannabis, including raids, arrests, and prosecutions. The amendment passed, and it's clear that Mikulski is willing to fight for states who legalize marijuana.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Ben Cardin — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Senator Cardin isn't taking any kind of stance on the issue of decriminalization at this time. Speaking to Cecil Whig in 2014, Cardin said sees state programs as a test for national laws:</p><p class="large">“We want to see whether the claims of concern or positive results pan out....To me, that’s how federalism operates, the states pilot different programs and if they work, we adopt national policy.”</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 20 content -->
+
+
+<!-- Tab 21 content -->
+<div class="tab-21">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">S</span>MASSACHUSETTS</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Elizabeth Warren — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">A powerful and popular member of the Senate who doesn't back down from her opinions often, Warren recently urged the CDC to explore cannabis as an alternative to opioid painkillers, a significant change from her past comments on marijuana. ThinkProgress commented on the evolution:</p><p class="large">"The progressive hero offered only a flat 'no' in response to a question about legalizing marijuana in 2011. She hasn’t embraced a full-on end to prohibition yet, the magazine notes, but Monday’s letter to the CDC is just the latest in a string of such actions she’s taken along with other senators to push executive agencies to investigate pot’s potential to do good."</p><p class="large">On the topic of recreational marijuana, Warren seems to be coming around as well. The Weed Blog notes that in 2011, the Senator remarked:</p><p class="large">“we’ve learned more. A couple of states have legalized marijuana for recreational use. Frankly, I think we ought to be learning what we can from those states.”</p><p class="large">While these may not be revolutionary words, they're a big step up from her views in 2011, views that are hopefully still evolving.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Ed Markey — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Much like Sen. Warren, Ed Markey seems to be moving toward a more realistic view of cannabis as his time in politics evolves. In a letter to a constituent in 2010, Markey made the following remarks:</p><p class="large">"You may be interested to know that I voted in favor of the Hinchey-Rohrabacher medical marijuana amendment when it was considered on the House Floor on July 25, 2007. This amendment would have prevented the federal government from arresting AIDS, MS, and cancer patients who use marijuana for medical reasons in states that have medical marijuana laws. Unfortunately, this provision failed 165-262. I voted for the amendment because, while I have not yet seen conclusive evidence indicating that marijuana is safe or effective for use in treating medical ailments, I don't believe that patients with severe, chronic diseases should be arrested and federally prosecuted for medical use of marijuana where such use has been approved by the state government in which they reside."</p><p class="large">More recently, he and several other senators have urged federal agencies to move forward with research on marijuana, which shows he's at least interested in learning more about the benefits of cannabis.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 21 content -->
+
+<!-- Tab 22 content -->
+<div class="tab-22">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">V</span>MICHIGAN</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Debbie Stabenow — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Senator Stabenow has been extremely non-committal on the subject of cannabis legalization since her days in congress. In a letter to NORML, she stated:</p><p class="large">"I have asked my staff to keep me updated regarding the status of House Resolution 372, which expresses the sense of congress that marijuana should not be legalized for medicinal purposes. I do riot [sic] intend to support the resolution."</p><p class="large">Since then, she has been very quiet on the issue, and it does not appear that her stance has evolved.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Gary Peters — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Gary Peters doesn’t make a big deal of supporting marijuana reform, but a few signs show he's open to at least medical marijuana. While still in his Congressional seat, Peters voted to approve the amendment to prohibit federal funds from being used to prosecute legal medical marijuana businesses in states where they are approved.</p><p class="large">While this has not been a major platform in his campaigns or overall agenda, he does not seem opposed to medical marijuana and appears to be open to reformation.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 22 content -->
+
+<!-- Tab 23 content -->
+<div class="tab-23">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">W</span>MINNESOTA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Amy Klobuchar — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Senator Klobuchar hasn't had much, if anything to say about legal cannabis, but one of her main concerns is with "synthetic marijuana". Since this is such a different issue than cannabis decriminalization, it's hard to categorize her feelings on cannabis reform.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: UNKNOWN</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Al Franken — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">As a former comedian, Franken's critics are quick to point out his admitted former drug use. Perhaps this is one of the reasons he has been so silent on his cannabis stance. As marijuana reformation has until recently been a highly partisan, we can only hope that Sen. Franken would vote for legalization.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: UNKNOWN</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 23 content -->
+
+<!-- Tab 24 content -->
+<div class="tab-24">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">Y</span>MISSISSIPPI</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Thad Cochran — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Senate Appropriations Committee Chairman Thad Cochran has been busy helping to prevent the federal government from meddling in states' medical marijuana programs. Putting forth 4 different pro-cannabis spending amendments, it's clear that Cochran is on board with states' rights to legalize cannabis.</p><p class="large">What is interesting, however, is that Cochran voted in June of 2015 against a bill to restrict federal funds from being used to interfere with state medical marijuana programs. Change of heart?</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Roger Wicker — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">In 2005 and 2007, Senator Wicker showed his feelings on marijuana reform with two simple "Nay" votes. These bills, had they passed, would have prevented federal funds from being used to interfere with state medical marijuana programs, and prevent prosecution of individuals and institutions obeying the laws of states with legalized medical marijuana. Both bills failed to pass the House, and Wicker was part of that failure. Nothing shows his views have changed over the last decade.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 24 content -->
+
+<!-- Tab 25 content -->
+<div class="tab-25">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">X</span>MISSOURI</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Claire McCaskill — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Last year, Sen. McCaskill made comments that indicated she is coming around to the idea of medical cannabis. During a recent town hall, she addressed the issue, with Show Me Cannabis noting:</p><p class="large">"McCaskill expressed a number of concerns that she has as a former prosecutor but acknowledged that we are moving towards medical cannabis both here in Missouri and federally."</p><p class="large">Later she was quoted as stating:</p><p class="large">“I don’t think there are enough seniors that realize that there are some therapeutic benefits to medical marijuana, marijuana that you consume opposed to smoke when you’re young and in a pair of jeans and a T-shirt.”</p><p class="large">
+        While this may be a strange remark, it looks like her views have evolved enough to support medical cannabis.</p>
+      </div>
+
+      <div class="cell w-100">
+        <!-- Quote paragraph -->
+        <p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+      </div>
+    </div>
+
+    <div class="cell w-32">
+     <!-- Framed quote paragraph with left arrow -->
+     <p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+   </div>
+ </div>
+
+ <div class="row">
+  <div class="cell w-66">
+   <div class="cell w-100">
+    <!-- Normal title -->
+    <div class="title normal">Roy Blunt — R</div>
+  </div>
+  <div class="cell w-100">
+    <!-- Medium paragraph -->
+    <p class="large">Senator Blunt was one of several Republicans to buck trends and vote in favor of Sen. Mikulski's amendment to restrict federal funds from being used to interfere with state medical marijuana programs. This speaks volumes about his feelings on the matter, and at least shows he is listening to his constituents. Many Senators are not willing to speak out about recreational cannabis yet, so it's not clear where Blunt stands on that issue.</p>
+  </div>
+
+  <div class="cell w-100">
+    <!-- Quote paragraph -->
+    <p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+  </div>
+</div>
+
+<div class="cell w-32">
+ <!-- Framed quote paragraph with left arrow -->
+ <p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+</div>
+
+</div>
+</div>
+<!-- / Tab 25 content -->
+
+<!-- Tab 26 content -->
+<div class="tab-26">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;">Z</span>MONTANA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Jon Tester — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Jon Tester's response to a federal memo on gun ownership and marijuana have provided significant insight into his thoughts on the issue. Tester stated:</p><p class="large">“It is unacceptable that law-abiding citizens would be stripped of their Second Amendment rights simply because they hold a state-issued card authorizing the possession and use of marijuana for medicinal purposes.”</p><p class="large">While he doesn't address recreational marijuana, it's a good sign that Tester respects states' rights to make their own cannabis laws and is perhaps open to legalization.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Steve Daines — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">An outspoken Republican supporter of both medical and recreational cannabis amendments, Daines defended proposed legislation to allow banks and legal marijuana businesses to work together:</p><p class="large">“The amendment was a necessary response to an absurd regulatory morass,”</p><p class="large">Daines has also supported veterans' rights to discuss marijuana as a possible treatment where it is legal, as reported by Montana Public Radio:</p><p class="large">“When Montana Veterans walk into a VA facility and they talk with their doctor, they can’t discuss all of the options available to them that they could discuss at a non-VA facility, literally right next door.”</p><p class="large"> Senator Daines is hopefully part of a change in the overall views of Senators to take this issue seriously.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: YES</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 26 content -->
+
+<!-- Tab 27 content -->
+<div class="tab-27">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">c</span>NEBRASKA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Deb Fischer — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">While Senator Fischer has not had the opportunity to vote on cannabis issues and has remained very quiet on the issue of legalization as a whole, she has spoken out once or twice against marijuana. According to the McCook Gazette, the Senator expressed a hardline opinion on cannabis when a constituent questioned her:</p><p class="large">"I do not support legalization of marijuana,"</p><p class="large">Only directly addressing the recreational use of cannabis, Fischer stated:</p><p class="large">"This is dangerous for kids. I'm opposed to it,"</p><p class="large">Fischer did not make any statements about medical use, but criticized Colorado's adoption of legal cannabis as it is still illegal under federal law. Nebraska and Oklahoma were two states to officially protest the state's cannabis program, suing the state and making statements such as:</p><p class="large">"[lacking] safeguards to ensure marijuana cultivated and sold in Colorado is not trafficked to other states"</p><p class="large">This kind of lawsuit is just ridiculous, especially given the growing support for cannabis among the American people. Deb Fischer just might be left behind if she continues to cling to these old-fashioned opinions.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Ben Sasse — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Not as steadfast in the "war on drugs" as his colleague, Sasse at least feels it's not the federal government's job to decide whether or not cannabis to be legal. According to watchdog.com, Sasse and Dave Domina (the Democratic candidate for the Senate seat in 2014) discussed the issue with a group of high schoolers. Watchdog reported that Sasse's comments indicated a respect for states' rights:</p><p class="large">"The feds also shouldn’t be involved in regulating marijuana – that should be left to local authorities."</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 27 content -->
+
+<!-- Tab 28 content -->
+<div class="tab-28">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">g</span>NEVADA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Harry Reid — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Harry Reid is the Democratic leader for the Senate, and he's had plenty of experience in Washington, but he hasn't always been a supporter of medical marijuana, according to his own words during a 2014 interview with the Las Vegas Sun:</p><p class="large">“If you’d asked me this question a dozen years ago, it would have been easy to answer – I would have said no, because (marijuana) leads to other stuff. But I can’t say that anymore.”</p><p class="large">“I think we need to take a real close look at this....I think that there’s some medical reasons for marijuana.”</p><p class="large">While his comments on recreational cannabis were non-committal, (“I don’t know about that....I just think that we need to look at the medical aspects of it.”) he did say that he believes law enforcement wastes time, energy, and resources to prosecute marijuana users.</p><p class="large">Reid's co-sponsorship of the bill to allow banking access to legal medical marijuana businesses is hopefully just the first step in his support of the cause.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Dean Heller — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Among the growing ranks of Republican supporters of medical marijuana is Dean Heller. Senator Heller has not only shown interest in legislation supporting medical, he's sponsored it. Heller is one of the co-sponsors of the sweeping CARERS Act, which would re-schedule cannabis to a Schedule II drug and allow states to set their own regulations and policies on medical cannabis, including for veteran patients. In a press release from around the time the bill was introduced in 2015, Heller stated:</p><p class="large">“The time has come for the federal government to stop impeding the doctor-patient relationship in states that have decided their own medical marijuana policies. This bipartisan legislation puts Americans who are suffering first by allowing Nevada’s medical marijuana patients, providers, and businesses that are in compliance with state law, to no longer be in violation of federal law and vulnerable to federal prosecution."</p><p class="large">Though in favor of medical marijuana, Heller has not specifically addressed recreational cannabis yet, an issue many lawmakers have still not had to discuss much up to this point.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 28 content -->
+
+<!-- Tab 29 content -->
+<div class="tab-29">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">d</span>NEW HAMPSHIRE</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Jeanne Shaheen — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Though she says that medical marijuana in the state of New Hampshire has been good for residents of the state, Senator Shaheen's other opinions on cannabis show that she's not currently open-minded about accepting the cannabis industry. During an interview with What the Folly in 2014, Shaheen took a conservative view of accepting marijuana recreationally, and only supported limited medicinal access, even stating that she would not support reclassification of cannabis from Schedule I to Schedule II, which would improve research opportunities. She stated:</p><p class="large">"Well, I do support our medical marijuana law. And we're seeing some states who have allowed marijuana for recreational purposes. I'm not ready to go there yet. I think we need more study on what the impact of marijuana would be."</p><p class="large">This statement was contradicted by her thoughts on re-scheduling cannabis, which would be necessary for more research to be conducted. Hopefully as time goes on, Senator Shaheen's views will evolve in a positive way.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Kelly Ayotte — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Before she was Senator Ayotte, Kelly Ayotte was Attorney General in New Hampshire, and she was most certainly not in favor of even medical marijuana. In a letter to the Senate, Ayotte urged lawmakers to reject a pro-medical cannabis bill in 2009. She also spoke to a disabled Navy veteran in 2010 with telling comments:</p><p class="large">"I know you're not a criminal, but I don't support it as medicine....It's an illegal drug in our country and I don't support it."</p><p class="large">In the video, she also mentioned that cannabis should go through the FDA process, which is all but impossible when the drug is still listed as a Schedule I substance with no medical value. Ayotte does not seem to have changed her position on the issue since becoming a Senator. As more and more New Hampshire residents are supporting cannabis legalization, her hard-line stance may become an issue for Senator Ayotte.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 29 content -->
+
+<!-- Tab 30 content -->
+<div class="tab-30">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">e</span>NEW JERSEY</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Bob Menendez — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">While his colleague Senator Booker has been busy working on marijuana reform, Senator Menendez has been very quiet about his feelings on cannabis. Back in 2006, Menendez did speak out in favor of medical marijuana during a N.J. Senate Virtual Debate:</p><p class="large">"For those suffering uncontrollable pain from cancer and other diseases - for which no prescription drug provides relief - I believe we should review current law."</p><p class="large">While we can't speculate on his beliefs now, or his thoughts on recreational use based on this quote, it shows that he at least supports medical cannabis reform.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Cory Booker — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Booker was one of the first Senators to co-sponsor the CARERS Act in 2015, a bold move that placed him firmly within the opinions of most Americans. Sponsoring overdue legislation to federally legalize medical marijuana when so many states have already adopted programs was a smart move for Booker. While the legislation has been stalled, Booker has nonetheless shown he is in tune with his constituents' wishes.</p><p class="large">Booker may not have endorsed recreational use directly, but he made statements in 2012 to the Huffington Post on live video that addressed his disdain for the "war on drugs" and showed an interest in reforming marijuana and sentencing laws as a whole, something he has been working on with Sen. Rand Paul. In an interview with Inc.com in 2014, he stated that he's waiting to see how legalization works out in Washington, Colorado, and others before making a decision about his position on the issue:</p><p class="large">"This is a really valuable American laboratory. The legalization debate, on which I don't know where I come down on yet, [will allow us to see how] certain legitimate concerns manifest themselves. Where I take it now is to do things to protect people who are abiding by state laws. For me, that's why I introduced the legislation around medical marijuana with Rand Paul--we don't want to see the federal government prosecuting people abiding state laws. I am encouraged voters stepped out into this laboratory. If it's a failure, it's a failure. But if it's a success and it doesn't hurt public safety and improves the economy by providing greater opportunities, and doesn't cause more crime, then I will be open to legalization. But right now I fall on not doing it, but I am one of those people who is hungry to watch it play out. Medical marijuana programs, like the one in New Jersey, are something I think should be in every state; the drugs people have in their medicine cabinets are more dangerous than marijuana. It's ridiculous to not let very sick people have access to a drug, a legitimate drug, that can help improve their lives."</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 30 content -->
+
+<!-- Tab 31 content -->
+<div class="tab-31">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">f</span>NEW MEXICO</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Tom Udall — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Tom Udall is willing to listen to his constituents when it comes to marijuana legalization. As a supporter of a bill passed in 2014 to restrict federal funds from being used to interfere in state medical marijuana programs, a spokesperson for Udall elaborated on his views:</p><p class="large">“Except in cases where state action blatantly deprives people of their constitutional rights or puts them at risk, Sen. Udall doesn’t think the federal government should attempt to overrule voter-approved laws. Neither of those circumstances is the case with medical marijuana laws. Americans are having a conversation about whether to de-criminalize marijuana at the state level, and Sen. Udall believes this provision lets that conversation continue.”</p><p class="large">From these statements, it seems like Udall would be open to recreational legalization if the people of New Mexico were to vote for the change. Udall has also shown support for the comprehensive CARERS Act, which would make sweeping changes to federal marijuana policy.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Martin Heinrich — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">In 2012, Heinrich was already in favor of medical marijuana, as the Albuquerque Journal reported:</p><p class="large">“I certainly support the states being able to use medical marijuana with a prescription from a doctor, there is no question about that. I wouldn’t say I’m briefed enough on the issue to make a commitment beyond that."</p><p class="large">“I think we need to look very closely at what the real impacts are in Colorado and Washington and what happens in those states as a result and learn from it. That’s going to take some time.”</p><p class="large">Since these statements, he has remained fairly neutral, so we'll have to wait and see if he takes a stronger stance on recreational use in the future.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 31 content -->
+
+<!-- Tab 32 content -->
+<div class="tab-32">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">h</span>NEW YORK</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Chuck Schumer — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Like many Democratic Senators, Schumer has added his support to the CARERS Act, which would dramatically improve access to medical cannabis at a federal level.</p><p class="large">It's been a bit of a bumpy road for Schumer, as the Daily Caller notes that he has been both an advocate for states' rights to choose their own policies for marijuana regulation (even if that includes recreational legalization), yet has also been a supporter of the War on Drugs in the past. Like many lawmakers, however, it looks as though his views have evolved to be more in line with the general public's. On recreational marijuana, he's still staying cautious, however:</p><p class="large">“The view I have, and I’m a little cautious on this, is let’s see how the state experiments work,”</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Kirsten Gillibrand — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">One of the original co-sponsors of the CARERS Act, Senator Gillibrand has been pushing for positive change to federal medical marijuana laws. She's also urged the VA to allow veterans to discuss cannabis as a treatment option in states where it is legal. In a keynote speech at the National Cannabis Industry Association in late 2015, Gillebrand laid out the problems with the current legislation: No one is sure what to do about the disconnect between state and federal laws. In her own words:</p><p class="large">"There's a conflict between state and federal statute that confuses doctors, patients and providers alike. People aren't sure what's legal, what's not, and the gray area that resulted is hindering health care and the industry's development....There’s a grave lack of any marijuana research. This is a direct result of federal requirements that only govern the study of marijuana. No other drug, Schedule I or otherwise, has been subjected to the same constraints.”</p><p class="large">Looks like Sen. Gillibrand's out to change that. Her stance on recreational use is much less clear, but indications are good that she would be open to New Yorkers and other states' residents' wishes.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 32 content -->
+
+<!-- Tab 33 content -->
+<div class="tab-33">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">a</span>NORTH CAROLINA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Richard Burr — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">In a letter dated from 1998, during his time as a state Representative, Richard Burr stopped short of saying medical marijuana should be outlawed, but made the following statements:</p><p class="large">"I do believe however, that any legislation to permit marijuana for medical treatment purposes would have to be:</p><p class="large">- very narrowly drafted,</p><p class="large">- able to meet established Food and Drug Administration safety and efficacy standards for current pharmaceuticals and biological products, and</p><p class="large">- able to ensure that marijuana is not legalized for all purposes, because I am strongly opposed to wholesale legalization of drugs."</p><p class="large">In 2010, his views had not changed. In a recorded conversation, Burr expressed that he is opposed to legalization, and has said he would enforce federal laws regarding both medical and recreational use. He believes that there is no medical use for marijuana that cannot be accomplished with other treatments, and does not support medicinal cannabis. However, Burr may find his constituents soon calling for marijuana reform whether he likes it or not.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Thom Tillis — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Much less rigid than his colleague, Senator Burr, Tillis at least seems open to North Carolinians proposing medical and recreational cannabis. The Courier-Tribune reported on a town hall Tillis held during his days in the House of Representatives in 2012, with this section about marijuana policy:</p><p class="large">"Tillis said the issue of legal marijuana is nuclear in politics. He took a quick poll of the audience asking how many supported the free sell of marijuana; how many supported legalizing it for medical use; and how many opposed any legalization of marijuana.</p><p class="large">A few people raised their hands for open sales of marijuana. Roughly 35 percent of the audience raised their hands for medical marijuana use. Tillis said he presumed the remainder were opposed to marijuana use of any form.</p><p class="large">
+        Tillis said he doesn’t understand why opiates can be legally used with a prescription but not marijuana. He said he thinks lawmakers should be able to strike a balance in the debate but more study will have to be done 'to find out if there is an appetite for it in North Carolina.'"</p><p class="large">
+        That's all talk, however. It doesn't look like Tillis has any interest in learning more unless his constituents push for reform.</p>
+      </div>
+
+      <div class="cell w-100">
+        <!-- Quote paragraph -->
+        <p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+      </div>
+    </div>
+
+    <div class="cell w-32">
+     <!-- Framed quote paragraph with left arrow -->
+     <p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+   </div>
+
+ </div>
+</div>
+<!-- / Tab 33 content -->
+
+<!-- Tab 34 content -->
+<div class="tab-34">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">b</span>NORTH DAKOTA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">John Hoeven — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Despite Republican views of states' rights, some Senators can't seem to step back when it comes to the issue of cannabis and let states make their own laws. John Hoeven seems to be one of them. The Hit &amp; Run Blog notes that Hoeven voted against a bill to restrict the federal government from using funds to interfere with state medical marijuana programs. This indicates that he's only interested in maintaining the status quo: marijuana scheduled as an illegal, dangerous drug at the federal level, despite the wishes of the people.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Heidi Heitkamp — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Senator Heitkamp hasn't made any strong statements on marijuana legalization or put forth any cannabis-related legislation, but she did make a few comments about D.C.'s vote to legalize recreational marijuana, as reported by Roll Call:</p><p class="large">"Similarly, Sen. Heidi Heitkamp, D-N.D., said she sees her role as a member of Homeland Security and Governmental Affairs as 'very, very narrow' when it comes to D.C. Though she didn't know the specifics of the proposal, she said she thinks 'the District is entitled to a whole lot of self-determination.'</p><p class="large">'For me to reverse what a city would do ... it would have to be something that I desperately disagreed with and believed had either constitutional problems or some very serious fiscal consequences that weren’t sustainable.'"</p><p class="large">These statements don't say much of anything about her personal feelings on cannabis, but they do suggest she would support states' rights to make their own decisions about cannabis use.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: UNKNOWN</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 34 content -->
+
+<!-- Tab 35 content -->
+<div class="tab-35">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">i</span>OHIO</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Sherrod Brown — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Sherrod Brown is following many of the same patterns as other Senators: coming out in support of medical marijuana, but being very non-committal and cautious about the issue of full legalization. Cincinnati.com reported in July 2015 about the senator's specific concerns surrounding recreational use.</p><p class="large">"'There are far too many' unanswered questions about the impact of legalizing marijuana, Brown, D-Ohio, told reporters in a conference call.</p><p class="large">He said he was particularly concerned about children consuming pot baked into food products.</p><p class="large">'I want to make sure children don't get access to marijuana in that way or other ways,' Brown said."</p><p class="large">Despite his very cautious approach to the push for recreational legalization, he's firmly in the medical marijuana camp:</p><p class="large">"The evidence is in that it works for a number of patients"</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Rob Portman — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">If Sen. Sherrod Brown is cautious about recreational cannabis, Rob Portman is several steps further back. Cincinnati.com notes Portman's take on both recreational and medical marijuana:</p><p class="large">"'[legalizing marijuana is] the wrong message to send....Instead we should be saying to young people, 'There is a better way for you to have a healthy and productive life and that's not to get into drug use.'"</p><p class="large">"Portman said he was also skeptical of efforts to legalize marijuana for medical purposes. He said many states have passed medical marijuana measures that are overly broad and open to abuse."</p><p class="large">With these views, Senator Portman probably won't be supporting any kind of marijuana reform anytime soon.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 35 content -->
+
+<!-- Tab 36 content -->
+<div class="tab-36">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">j</span>OKLAHOMA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Jim Inhofe — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">We may not know Jim Inhofe's specific feelings on marijuana, but we can make a good guess based on his drug attitudes in the past. He voted in favor of increasing penalties for drug offenses back in 1999, and he's been in favor of strict control of substances. Though no recent votes of his have affected cannabis, it seems clear he is not pro-legalization.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: UNKNOWN</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">James Lankford — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Though much debate surrounding cannabis has focused on the medical use of the plant, Senator Lankford had to take a stance on recreational marijuana during a debate with State Senator Connie Johnson in the Senate race, which he ultimately won. During that debate, Lankford made his positions clear:</p><p class="large">"Lankford challenged President Obama’s Justice Department’s decision not to interfere with legalization of marijuana in Colorado and Washington.</p><p class="large">'This is one of many areas where President Obama has spoken to the Justice Department ‘saying don’t enforce federal law’,' Lankford said."</p><p class="large">Senator Lankford has also proposed that Native American tribes who cultivate cannabis on their tribal lands should be stripped of their federal funding, a move he says is to protect the community. Punishment for this, however, does not make the concern seem sincere, particularly since he cites high rates of drug-induced death in the community, even though marijuana does not cause overdose-related death.</p><p class="large">Lankford's actions speak for him: he is not interested in considering cannabis reform and would like to see even harsher penalties in some cases.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 36 content -->
+
+<!-- Tab 37 content -->
+<div class="tab-37">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">k</span>OREGON</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Ron Wyden — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Ron Wyden seems a bit out of place in the state he calls home when it comes to cannabis. Yes, he introduced legislation to legalize industrial hemp, but then blamed the bill's failure on marijuana:</p><p class="large">"Better organized advocacy on behalf of hemp, clearly separated from advocacy for cannabis, is vital to overcoming these obstacles. As we continue to build support and look for other avenues, state agricultural commissioners, farmers and business that would benefit from this legislation need to help get the facts out there and push for Congress to pass this bill.”</p><p class="large">Wyden has shown support for his state's marijuana industry by introducing a bill to allow advertising for cannabis businesses in states where it is legal. Along with seven other senators, he has appealed to the federal government to speed up research for medical marijuana, which shows that he's listening to the national dialogue.</p><p class="large">Whatever his personal feelings on the matter, however, Sen. Wyden is at least trying to look out for the interests of his constituents and is leaning more pro-marijuana these days.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Jeff Merkley — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">His colleague Ron Wyden might support some pro-cannabis legislation, but Jeff Merkley is the first US Senator to vote for legal, recreational cannabis. In 2014, when the measure to legalize marijuana in Oregon was on the table, Merkely stated:</p><p class="large">"I think folks on both sides of the argument make a good case. And there is concern about a series of new products — and we don't have a real track record from Colorado and Washington. But I feel on balance that we spend a lot of money on our criminal justice system in the wrong places and I lean in favor of this ballot measure."</p><p class="large">He's sponsored or supported a number of cannabis initiatives, including a bill to allow veterans to access medical marijuana, a bill to allow legal cannabis businesses to access banking services, and more. He's a true advocate for marijuana reform nationally and in his own state.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: YES</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 37 content -->
+
+<!-- Tab 38 content -->
+<div class="tab-38">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">l</span>PENNSYLVANIA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Bob Casey, Jr — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Bob Casey has tried very hard not to discuss cannabis legalization throughout his political career, but he's had to address the issue at least a couple of times. Back in 2002 he told the Philadelphia City Paper that there would be no legalization of drugs in his administration, in response to an interview question.</p><p class="large">Years later, in 2014, PennLive reported on his reluctance to take any real position on the issue of even medical marijuana:</p><p class="large">“I don’t think I have [taken a position], but I think I need to. It is an issue that’s coming in front of us [Congress] a lot more and at some point in the not too distant future I think we’ll be voting on it.”</p><p class="large">If Sen. Casey is that uncertain of backing medical marijuana, it doesn't look like his views have changed much in the last decade.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: UNKNOWN</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Pat Toomey — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Proving that medical marijuana is becoming an issue with bipartisan support, Pat Toomey supported the Obama Administration's steps in 2015 to reduce obstacles to cannabis research. According to the Morning Call, Toomey made the following statement:</p><p class="large">“I applaud this commonsense effort to cut red tape and help facilitate more research into medical marijuana. If there’s a chance that marijuana derivatives like cannibidiol can help patients in Pennsylvania, Washington should not be needlessly interfering with scientific research that may lead to worthwhile medical treatments."</p><p class="large">While this does not mean that the Senator is in favor of full medical legalization, it does appear that he is at least open to the idea of cannabis therapy, which is a step in the right direction.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 38 content -->
+
+<!-- Tab 39 content -->
+<div class="tab-39">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">m</span>RHODE ISLAND</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Jack Reed — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Jack Reed speaks with his votes, and in June of 2015, he helped stand up for states' rights to create and enforce their own medical marijuana programs by voting yes on a bill to prevent the federal government from interfering with these programs.</p><p class="large">Reed has been silent on recreational cannabis so far—not unusual, as few bills thus far have addressed full legalization.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Sheldon Whitehouse — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">An outspoken advocate for medical marijuana, Whitehouse told GoLocal in 2013 that he was pleased to see hearings regarding the conflict between state and federal laws. He specifically addressed the benefits of medicinal cannabis:</p><p class="large">"We know that marijuana can provide relief for patients suffering from serious illnesses. I applaud Rhode Island's effort to make it available for that purpose."</p><p class="large">Direct statements from the Senator about Rhode Island's potential shift to full legalization were more cautious, however:</p><p class="large">“We still face an issue with alcohol and drug addiction, and this brings up an issue of abuse. It raises a lot of questions that I don’t think have been answered yet.”</p><p class="large">Perhaps Sen. Whitehouse will evolve his stance as time goes on and as more states move to adopt full legalization.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 39 content -->
+
+<!-- Tab 40 content -->
+<div class="tab-40">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">n</span>SOUTH CAROLINA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Lindsey Graham — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Over the years, Lindsey Graham has changed his cannabis stance quite a bit. During a quick interview in 2010, he dismissed reform, simply stating that the drug was "harmful".</p><p class="large">Since then, Sen Graham seems to have changed his mind several times before settling on a pro-medical stance and remaining firmly in opposition to recreational legalization, as he said in 2014:</p><p class="large">
+        "I'm against legalizing marijuana for recreational purposes. But when it comes to medicinal marijuana and this [cannabis] oil, I think politicians should embrace what makes sense.  When it comes to issues like this, I don't want to be academic in thought.  This is about people. This is about families with sick children.  Why should someone in my position get in the way of helping a child, if you can reasonably and logically do it?"</p><p class="large">These days, he's been taking action to help Americans get access to medical marijuana. In March of 2016, Graham joined the bi-partisan group of sponsors behind the CARERS Act, a comprehensive medical marijuana reform measure, showing his peers that medical marijuana is an issue both parties should support.</p>
+      </div>
+
+      <div class="cell w-100">
+        <!-- Quote paragraph -->
+        <p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+      </div>
+    </div>
+
+    <div class="cell w-32">
+     <!-- Framed quote paragraph with left arrow -->
+     <p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+   </div>
+ </div>
+
+ <div class="row">
+  <div class="cell w-66">
+   <div class="cell w-100">
+    <!-- Normal title -->
+    <div class="title normal">Tim Scott — R</div>
+  </div>
+  <div class="cell w-100">
+    <!-- Medium paragraph -->
+    <p class="large">Tim Scott hasn't had any significant cannabis-related votes since he took his Senate seat in 2014, but back in 2011, he wrote a telling letter to a constituent:</p><p class="large">There is growing scientific evidence documenting the health risks associated with marijuana use including adverse effects on the lungs, the cardiovascular system, and possibly the immune and reproductive systems. However, I also understand the great importance of preserving the rights bestowed to the States.</p><p class="large">Since he hasn't made any statements since then on the subject, it's impossible to say whether or not his views haven't evolved, but it doesn't look like he'll be as open to it as his fellow Senator Lindsey Graham anytime soon.</p>
+  </div>
+
+  <div class="cell w-100">
+    <!-- Quote paragraph -->
+    <p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+  </div>
+</div>
+
+<div class="cell w-32">
+ <!-- Framed quote paragraph with left arrow -->
+ <p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+</div>
+
+</div>
+</div>
+<!-- / Tab 40 content -->
+
+<!-- Tab 41 content -->
+<div class="tab-41">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">o</span>SOUTH DAKOTA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">John Thune — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+			</div>
+      <p class="large">Among the few members of the Senate still clinging to the idea that marijuana is more dangerous than prescription painkillers, John Thune's words to a constituent make his position clear:</p><p class="large">"Currently, the medical benefits from the use of marijuana are still inconclusive, and I believe that we must be careful not to increase the availability of marijuana and the use of marijuana for nonmedical reasons. However, I support the development of alternative medications that will provide relief to patients without opening the door to substance abuse."</p><p class="large">He uses fewer euphemisms when addressing the issue of recreational marijuana to a group of students in 2015:</p><p class="large">"We laugh about it and make jokes about where those brownies come from, but I think it's a dangerous path. They're going to pay a price for it in Colorado, and in fact, I think they already are."</p><p class="large">Though it's unclear as to what "price" he's referring to, Thune is not shy about his dismissal of cannabis in any form.</p>
+
+      <div class="cell w-100">
+        <!-- Quote paragraph -->
+        <p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+      </div>
+    </div>
+
+    <div class="cell w-32">
+     <!-- Framed quote paragraph with left arrow -->
+     <p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+   </div>
+ </div>
+
+ <div class="row">
+  <div class="cell w-66">
+   <div class="cell w-100">
+    <!-- Normal title -->
+    <div class="title normal">Mike Rounds — R</div>
+  </div>
+  <div class="cell w-100">
+    <!-- Medium paragraph -->
+    <p class="large">Unfortunately, neither of South Dakota's current Senators seem willing to budge on even supporting medical marijuana. As recently as January 2016, Senator Rounds said in an interview with the Black Hills Pioneer:</p><p class="large">“I think that the chemicals found within marijuana … should be due deference given in a medical sense, but I do not think marijuana by itself should be approved for medical purposes because we find right now that there are people coming in and they’re saying, ‘I’ve got a backache,’ and now the doctor is simply pressured to allow them to do so. Marijuana is a controlled substance for a reason. We know that with young people there are significant issues surrounding brain development when it comes to the use of marijuana. No, I don’t think it’s time to make marijuana usable for medical purposes, but I do think the chemistry within it should be refined and the active ingredients should be made available where the Food and Drug Administration says that they can appropriately regulate it and distribute it. So the part that is good for some of these kids, I think it should be made available for them in its refined form, not as a joint.”</p><p class="large">Senator Rounds does not seem like he has too much interest in the issue, so he will probably not be pushing for more cannabis research anytime soon.</p>
+  </div>
+
+  <div class="cell w-100">
+    <!-- Quote paragraph -->
+    <p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+  </div>
+</div>
+
+<div class="cell w-32">
+ <!-- Framed quote paragraph with left arrow -->
+ <p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+</div>
+
+</div>
+</div>
+<!-- / Tab 41 content -->
+
+<!-- Tab 42 content -->
+<div class="tab-42">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">p</span>TENNESSEE</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Lamar Alexander — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">In a classic Republican stance, Lamar Alexander is taking the view that states should be allowed to make their own laws surrounding marijuana legalization. A spokesperson for the Senator replied to the Times Free Press's inquiries in 2014 that:</p><p class="large">
+        "Sen. Alexander believes that Washington, D.C. should not be telling states what to do about the decriminalization of marijuana... [Senator Alexander's] own views, while there may be some valid medicinal uses for cannabis, he is concerned about the potential abuse and widespread use of drugs for recreational purposes and is carefully watching the de-criminalization process in the states of Colorado and Washington."</p><p class="large">Taking a "sit back and wait" approach is much better than outright dismissal, so perhaps in the future, Sen. Alexander will evolve his views further to be more in line with the shifting views of many Americans.</p>
+      </div>
+
+      <div class="cell w-100">
+        <!-- Quote paragraph -->
+        <p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+      </div>
+    </div>
+
+    <div class="cell w-32">
+     <!-- Framed quote paragraph with left arrow -->
+     <p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+   </div>
+ </div>
+
+ <div class="row">
+  <div class="cell w-66">
+   <div class="cell w-100">
+    <!-- Normal title -->
+    <div class="title normal">Bob Corker — R</div>
+  </div>
+  <div class="cell w-100">
+    <!-- Medium paragraph -->
+    <p class="large">During a recent interview with Channel 3 News, Corker was impressively vague on his thoughts surrounding incarcerations for marijuana possession, stating:</p><p class="large">"There are probably cases where there can be stronger sentencing, and there are some cases where the crime is really not something that deserves someone being put away for 15 years."</p><p class="large">However, in a letter to a constituent in 2013, he didn't mince words:</p><p class="large">"As you know, the use and distribution of marijuana is illegal. At this time, I do not support the legalization of marijuana or any legislation that declassifies it as a Schedule I drug."</p><p class="large">From this statement, it does not look like Sen. Corker has any interest in helping with any type of pro-cannabis legislation, even for medical purposes.</p>
+  </div>
+
+  <div class="cell w-100">
+    <!-- Quote paragraph -->
+    <p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+  </div>
+</div>
+
+<div class="cell w-32">
+ <!-- Framed quote paragraph with left arrow -->
+ <p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+</div>
+
+</div>
+</div>
+<!-- / Tab 42 content -->
+
+<!-- Tab 43 content -->
+<div class="tab-43">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">q</span>TEXAS</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">John Cornyn — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Like many older members of the Senate, John Cornyn has little interest in changing his outdated views on cannabis. He has passed on showing support for the CARERS Act to improve medical marijuana legislation, stating “I don’t think we need to go there. This is a more dangerous topic than what a lot of the advocates acknowledge.”</p><p class="large">If Sen. Cornyn isn't even able to "go there" for medical patients, he's definitely not in favor of full legalization.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Ted Cruz — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Senator Cruz is not known for being a popular man. You might expect him to take a tough stance and support the "war on drugs," but his answers to questions about marijuana reform have been a bit more relaxed than expected. According to Mother Jones in late 2015, Cruz stated:</p><p class="large">"When it comes to a question of legalizing marijuana, I don’t support legalizing marijuana. If it were on the ballot in the state of Texas, I would vote no. But I also believe that’s a legitimate question for the states to make a determination…I think it is appropriate for the federal government to recognize that the citizens of those states have made that decision, and one of the benefits of it, you know, using Brandeis’ terms of laboratories of democracy, is we can now watch and see what happens in Colorado and Washington State."</p><p class="large">While Cruz can't be said to support cannabis reform, it does look like he would not try to actively block states from creating their own programs.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 43 content -->
+
+<!-- Tab 44 content -->
+<div class="tab-44">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">r</span>UTAH</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Orrin Hatch — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">“I’m probably against it,” was Sen. Orrin Hatch's response in 2015 to the comprehensive, bipartisan CARERS Act that would make positive, sweeping changes to federal medical marijuana legislation. As one of the older members of Congress, he seems to be set in his ways and unlikely to change his mind on legalization efforts.</p><p class="large">Though he is against marijuana itself, he wrote an entire piece on the benefits of cannabidiol oil for treating illness in children, reiterating near the end:</p><p class="large">"I continue to oppose marijuana and efforts to legalize its use."</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Mike Lee — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">While Lee hasn't made specific statements about legalizing cannabis, he is working to roll back some of the harsh drug penalties that have been in place for decades. One of the co-sponsors of the Smarter Sentencing Act, Senator Lee is pushing for sentencing reform the country needs, and is clearly in favor of reducing sentences for minor marijuana offenses.</p><p class="large">Would he vote in favor of marijuana reform measures, however? That, unfortunately, is still unclear.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: UNKNOWN</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 44 content -->
+
+<!-- Tab 45 content -->
+<div class="tab-45">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">t</span>VERMONT</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Patrick Leahy — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Outspoken in support of states' rights to establish their own marijuana programs, Leahy has in the past demanded answers from the federal government on how they intend to respond to state cannabis programs, especially recreational programs, which are still causing significant controversy. This was back in 2012, making Leahy a bit of a pioneer in the Senate. His views can be summed up with his powerful words during a Senate hearing in 2013:</p><p class="large">"The absolute criminalization of personal marijuana use has contributed to our nation's soaring prison population and has disproportionately affected people of color...We must have a smarter approach to marijuana policy."</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: YES</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Bernie Sanders — D, I</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Sanders has been in outspoken support for the decriminalization of cannabis for years, and supports states rights to establish their own medical and recreational marijuana programs. One his campaign site, he has posted a petition to let states make marijuana legal, along with the following statement:</p><p class="large">"Bernie favors removing marijuana from the list of controlled substances regulated by federal law. Under Bernie's proposal, people in states which legalize marijuana no longer would be subject to federal prosecution for using pot. Owners of stores that sell marijuana could fully participate in the banking system, like any other business.</p><p class="large">States which want to regulate marijuana would remain free to do so the same way local laws now govern sales of alcohol and tobacco. Bernie would continue to allow federal law enforcement officials to arrest and prosecute drug dealers for trafficking in marijuana sales."</p><p class="large">Senator Sanders respects the will of the people, and sees the problems prohibition has caused. There's no doubt he will fight for fair marijuana laws on an ongoing basis.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: YES</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 45 content -->
+
+<!-- Tab 46 content -->
+<div class="tab-46">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">s</span>VIRGINIA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Mark Warner — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Senator Warner has not been vocal about his views on marijuana, but he is showing significant interest in therapeutic cannabis oil. Warner sponsored the Therapeutic Hemp Medical Access Act of 2015 to exempt cannabis oil from federal bans. However, his opinions on cannabis itself remain a mystery. He says his "views have changed," which could mean just about anything, though as far back as 1996, he was establishing himself as part of the drug war, so perhaps his views have changed for the better.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Tim Kaine — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Unlike many of his Democratic colleagues, Tim Kaine is still taking an extremely conservative stance on marijuana. Not addressing either medical or recreational marijuana specifically, the Senator answered a student's question in April 2016 in this way:</p><p class="large">“I wouldn’t vote for a law at the federal or state level that would decriminalize marijuana.”</p><p class="large">While he said he is in favor of looser sentencing laws, Sen. Kaine is taking the view that Virginia should watch what other states do and go from there.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 46 content -->
+
+<!-- Tab 47 content -->
+<div class="tab-47">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">u</span>WASHINGTON</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Patty Murray — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">In one of the few states with recreational cannabis programs, you'd think Senator Murray would be a supporter of the voter's wishes, and she is. She has continually helped in the push to reform marijuana laws at a federal level, and has stated:</p><p class="large">"I believe my name has been on letters to the Justice Department. I support what voters in Washington State have done."</p><p class="large">"Letters" she has been a part of includes a message to the DEA from Murray and 24 other Senators in April 2016 to urge the agency that it is long past time to change cannabis's status under the federal drug schedule. It's clear Senator Murray will continue to be an active pro-marijuana member of Congress and work toward federal decriminalization.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: YES</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Maria Cantwell — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Unlike her colleague Patty Murray, Maria Cantwell did not support voters' choice to legalize marijuana in Washington. However, since the people have spoken, she has urged the federal government to restructure the laws surrounding cannabis:</p><p class="large">"There’s all sorts of issues about how to create a structured financial industry to work with the legal sales of the product," Cantwell said. "Those are some of the toughest things the feds have tried to work out."</p><p class="large">While not in full support herself initially, Cantwell has proven to be a champion for voters who approved the legislation.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 47 content -->
+
+<!-- Tab 48 content -->
+<div class="tab-48">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">w</span>WEST VIRGINIA</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Joe Manchin — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Back in 2012, there was talk of West Virginia getting its own medical marijuana program. While this program is still nonexistent, discussion of the issue revealed state politician's feelings on the matter. In a somewhat unusual stance, Manchin did not think we should be turning to the voters, but the healthcare providers:</p><p class="large"> "I would lean more to listen to the doctors - the professionals who are responsible for our health."</p><p class="large">Manchin has not commented on recreational cannabis, and he hasn't had to yet. His state still lacks even a basic medical marijuana program.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: UNKNOWN</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Shelley Moore Capito — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Another GOP Senate member who is stuck in the past when it comes to marijuana reform, Senator Capito has done her best to strike down medical marijuana legislation in the Senate with her votes, including those concerning banking services and veterans' access bills.</p><p class="large">Sen. Capito does not seem to realize that the majority of Americans support medical marijuana—or if she does, she is more concerned with continuing the ineffective war on drugs.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 48 content -->
+
+<!-- Tab 49 content -->
+<div class="tab-49">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px;text-transform: lowercase;">v</span>WISCONSIN</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Ron Johnson — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Ron Johnson has at least tried to keep his personal feelings out of his politics when it comes to marijuana, as his comments in late 2014 show:</p><p class="large">"I can't support it myself [recreational] because I think it sets a really bad example for young children. But states are doing that. Let the voters decide ... Again, I like local control of those issues and then what we can do here in Congress is hold hearings, find out, how's it working? What kind of problems are there?"</p><p class="large">Like many members of the Senate, Johnson seems interested in watching and learning from the "laboratory" of state programs before committing to a stronger opinion of cannabis.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: MAYBE</span><br><span class="title inline">RECREATIONAL: MAYBE</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Tammy Baldwin — D</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Senator Baldwin has been a strong supporter of medical cannabis and decriminalization since her days in the House of Representatives. During that time, she cosponsored the Act to Remove Federal Penalties for the Personal Use of Marijuana by Responsible Adults, a bill aimed at federal decriminalization.</p><p class="large">Since then, she's supported pro-cannabis bills whenever possible, adding her name to the CARERS Act, and voting in favor of allowing legal cannabis businesses to access banking services. Her actions speak, and they show she will fight to allow Americans responsible cannabis access.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: YES</span><br><span class="title inline">RECREATIONAL: YES</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 49 content -->
+
+<!-- Tab 50 content -->
+<div class="tab-50">
+	<div class="row">
+		<div class="cell w-100">
+			<!-- Large title -->
+			<div class="title large"><span style="font-family: &#39;StateFaceRegular&#39;; padding-right:10px; text-transform: lowercase;">x</span>WYOMING</div>
+		</div>
+	</div>
+
+	<div class="clrfx mt-20"></div>
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">Mike Enzi — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">Neither of Wyoming's Senators are supportive of even medical marijuana, despite two related bills being approved by the state's legislature. Sen. Enzi uses the "gateway drug" theory to explain his stance. A spokesman for Enzi stated in 2015:</p><p class="large">“There is strong evidence that marijuana does act as a gateway drug, and Sen. Enzi believes we must think about what kind of message these laws would send to our young people. There is also no clear science-based evidence that medical marijuana is more effective than other regulated medicines. Approval of medical marijuana use at this time is premature until the research is more conclusive about benefits and risk.”</p><p class="large">If Enzi and other Senators  vote down descheduling marijuana in the future, that research isn't going to be possible anytime soon.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="cell w-66">
+			<div class="cell w-100">
+				<!-- Normal title -->
+				<div class="title normal">John Barrasso — R</div>
+			</div>
+			<div class="cell w-100">
+				<!-- Medium paragraph -->
+				<p class="large">A former orthopedic surgeon, Barrasso's opposition to medical marijuana is disappointing. A spokeswoman emailed a statement in response to questions posed about cannabis reform in 2015:</p><p class="large">“While there are conflicting studies regarding the medical use of marijuana, the risks to individuals and the larger community far outweigh the potential benefits it may or may not provide. Sen. Barrasso believes there are better legal and proven ways to safely address pain.”</p><p class="large">While anything is possible, it doesn't look like Sen. Barrasso is likely to change his mind anytime soon.</p>
+			</div>
+
+			<div class="cell w-100">
+				<!-- Quote paragraph -->
+				<p class="quote">Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. </p>
+			</div>
+		</div>
+
+		<div class="cell w-32">
+			<!-- Framed quote paragraph with left arrow -->
+			<p class="framed-quote arrow-left"><span class="title inline">MEDICAL: NO</span><br><span class="title inline">RECREATIONAL: NO</span></p>
+		</div>
+
+	</div>
+</div>
+<!-- / Tab 50 content -->
+
+
+
+</div>
+<!-- / Tabs wrapper -->
+</section>
+
+</div>	
+<!-- TABS ENDS FROM HERE -->		
+
+
+</body></html>
