@@ -229,7 +229,7 @@ function dynamicAddEvent(id){
 		if (isTouchEnabled()) {
 			obj.on('touchstart', function(e){
 				var touch = e.originalEvent.touches[0];
-				var x=touch.pageX+10, y=touch.pageY+15;
+				var x=touch.pageX+10, y=touch.pageY+15-463;
 				var tipw=$('#map-tip').outerWidth(), tiph=$('#map-tip').outerHeight(),
 				x=(x+tipw>$(document).scrollLeft()+$(window).width())? x-tipw-(20*2) : x
 				y=(y+tiph>$(document).scrollTop()+$(window).height())? $(document).scrollTop()+$(window).height()-tiph-10 : y
