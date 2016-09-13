@@ -25,6 +25,14 @@ body {
 	text-align: center;
 }
 
+@media screen and (max-width: 450px) and (min-width: 221px) {
+	#tabbed .cell.w-100 img
+	{
+		height: 70px;
+	}
+}
+
+
 
 @media screen and (max-width: 400px) and (min-width: 321px) {
 	#map_base svg {
