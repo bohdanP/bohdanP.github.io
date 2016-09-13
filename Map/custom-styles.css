@@ -18,7 +18,7 @@ body {
 
 #tabbed .cell.w-100 img
 {
-	height: 100px;
+	max-height: 100px;
 }
 #tabbed .cell.w-100
 {
@@ -28,7 +28,7 @@ body {
 @media screen and (max-width: 450px) and (min-width: 221px) {
 	#tabbed .cell.w-100 img
 	{
-		height: 70px;
+		width: 100%;
 	}
 }
 
