@@ -379,6 +379,7 @@ When adjusting the reset is adviced to check up the elements on your page, as th
 	line-height: 24px;
 	margin-bottom: 8px;
 	color: #555;
+	text-align: left;
 }
 #tabbed p.normal {
 	font-size: 14px;

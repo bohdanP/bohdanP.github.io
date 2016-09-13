@@ -16,6 +16,22 @@ body {
 	padding:0;
 }
 
+#tabbed .cell.w-100 img
+{
+	height: 100px;
+}
+#tabbed .cell.w-100
+{
+	text-align: center;
+}
+
+
+@media screen and (max-width: 400px) and (min-width: 321px) {
+	#map_base svg {
+		height:320px;
+	}
+}
+
 #tab-content
 {
 	width: 100%;
@@ -28,8 +44,9 @@ body {
 
 #tab-container {
 	margin:50px auto 0 auto;
-	width: 1000px;
+	max-width: 1000px;
 	position: relative;
+	min-width: 200px;
 }
 
 #tabbed p.demo-cell {
@@ -348,7 +365,7 @@ svg text
 .st261{fill:#E30613;stroke:#E30613;stroke-width:0.12;stroke-miterlimit:10;}
 .st262{display:none;}
 .st263{display:inline;fill:#FFFFFF; }
-.st264{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.05; letter-spacing: .5pt;}
+.st264{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.05; letter-spacing: .2pt;}
 .st265{font-family:'Arial'; }
 .st266{font-size:5.6497px;}
 .st267{font-size:9.3197px;}
