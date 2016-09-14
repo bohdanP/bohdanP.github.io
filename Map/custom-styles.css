@@ -48,6 +48,7 @@ body {
 #map_base
 {
 	width: 100%;
+	background-color: #fff;
 }
 
 #tab-container {

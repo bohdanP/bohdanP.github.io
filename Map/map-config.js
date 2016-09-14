@@ -145,7 +145,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_15':{
-		'hover': 'VACANT',
+		'hover': 'Tackett`s Mill Barber Shop | P: (703) 490-1499 | 2237 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
