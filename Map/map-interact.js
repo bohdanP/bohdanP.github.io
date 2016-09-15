@@ -1,4 +1,5 @@
 ﻿// Quick feature detection
+var mapTop = $( '#mapwrapper' ).offset().top;
 function isTouchEnabled() {
 	return (('ontouchstart' in window)
 		|| (navigator.MaxTouchPoints > 0)
@@ -111,7 +112,7 @@ function addEvent(id,relationId){
 			//clicking effect
 			_Textobj.on('touchstart', function(e){
 				var touch = e.originalEvent.touches[0];
-				var x=touch.pageX+10, y=touch.pageY+15;
+				var x=touch.pageX+10, y=touch.pageY+15-mapTop;
 				var tipw=$('#map-tip').outerWidth(), tiph=$('#map-tip').outerHeight(), 
 				x=(x+tipw>$(document).scrollLeft()+$(window).width())? x-tipw-(20*2) : x
 				y=(y+tiph>$(document).scrollTop()+$(window).height())? $(document).scrollTop()+$(window).height()-tiph-10 : y
@@ -150,7 +151,7 @@ function addEvent(id,relationId){
 			}
 		})
 		_Textobj.mousemove(function(e){
-			var x=e.pageX+10, y=e.pageY+15;
+			var x=e.pageX+10, y=e.pageY+15-mapTop;
 			var tipw=$('#map-tip').outerWidth(), tiph=$('#map-tip').outerHeight(), 
 			x=(x+tipw>$(document).scrollLeft()+$(window).width())? x-tipw-(20*2) : x
 			y=(y+tiph>$(document).scrollTop()+$(window).height())? $(document).scrollTop()+$(window).height()-tiph-10 : y
@@ -229,7 +230,7 @@ function dynamicAddEvent(id){
 		if (isTouchEnabled()) {
 			obj.on('touchstart', function(e){
 				var touch = e.originalEvent.touches[0];
-				var x=touch.pageX+10, y=touch.pageY+15;
+				var x=touch.pageX+10, y=touch.pageY+15-mapTop;
 				var tipw=$('#map-tip').outerWidth(), tiph=$('#map-tip').outerHeight(),
 				x=(x+tipw>$(document).scrollLeft()+$(window).width())? x-tipw-(20*2) : x
 				y=(y+tiph>$(document).scrollTop()+$(window).height())? $(document).scrollTop()+$(window).height()-tiph-10 : y
@@ -267,7 +268,7 @@ function dynamicAddEvent(id){
 			}
 		})
 		obj.mousemove(function(e){
-				var x=e.pageX+10, y=e.pageY+15;
+				var x=e.pageX+10, y=e.pageY+15-mapTop;
 				var tipw=$('#map-tip').outerWidth(), tiph=$('#map-tip').outerHeight(), 
 				x=(x+tipw>$(document).scrollLeft()+$(window).width())? x-tipw-(20*2) : x
 				y=(y+tiph>$(document).scrollTop()+$(window).height())? $(document).scrollTop()+$(window).height()-tiph-10 : y
