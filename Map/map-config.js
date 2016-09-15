@@ -19,7 +19,7 @@ var map_config = {
 	},
 	/*BlueZone*/
 	'map_1':{
-		'hover': 'Patient First | P: (703) 357-9707 | 2199 OLD BRIDGE RD.', //state hover content
+		'hover': 'Patient First <br> P: (703) 357-9707 <br> 2199 OLD BRIDGE RD.', //state hover content
 		'url':'', //Goto URL
 		'target':'same_window', //open link in new window:new_window, open in current window:same_window, or none for nothing.
 		'upColor':colorBlueZone, //state's color when page loads
@@ -28,7 +28,7 @@ var map_config = {
 		'enable':true,//true/false to enable/disable this state
 	},
 	'map_2':{
-		'hover': 'Dunkin Donuts | (703) 490-5135 | 2201 OLD BRIDGE RD..', 
+		'hover': 'Dunkin Donuts <br> (703) 490-5135 <br> 2201 OLD BRIDGE RD..', 
 		'url':'', 
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -37,7 +37,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_3':{
-		'hover': ' Safeway | P: (703) 494-8858 | 2205 OLD BRIDGE RD.',
+		'hover': ' Safeway <br> P: (703) 494-8858 <br> 2205 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -46,7 +46,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_4':{
-		'hover': 'Layla’s Lebanese Restaurant | P: (703) 492-1500 | 2217 OLD BRIDGE RD.',
+		'hover': 'Layla’s Lebanese Restaurant <br> P: (703) 492-1500 <br> 2217 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -55,7 +55,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_5':{
-		'hover': 'Massage | P: (703) 497-5567 | 2219 OLD BRIDGE RD.',
+		'hover': 'Massage <br> P: (703) 497-5567 <br> 2219 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -64,7 +64,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_6':{
-		'hover': 'Edgemoor Art Studio | P: (703) 490-2355| 2221 OLD BRIDGE RD.',
+		'hover': 'Edgemoor Art Studio <br> P: (703) 490-2355<br> 2221 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -73,7 +73,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_7':{
-		'hover': 'Curves | P: (703) 497-4244 | 2223 OLD BRIDGE RD.',
+		'hover': 'Curves <br> P: (703) 497-4244 <br> 2223 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -82,7 +82,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_8':{
-		'hover': 'Virginia ABC | P: (703) 494-0329 | 2225 OLD BRIDGE RD.',
+		'hover': 'Virginia ABC <br> P: (703) 494-0329 <br> 2225 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -91,7 +91,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_9':{
-		'hover': 'Classic Travel | P: (703) 494-2882 | 2227 OLD BRIDGE RD.',
+		'hover': 'Classic Travel <br> P: (703) 494-2882 <br> 2227 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -100,7 +100,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_10':{
-		'hover': 'Lake Ridge Pizzeria | P: (703) 494-2134 | 2229 OLD BRIDGE RD.',
+		'hover': 'Lake Ridge Pizzeria <br> P: (703) 494-2134 <br> 2229 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -109,7 +109,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_11':{
-		'hover': 'NT Salon | P: (703) 492-935 | 2231 OLD BRIDGE DR.',
+		'hover': 'NT Salon <br> P: (703) 492-935 <br> 2231 OLD BRIDGE DR.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -127,7 +127,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_13':{
-		'hover': 'Pet Value | P: (571) 408-4129 | 2231A OLD BRIDGE DR.',
+		'hover': 'Pet Value <br> P: (571) 408-4129 <br> 2231A OLD BRIDGE DR.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -136,7 +136,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_14':{
-		'hover': 'Woodbridge Academy of Dance | P: (703) 583-2623 | 2235 OLD BRIDGE RD.',
+		'hover': 'Woodbridge Academy of Dance <br> P: (703) 583-2623 <br> 2235 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -145,7 +145,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_15':{
-		'hover': 'Tackett`s Mill Barber Shop | P: (703) 490-1499 | 2237 OLD BRIDGE RD.',
+		'hover': 'Tackett`s Mill Barber Shop <br> P: (703) 490-1499 <br> 2237 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -154,7 +154,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_16':{
-		'hover': 'Lake Ridge Library | P: (703) 792-5675 | 2239 OLD BRIDGE RD.',
+		'hover': 'Lake Ridge Library <br> P: (703) 792-5675 <br> 2239 OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -172,7 +172,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_18':{
-		'hover': '9Round Kickboxing | P: (866) 619-797 | 2243C OLD BRIDGE RD.',
+		'hover': '9Round Kickboxing <br> P: (866) 619-797 <br> 2243C OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -190,7 +190,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_20':{
-		'hover': 'PenFed Realty | P: (703) 897-4663 | 2253A OLD BRIDGE RD.',
+		'hover': 'PenFed Realty <br> P: (703) 897-4663 <br> 2253A OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -199,7 +199,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_21':{
-		'hover': 'Lake Ridge Florist / Boomers | P: (703) 494-2299 | 2253B OLD BRIDGE RD.',
+		'hover': 'Lake Ridge Florist / Boomers <br> P: (703) 494-2299 <br> 2253B OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -208,7 +208,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_22':{
-		'hover': 'May, Hettler, and Assoc. Optometrists | P: (703) 494-8900 | 2253C OLD BRIDGE RD.',
+		'hover': 'May, Hettler, and Assoc. Optometrists <br> P: (703) 494-8900 <br> 2253C OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -217,7 +217,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_23':{
-		'hover': 'Statements The Salon | P: (703) 494-2400 | 2253D OLD BRIDGE RD.',
+		'hover': 'Statements The Salon <br> P: (703) 494-2400 <br> 2253D OLD BRIDGE RD.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -249,7 +249,7 @@ var map_config = {
 	/*GreenZone*/
 
 	'map_26':{
-		'hover': 'Polaris Press | P: (703) 680-6060 | 2212 TACKETTS MILL DR.',
+		'hover': 'Polaris Press <br> P: (703) 680-6060 <br> 2212 TACKETTS MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -258,7 +258,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_27':{
-		'hover': 'Kumon Learning Center | P: (703) 492-0690| 2214 TACKETT`S MILL DR.',
+		'hover': 'Kumon Learning Center <br> P: (703) 492-0690<br> 2214 TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -267,7 +267,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_28':{
-		'hover': 'The Arc | P: (703) 670-4800 | 2216 TACKETT`S MILL DR.',
+		'hover': 'The Arc <br> P: (703) 670-4800 <br> 2216 TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -285,7 +285,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_30':{
-		'hover': 'RGS Title | P: (703) 491-9600 | 2220 TACKETT`S MILL DR.',
+		'hover': 'RGS Title <br> P: (703) 491-9600 <br> 2220 TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -312,7 +312,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_33':{
-		'hover': 'Clearbrook Center of the Arts | P: (703) 491-2611 | 2230B TACKETT`S MILL DR.',
+		'hover': 'Clearbrook Center of the Arts <br> P: (703) 491-2611 <br> 2230B TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -366,7 +366,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_39':{
-		'hover': 'Pediatric Achievements | P: (703) 491-1044 | 2239 C/D TACKETT`S MILL DR.',
+		'hover': 'Pediatric Achievements <br> P: (703) 491-1044 <br> 2239 C/D TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -375,7 +375,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_40':{
-		'hover': 'Pediatric Achievements | P: (703) 491-1044 | 2239 C/D TACKETT`S MILL DR.',
+		'hover': 'Pediatric Achievements <br> P: (703) 491-1044 <br> 2239 C/D TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -384,7 +384,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_41':{
-		'hover': 'RDT, INC. | P: (703) 499-9188 | 2235B TACKETT`S MILL DR.',
+		'hover': 'RDT, INC. <br> P: (703) 499-9188 <br> 2235B TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -393,7 +393,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_42':{
-		'hover': 'Slender Spa | P: (703) 490-6667 | 2235A TACKETT1S MILL DR.',
+		'hover': 'Slender Spa <br> P: (703) 490-6667 <br> 2235A TACKETT1S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -411,7 +411,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_44':{
-		'hover': 'State Farm | P: (703) 490-6324 | 2237C TACKETT`S MILL DR.',
+		'hover': 'State Farm <br> P: (703) 490-6324 <br> 2237C TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,
@@ -470,7 +470,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_50':{
-		'hover': 'After the Fall | P: (703) 497-0333 | 2239K TACKETT`S MILL DR.',
+		'hover': 'After the Fall <br> P: (703) 497-0333 <br> 2239K TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -479,7 +479,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_51':{
-		'hover': 'Joel R. Braunfeld, DDS | P: (703) 491-2200 | 2239L TACKETT`S MILL DR.',
+		'hover': 'Joel R. Braunfeld, DDS <br> P: (703) 491-2200 <br> 2239L TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -488,7 +488,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_52':{
-		'hover': 'Kite Architecture | P: (703) 492-2002 | 2239M TACKETT1S MILL DR.',
+		'hover': 'Kite Architecture <br> P: (703) 492-2002 <br> 2239M TACKETT1S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -551,7 +551,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_59':{
-		'hover': 'Occoquan Supervisor | 2241K TACKETT`S MILL DR.',
+		'hover': 'Occoquan Supervisor <br> 2241K TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -560,7 +560,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_60':{
-		'hover': 'Jenn Elisabeth Studios | 2241H TACKETT`S MILL DR.',
+		'hover': 'Jenn Elisabeth Studios <br> 2241H TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -569,7 +569,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_61':{
-		'hover': 'Benjamin`s Counseling | P: (703) 494-1434 | 2241G TACKETT`S MILL DR.',
+		'hover': 'Benjamin`s Counseling <br> P: (703) 494-1434 <br> 2241G TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -578,7 +578,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_62':{
-		'hover': 'Prince William Conservation Alliance | P: (703) 459-4954 | 2241F TACKETT`S MILL DR.',
+		'hover': 'Prince William Conservation Alliance <br> P: (703) 459-4954 <br> 2241F TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -587,7 +587,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_63':{
-		'hover': 'VA State Referee Program | P: (703) 491-1717 | 2241E TACKETT`S MILL DR.',
+		'hover': 'VA State Referee Program <br> P: (703) 491-1717 <br> 2241E TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -605,7 +605,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_65':{
-		'hover': 'Congressman Gerry Connolly | P: (571) 408-4407 | 2241D TACKETT`S MILL DR.',
+		'hover': 'Congressman Gerry Connolly <br> P: (571) 408-4407 <br> 2241D TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
@@ -632,7 +632,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_68':{
-		'hover': 'Panda Chinese | P: (703) 497-6688 | 2241A TACKETT`S MILL DR.',
+		'hover': 'Panda Chinese <br> P: (703) 497-6688 <br> 2241A TACKETT`S MILL DR.',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorRedZone,
