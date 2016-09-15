@@ -1,13 +1,18 @@
 ﻿
 #mapwrapper {
-	max-width: 1920px;
+	max-width: 3920px;
 	margin: 0 auto;
 	padding: 0 0;
 	background-color: transparent;
 	min-width: 220px;
 }
 
+#map_base svg 
+{
+	width:100%;
+}
 
+/*
 @media screen and (max-width: 320px){
 	#map_base svg {
 		height:320px;
@@ -59,28 +64,28 @@
 }
 @media screen and (min-width: 1281px) {
 	#map_base svg {
-		height:1280px;
+		width:100%;
 	}
-}
+}*/
 #map-tip {
-    font: 14px/16px Trebuchet MS, Helvetica, Arial, sans-serif;
-    display: none;
-    padding: 3px;
-    border: 1px solid #EBECED;
-    color: #edeef0;
-    z-index: 1000;
-    float: left;
-    position: absolute;
-    /*gradient color*/
-    background: rgb(73, 73, 73);
-    background: -moz-linear-gradient(top, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(73, 73, 73, 1)), color-stop(100%, rgba(101, 101, 101, 1)));
-    background: -webkit-linear-gradient(top, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
-    background: -o-linear-gradient(top, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
-    background: -ms-linear-gradient(top, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
-    background: linear-gradient(to bottom, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
-    word-break: keep-all;
-    white-space: nowrap
+	font: 14px/16px Trebuchet MS, Helvetica, Arial, sans-serif;
+	display: none;
+	padding: 3px;
+	border: 1px solid #EBECED;
+	color: #edeef0;
+	z-index: 1000;
+	float: left;
+	position: absolute;
+	/*gradient color*/
+	background: rgb(73, 73, 73);
+	background: -moz-linear-gradient(top, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(73, 73, 73, 1)), color-stop(100%, rgba(101, 101, 101, 1)));
+	background: -webkit-linear-gradient(top, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
+	background: -o-linear-gradient(top, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
+	background: -ms-linear-gradient(top, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
+	background: linear-gradient(to bottom, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
+	word-break: keep-all;
+	white-space: nowrap
 }
 #map-tip p {
 	margin: 0!important;

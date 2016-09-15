@@ -127,7 +127,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_13':{
-		'hover': 'VACANT',
+		'hover': 'Pet Value | P: (571) 408-4129 | 2231A OLD BRIDGE DR.',
 		'url':'',
 		'target':'same_window', 
 		'upColor':colorBlueZone,
@@ -339,7 +339,7 @@ var map_config = {
 		'enable':true,
 	},
 	'map_37':{
-		'hover': 'Pet Value | P: (571) 408-4129 | 2233 OLD BRIDGE DR.',
+		'hover': 'VACANT',
 		'url':'',
 		'target':'same_window',
 		'upColor':colorGreenZone,

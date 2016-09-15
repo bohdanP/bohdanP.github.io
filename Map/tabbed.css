@@ -197,6 +197,7 @@ When adjusting the reset is adviced to check up the elements on your page, as th
 	-ms-transform: translateY(6px);
 	-o-transform: translateY(6px);
 	transform: translateY(6px);
+	display: none;
 }
 #tabbed label.tabs:hover,
 #tabbed label.tabs:focus {
@@ -773,7 +774,7 @@ x:-o-prefocus, #arrow-select {
 	}
 	#tabbed label.tabs {
 		padding: 0 30px;
-	}
+		}
 }
 
 /***** Max width 800px *****/
