@@ -199,6 +199,19 @@ When adjusting the reset is adviced to check up the elements on your page, as th
 	transform: translateY(6px);
 	display: none;
 }
+
+@media screen and (max-width: 600px){
+
+
+	#tabbed label.tabs {
+		display: inline-block;
+	}
+}
+
+
+
+
+
 #tabbed label.tabs:hover,
 #tabbed label.tabs:focus {
 	background: #50b943;
