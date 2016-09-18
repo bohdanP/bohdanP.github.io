@@ -1,4 +1,4 @@
-﻿var colorBlueZone='#042084';
+var colorBlueZone='#042084';
 var colorGreenZone='#007527';
 var colorRedZone='#FF0012';
 

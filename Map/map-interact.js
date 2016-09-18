@@ -1,4 +1,3 @@
-﻿// Quick feature detection
 var mapTop = jQuery( '#mapwrapper' ).offset().top;
 var mapLeft = jQuery( '#mapwrapper' ).offset().left;
 function isTouchEnabled() {
@@ -213,4 +212,12 @@ function dynamicAddEvent(id){
 				jQuery('#map-tip').css({left:x, top:y})
 		})
 	}	
+}
+
+function emulateClick(tabID) {
+	jQuery('#'+tabID).trigger('click');
+	jQuery('html, body').animate({
+      scrollTop: jQuery('.tab-59').offset().top
+  }, 800);
+	return false;
 }
