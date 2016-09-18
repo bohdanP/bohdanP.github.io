@@ -161,7 +161,6 @@ function addEvent(id,relationId){
 	}	
 }
 
-
 function dynamicAddEvent(id){
 	var obj = jQuery('#map_points_'+id);
 
