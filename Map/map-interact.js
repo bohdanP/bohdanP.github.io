@@ -1,13 +1,13 @@
 ﻿// Quick feature detection
-var mapTop = $( '#mapwrapper' ).offset().top;
-var mapLeft = $( '#mapwrapper' ).offset().left;
+var mapTop = jQuery( '#mapwrapper' ).offset().top;
+var mapLeft = jQuery( '#mapwrapper' ).offset().left;
 function isTouchEnabled() {
 	return (('ontouchstart' in window)
 		|| (navigator.MaxTouchPoints > 0)
 		|| (navigator.msMaxTouchPoints > 0));
 }
 
-$(function(){
+jQuery(function(){
 	addEvent('map_1');
 	addEvent('map_2');
 	addEvent('map_3');
@@ -80,31 +80,31 @@ $(function(){
 	addEvent('map_70');
 	addEvent('map_71');
 }) 
-$(function(){
-	if($('#lakes').find('path').eq(0).attr('fill') != 'undefined'){
-		$('#lakes').find('path').attr({'fill':map_config['default']['lakesColor']}).css({'stroke':map_config['default']['borderColor']});
+jQuery(function(){
+	if(jQuery('#lakes').find('path').eq(0).attr('fill') != 'undefined'){
+		jQuery('#lakes').find('path').attr({'fill':map_config['default']['lakesColor']}).css({'stroke':map_config['default']['borderColor']});
 	}
 
-	$('#map-tip').css({
+	jQuery('#map-tip').css({
 		'box-shadow':'1px 2px 4px '+map_config['default']['hoverShadow'],
 		'-moz-box-shadow':'2px 3px 6px '+map_config['default']['hoverShadow'],
 		'-webkit-box-shadow':'2px 3px 6px '+map_config['default']['hoverShadow'],
 	});
 
-	if($('#shadow').find('path').eq(0).attr('fill') != 'undefined'){
+	if(jQuery('#shadow').find('path').eq(0).attr('fill') != 'undefined'){
 		var shadowOpacity = map_config['default']['shadowOpacity'];
 		var shadowOpacity = parseInt(shadowOpacity);
 		if (shadowOpacity >=100){shadowOpacity = 1;}else if(shadowOpacity <=0){shadowOpacity =0;}else{shadowOpacity = shadowOpacity/100;}
 		
-		$('#shadow').find('path').attr({'fill':map_config['default']['mapShadow']}).css({'fill-opacity':shadowOpacity})
+		jQuery('#shadow').find('path').attr({'fill':map_config['default']['mapShadow']}).css({'fill-opacity':shadowOpacity})
 	}
 });
 
 function addEvent(id,relationId){
-	var _obj = $('#'+id);
-	var _Textobj = $('#'+id+','+'#'+map_config[id]['namesId']);
+	var _obj = jQuery('#'+id);
+	var _Textobj = jQuery('#'+id+','+'#'+map_config[id]['namesId']);
 
-	$('#'+['text-abb']).attr({'fill':map_config['default']['namesColor']});
+	jQuery('#'+['text-abb']).attr({'fill':map_config['default']['namesColor']});
 
 	_obj.attr({'fill':map_config[id]['upColor'],'stroke':map_config['default']['borderColor']});
 	_Textobj.attr({'cursor':'default'});
@@ -114,15 +114,15 @@ function addEvent(id,relationId){
 			_Textobj.on('touchstart', function(e){
 				var touch = e.originalEvent.touches[0];
 				var x=touch.pageX+10-mapLeft, y=touch.pageY+15-mapTop;
-				var tipw=$('#map-tip').outerWidth(), tiph=$('#map-tip').outerHeight(), 
-				x=(x+tipw>$(document).scrollLeft()+$(window).width())? x-tipw-(20*2) : x
-				y=(y+tiph>$(document).scrollTop()+$(window).height())? $(document).scrollTop()+$(window).height()-tiph-10 : y
-				$('#'+id).css({'fill':map_config[id]['downColor']});
-				$('#map-tip').show().html(map_config[id]['hover']);
-				$('#map-tip').css({left:x, top:y})
+				var tipw=jQuery('#map-tip').outerWidth(), tiph=jQuery('#map-tip').outerHeight(), 
+				x=(x+tipw>jQuery(document).scrollLeft()+jQuery(window).width())? x-tipw-(20*2) : x
+				y=(y+tiph>jQuery(document).scrollTop()+jQuery(window).height())? jQuery(document).scrollTop()+jQuery(window).height()-tiph-10 : y
+				jQuery('#'+id).css({'fill':map_config[id]['downColor']});
+				jQuery('#map-tip').show().html(map_config[id]['hover']);
+				jQuery('#map-tip').css({left:x, top:y})
 			})
 			_Textobj.on('touchend', function(){
-				$('#'+id).css({'fill':map_config[id]['upColor']});
+				jQuery('#'+id).css({'fill':map_config[id]['upColor']});
 				if(map_config[id]['target'] == 'new_window'){
 					//window.open(map_config[id]['url']);	
 				}else if(map_config[id]['target'] == 'same_window'){
@@ -133,18 +133,18 @@ function addEvent(id,relationId){
 		_Textobj.attr({'cursor':'pointer'});
 		_Textobj.hover(function(){
 			//moving in/out effect
-			$('#map-tip').show().html(map_config[id]['hover']);
+			jQuery('#map-tip').show().html(map_config[id]['hover']);
 			_obj.css({'fill':map_config[id]['overColor']})
 		},function(){
-			$('#map-tip').hide();
-			$('#'+id).css({'fill':map_config[id]['upColor']});
+			jQuery('#map-tip').hide();
+			jQuery('#'+id).css({'fill':map_config[id]['upColor']});
 		})
 		//clicking effect
 		_Textobj.mousedown(function(){
-			$('#'+id).css({'fill':map_config[id]['downColor']});
+			jQuery('#'+id).css({'fill':map_config[id]['downColor']});
 		})
 		_Textobj.mouseup(function(){
-			$('#'+id).css({'fill':map_config[id]['overColor']});
+			jQuery('#'+id).css({'fill':map_config[id]['overColor']});
 			if(map_config[id]['target'] == 'new_window'){
 				//window.open(map_config[id]['url']);	
 			}else if(map_config[id]['target'] == 'same_window'){
@@ -153,22 +153,22 @@ function addEvent(id,relationId){
 		})
 		_Textobj.mousemove(function(e){
 			var x=e.pageX+10-mapLeft, y=e.pageY+15-mapTop;
-			var tipw=$('#map-tip').outerWidth(), tiph=$('#map-tip').outerHeight(), 
-			x=(x+tipw>$(document).scrollLeft()+$(window).width())? x-tipw-(20*2) : x
-			y=(y+tiph>$(document).scrollTop()+$(window).height())? $(document).scrollTop()+$(window).height()-tiph-10 : y
-			$('#map-tip').css({left:x, top:y})
+			var tipw=jQuery('#map-tip').outerWidth(), tiph=jQuery('#map-tip').outerHeight(), 
+			x=(x+tipw>jQuery(document).scrollLeft()+jQuery(window).width())? x-tipw-(20*2) : x
+			y=(y+tiph>jQuery(document).scrollTop()+jQuery(window).height())? jQuery(document).scrollTop()+jQuery(window).height()-tiph-10 : y
+			jQuery('#map-tip').css({left:x, top:y})
 		})
 	}	
 }
 
 //The pins code
-$(function(){
-	if($('#pin-shadow').find('path').eq(0).attr('fill') != 'undefined'){
+jQuery(function(){
+	if(jQuery('#pin-shadow').find('path').eq(0).attr('fill') != 'undefined'){
 		var pinShadowOpacity = pin_config['default']['pinShadowOpacity'];
 		var pinShadowOpacity = parseInt(pinShadowOpacity);
 		if (pinShadowOpacity >=100){pinShadowOpacity = 1;}else if(pinShadowOpacity <=0){pinShadowOpacity =0;}else{pinShadowOpacity = pinShadowOpacity/100;}
 
-		$('#pin-shadow').find('path').attr({'fill':pin_config['default']['pinShadow']}).css({'fill-opacity':pinShadowOpacity})
+		jQuery('#pin-shadow').find('path').attr({'fill':pin_config['default']['pinShadow']}).css({'fill-opacity':pinShadowOpacity})
 };
 
 
@@ -225,22 +225,22 @@ $(function(){
 });
 
 function dynamicAddEvent(id){
-	var obj = $('#map_points_'+id);
+	var obj = jQuery('#map_points_'+id);
 
 	if(pin_config['points'][id]['enable'] == true){
 		if (isTouchEnabled()) {
 			obj.on('touchstart', function(e){
 				var touch = e.originalEvent.touches[0];
 				var x=touch.pageX+10-mapLeft, y=touch.pageY+15-mapTop;
-				var tipw=$('#map-tip').outerWidth(), tiph=$('#map-tip').outerHeight(),
-				x=(x+tipw>$(document).scrollLeft()+$(window).width())? x-tipw-(20*2) : x
-				y=(y+tiph>$(document).scrollTop()+$(window).height())? $(document).scrollTop()+$(window).height()-tiph-10 : y
-				$('#'+id).css({'fill':pin_config['points'][id]['downColor']});
-				$('#map-tip').show().html(pin_config['points'][id]['hover']);
-				$('#map-tip').css({left:x, top:y})
+				var tipw=jQuery('#map-tip').outerWidth(), tiph=jQuery('#map-tip').outerHeight(),
+				x=(x+tipw>jQuery(document).scrollLeft()+jQuery(window).width())? x-tipw-(20*2) : x
+				y=(y+tiph>jQuery(document).scrollTop()+jQuery(window).height())? jQuery(document).scrollTop()+jQuery(window).height()-tiph-10 : y
+				jQuery('#'+id).css({'fill':pin_config['points'][id]['downColor']});
+				jQuery('#map-tip').show().html(pin_config['points'][id]['hover']);
+				jQuery('#map-tip').css({left:x, top:y})
 			})
 			obj.on('touchend', function(){
-				$('#'+id).css({'fill':pin_config['points'][id]['upColor']});
+				jQuery('#'+id).css({'fill':pin_config['points'][id]['upColor']});
 				if(pin_config['points'][id]['target'] == 'new_window'){
 					window.open(pin_config['points'][id]['url']);
 				}else if(pin_config['points'][id]['target'] == 'same_window'){
@@ -250,10 +250,10 @@ function dynamicAddEvent(id){
 		}
 		obj.attr({'cursor':'pointer'});
 		obj.hover(function(){
-			$('#map-tip').show().html(pin_config['points'][id]['hover']);
+			jQuery('#map-tip').show().html(pin_config['points'][id]['hover']);
 			obj.css({'fill':pin_config['points'][id]['overColor']})
 		},function(){
-			$('#map-tip').hide();
+			jQuery('#map-tip').hide();
 			obj.css({'fill':pin_config['points'][id]['upColor']});
 		})
 		//clicking effect
@@ -270,10 +270,10 @@ function dynamicAddEvent(id){
 		})
 		obj.mousemove(function(e){
 				var x=e.pageX+10-mapLeft, y=e.pageY+15-mapTop;
-				var tipw=$('#map-tip').outerWidth(), tiph=$('#map-tip').outerHeight(), 
-				x=(x+tipw>$(document).scrollLeft()+$(window).width())? x-tipw-(20*2) : x
-				y=(y+tiph>$(document).scrollTop()+$(window).height())? $(document).scrollTop()+$(window).height()-tiph-10 : y
-				$('#map-tip').css({left:x, top:y})
+				var tipw=jQuery('#map-tip').outerWidth(), tiph=jQuery('#map-tip').outerHeight(), 
+				x=(x+tipw>jQuery(document).scrollLeft()+jQuery(window).width())? x-tipw-(20*2) : x
+				y=(y+tiph>jQuery(document).scrollTop()+jQuery(window).height())? jQuery(document).scrollTop()+jQuery(window).height()-tiph-10 : y
+				jQuery('#map-tip').css({left:x, top:y})
 		})
 	}	
 }
