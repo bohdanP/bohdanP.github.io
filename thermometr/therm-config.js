@@ -1,4 +1,18 @@
-$( "#datepicker-1" ).datepicker();
+
+var selected;
+
+
+$(function() {
+	$('#datepicker-1').datepicker({
+		dateFormat: 'yy,mm,dd',
+		minDate: 0,
+	});
+	$("#datepicker-1").on("change",function(){
+		selected = $(this).val();
+		
+	});
+});
+
 
 var d = new Date();
 var m = d.getMonth()+1;
@@ -7,9 +21,9 @@ var y=d.getFullYear();
 
 var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
 var firstDate = new Date(y,m,day);
-var secondDate = new Date(2016,09,9);
+var startDate = new Date(2016,09,24);
 
-var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)));
+var diffDays = Math.round(Math.abs((firstDate.getTime() - startDate.getTime())/(oneDay)));
 
 numberOfWeeks=~~(diffDays/7);
 
@@ -21,24 +35,57 @@ var currentPrice=startPrice-(5000*numberOfWeeks);
 	$('#questionSymbol').fadeOut(800).fadeIn(800, blink); 
 })();
 
+actual();
 
-
-
-$(".prices #button1").text(currentPrice).formatCurrency();
-$(".prices #button2").text((currentPrice-5000)).formatCurrency();
-$(".prices #button3").text((currentPrice-10000)).formatCurrency();
-$(".prices #button4").text((currentPrice-15000)).formatCurrency();
-$(".prices #button5").text((currentPrice-20000)).formatCurrency();
-$(".prices #button6").text((currentPrice-25000)).formatCurrency();
-$(".prices #button7").text((currentPrice-30000)).formatCurrency();
-
+function actual()
+{
+	$(".prices #button1").text(currentPrice).formatCurrency();
+	$(".prices #button2").text((currentPrice-5000)).formatCurrency();
+	$(".prices #button3").text((currentPrice-10000)).formatCurrency();
+	$(".prices #button4").text((currentPrice-15000)).formatCurrency();
+	$(".prices #button5").text((currentPrice-20000)).formatCurrency();
+	$(".prices #button6").text((currentPrice-25000)).formatCurrency();
+	$(".prices #button7").text((currentPrice-30000)).formatCurrency();
+	$(".weeks #button7").text("week #6");
+};
 
 
 
 $(".bottomTherm").click(function(){
+	var selectedDate=d;
 
-	
-	alert(numberOfWeeks);
+	$( "#datepicker-1" ).focus();
+
+	selectedDate = new Date(selected);
+	var diffDaysSelected = Math.round(Math.abs((selectedDate.getTime() - startDate.getTime())/(oneDay)));
+	numberOfWeeksSelected=~~(diffDaysSelected/7);
+	var selectedPrice=startPrice-(5000*numberOfWeeksSelected);
+
+
+	$(".weeks *, .prices *, #animated").css({
+		"opacity": "0"
+	});
+	$(".weeks #button1, .prices #button1").css({
+		"opacity": ".5"
+	});
+	$(".weeks #button7, .prices #button7").css({
+		"opacity": "1"
+	});
+
+	$(".prices #button7").text((selectedPrice)).formatCurrency();
+
+	var m1 = selectedDate.getMonth()+1;
+	var day1=selectedDate.getDate();
+	var y1=selectedDate.getFullYear();
+	$(".weeks #button7").text((y1+"-"+m1+"-"+day1));
+
+
+});
+
+$(".prices #button1").click(function(){
+
+	var dq = new Date(selected);
+	alert(dq);
 
 });
 
@@ -49,6 +96,8 @@ $('.weeks #button2').hover(
 	function() {
 		$(".weeks *, .prices *").css({
 			"opacity": "0"
+		}); actual(); $("#animated").css({
+			"opacity": "1"
 		});
 		$(".weeks #button1, .prices #button1").css({
 			"opacity": ".5"
@@ -105,6 +154,8 @@ $('.weeks #button3').hover(
 	function() {
 		$(".weeks *, .prices *").css({
 			"opacity": "0"
+		}); actual(); $("#animated").css({
+			"opacity": "1"
 		});
 		$(".weeks #button1, .prices #button1").css({
 			"opacity": ".5"
@@ -159,9 +210,6 @@ $('.weeks #button3').hover(
 
 $('.weeks #button4').hover(
 	function() {
-		$(".weeks *, .prices *").css({
-			"opacity": "0"
-		});
 		$(".weeks #button1, .prices #button1").css({
 			"opacity": ".5"
 		});
@@ -217,6 +265,8 @@ $('.weeks #button5').hover(
 	function() {
 		$(".weeks *, .prices *").css({
 			"opacity": "0"
+		}); actual(); $("#animated").css({
+			"opacity": "1"
 		});
 		$(".weeks #button1, .prices #button1").css({
 			"opacity": ".5"
@@ -276,6 +326,8 @@ $('.weeks #button6').hover(
 	function() {
 		$(".weeks *, .prices *").css({
 			"opacity": "0"
+		}); actual(); $("#animated").css({
+			"opacity": "1"
 		});
 		$(".weeks #button1, .prices #button1").css({
 			"opacity": ".5"
@@ -331,6 +383,8 @@ $('.weeks #button7').hover(
 	function() {
 		$(".weeks *, .prices *").css({
 			"opacity": "0"
+		}); actual(); $("#animated").css({
+			"opacity": "1"
 		});
 		$(".weeks #button1, .prices #button1").css({
 			"opacity": ".5"
