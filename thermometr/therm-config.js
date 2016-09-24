@@ -41,346 +41,342 @@ $(".bottomTherm").click(function(){
 });
 
 
-/*
-$('.weeks ').hover(
-    function() {
-    	$(".weeks *").css({
-            "opacity": "0"
-        });
-        $(".weeks #button1").css({
-            "opacity": ".5"
-        });
-        $(this).css({
-            "opacity": "1"
-        });
-        
-    },
-    function() {
-        $(".weeks *").css({
-            "opacity": "1"
-        });
-       
-    }
-    );*/
+var delay=500, setTimeoutConst;
 
-    $('.weeks #button2').hover(
-    	function() {
-    		$(".weeks *, .prices *").css({
-    			"opacity": "0"
-    		});
-    		$(".weeks #button1, .prices #button1").css({
-    			"opacity": ".5"
-    		});
-    		$(this).css({
-    			"opacity": "1"
-    		});
-    		$(".prices #button2").css({
-    			"opacity": "1"
-    		});
+$('.weeks #button2').hover(
+	function() {
+		$(".weeks *, .prices *").css({
+			"opacity": "0"
+		});
+		$(".weeks #button1, .prices #button1").css({
+			"opacity": ".5"
+		});
+		$(this).css({
+			"opacity": "1"
+		});
+		$(".prices #button2").css({
+			"opacity": "1"
+		});
 
-    		$('#animated')
-    		.css({
-    			"min-height": 0
-    		})
-    		.animate({
-    			"min-height": 50
-    		}, {
-    			duration: 1000,
-    			step: function (top) {
-    				this.setAttribute("transform", "translate(0," + top + ")");
-    			}
-    		});
+		setTimeoutConst = setTimeout(function(){
+			$('#animated')
+			.css({
+				"min-height": 0
+			})
+			.animate({
+				"min-height": 50
+			}, {
+				duration: 300,
+				step: function (top) {
+					this.setAttribute("transform", "translate(0," + top + ")");
+				}
+			});
+		}, delay);
 
+	},
+	function() {
+		clearTimeout(setTimeoutConst );
+		$(".prices *").css({
+			"opacity": "0"
+		});
+		$(".weeks *, .prices #button1").css({
+			"opacity": "1"
+		});
 
-    	},
-    	function() {
-    		$(".prices *").css({
-    			"opacity": "0"
-    		});
-    		$(".weeks *, .prices #button1").css({
-    			"opacity": "1"
-    		});
+		$('#animated')
+		.css({
+			"min-height": -50
+		})
+		.animate({
+			"min-height": 0
+		}, {
+			duration: 300,
+			step: function (top) {
+				this.setAttribute("transform", "translate(0," + top + ")");
+			}
+		});
 
-    		$('#animated')
-    		.css({
-    			"min-height": -50
-    		})
-    		.animate({
-    			"min-height": 0
-    		}, {
-    			duration: 1000,
-    			step: function (top) {
-    				this.setAttribute("transform", "translate(0," + top + ")");
-    			}
-    		});
+	}
+	);
 
-    	}
-    	);
+$('.weeks #button3').hover(
+	function() {
+		$(".weeks *, .prices *").css({
+			"opacity": "0"
+		});
+		$(".weeks #button1, .prices #button1").css({
+			"opacity": ".5"
+		});
+		$(this).css({
+			"opacity": "1"
+		});
+		$(".prices #button3").css({
+			"opacity": "1"
+		});
 
-    $('.weeks #button3').hover(
-    	function() {
-    		$(".weeks *, .prices *").css({
-    			"opacity": "0"
-    		});
-    		$(".weeks #button1, .prices #button1").css({
-    			"opacity": ".5"
-    		});
-    		$(this).css({
-    			"opacity": "1"
-    		});
-    		$(".prices #button3").css({
-    			"opacity": "1"
-    		});
+		setTimeoutConst = setTimeout(function(){
+			$('#animated')
+			.css({
+				"min-height": 0
+			})
+			.animate({
+				"min-height": 80
+			}, {
+				duration: 500,
+				step: function (top) {
+					this.setAttribute("transform", "translate(0," + top + ")");
+				}
+			});
+		}, delay);
 
-    		$('#animated')
-    		.css({
-    			"min-height": 0
-    		})
-    		.animate({
-    			"min-height": 80
-    		}, {
-    			duration: 1000,
-    			step: function (top) {
-    				this.setAttribute("transform", "translate(0," + top + ")");
-    			}
-    		});
+	},
+	function() {
+		clearTimeout(setTimeoutConst );
+		$(".prices *").css({
+			"opacity": "0"
+		});
+		$(".weeks *, .prices #button1").css({
+			"opacity": "1"
+		});
 
+		$('#animated')
+		.css({
+			"min-height": -80
+		})
+		.animate({
+			"min-height": 0
+		}, {
+			duration: 500,
+			step: function (top) {
+				this.setAttribute("transform", "translate(0," + top + ")");
+			}
+		});
 
-    	},
-    	function() {
-    		$(".prices *").css({
-    			"opacity": "0"
-    		});
-    		$(".weeks *, .prices #button1").css({
-    			"opacity": "1"
-    		});
+	}
+	);
 
-    		$('#animated')
-    		.css({
-    			"min-height": -80
-    		})
-    		.animate({
-    			"min-height": 0
-    		}, {
-    			duration: 1000,
-    			step: function (top) {
-    				this.setAttribute("transform", "translate(0," + top + ")");
-    			}
-    		});
+$('.weeks #button4').hover(
+	function() {
+		$(".weeks *, .prices *").css({
+			"opacity": "0"
+		});
+		$(".weeks #button1, .prices #button1").css({
+			"opacity": ".5"
+		});
+		$(this).css({
+			"opacity": "1"
+		});
+		$(".prices #button4").css({
+			"opacity": "1"
+		});
 
-    	}
-    	);
+		setTimeoutConst = setTimeout(function(){
+			$('#animated')
+			.css({
+				"min-height": 0
+			})
+			.animate({
+				"min-height": 110
+			}, {
+				duration: 500,
+				step: function (top) {
+					this.setAttribute("transform", "translate(0," + top + ")");
+				}
+			});
+		}, delay);
 
-    $('.weeks #button4').hover(
-    	function() {
-    		$(".weeks *, .prices *").css({
-    			"opacity": "0"
-    		});
-    		$(".weeks #button1, .prices #button1").css({
-    			"opacity": ".5"
-    		});
-    		$(this).css({
-    			"opacity": "1"
-    		});
-    		$(".prices #button4").css({
-    			"opacity": "1"
-    		});
+	},
+	function() {
+		clearTimeout(setTimeoutConst );
+		$(".prices *").css({
+			"opacity": "0"
+		});
+		$(".weeks *, .prices #button1").css({
+			"opacity": "1"
+		});
 
-    		$('#animated')
-    		.css({
-    			"min-height": 0
-    		})
-    		.animate({
-    			"min-height": 110
-    		}, {
-    			duration: 1000,
-    			step: function (top) {
-    				this.setAttribute("transform", "translate(0," + top + ")");
-    			}
-    		});
+		$('#animated')
+		.css({
+			"min-height": -110
+		})
+		.animate({
+			"min-height": 0
+		}, {
+			duration: 500,
+			step: function (top) {
+				this.setAttribute("transform", "translate(0," + top + ")");
+			}
+		});
 
+	}
+	);
 
-    	},
-    	function() {
-    		$(".prices *").css({
-    			"opacity": "0"
-    		});
-    		$(".weeks *, .prices #button1").css({
-    			"opacity": "1"
-    		});
+$('.weeks #button5').hover(
+	function() {
+		$(".weeks *, .prices *").css({
+			"opacity": "0"
+		});
+		$(".weeks #button1, .prices #button1").css({
+			"opacity": ".5"
+		});
+		$(this).css({
+			"opacity": "1"
+		});
+		$(".prices #button5").css({
+			"opacity": "1"
+		});
 
-    		$('#animated')
-    		.css({
-    			"min-height": -110
-    		})
-    		.animate({
-    			"min-height": 0
-    		}, {
-    			duration: 1000,
-    			step: function (top) {
-    				this.setAttribute("transform", "translate(0," + top + ")");
-    			}
-    		});
+		$('#animated')
+		.css({
+			"min-height": 0
+		})
+		setTimeoutConst = setTimeout(function(){
+			$('#animated')
+			.css({
+				"min-height": 0
+			})
+			.animate({
+				"min-height": 140
+			}, {
+				duration: 500,
+				step: function (top) {
+					this.setAttribute("transform", "translate(0," + top + ")");
+				}
+			});
+		}, delay);
 
-    	}
-    	);
+	},
+	function() {
+		clearTimeout(setTimeoutConst );
+		$(".prices *").css({
+			"opacity": "0"
+		});
+		$(".weeks *, .prices #button1").css({
+			"opacity": "1"
+		});
 
-    $('.weeks #button5').hover(
-    	function() {
-    		$(".weeks *, .prices *").css({
-    			"opacity": "0"
-    		});
-    		$(".weeks #button1, .prices #button1").css({
-    			"opacity": ".5"
-    		});
-    		$(this).css({
-    			"opacity": "1"
-    		});
-    		$(".prices #button5").css({
-    			"opacity": "1"
-    		});
+		$('#animated')
+		.css({
+			"min-height": -140
+		})
+		.animate({
+			"min-height": 0
+		}, {
+			duration: 500,
+			step: function (top) {
+				this.setAttribute("transform", "translate(0," + top + ")");
+			}
+		});
 
-    		$('#animated')
-    		.css({
-    			"min-height": 0
-    		})
-    		.animate({
-    			"min-height": 140
-    		}, {
-    			duration: 1000,
-    			step: function (top) {
-    				this.setAttribute("transform", "translate(0," + top + ")");
-    			}
-    		});
+	}
+	);
+$('.weeks #button6').hover(
+	function() {
+		$(".weeks *, .prices *").css({
+			"opacity": "0"
+		});
+		$(".weeks #button1, .prices #button1").css({
+			"opacity": ".5"
+		});
+		$(this).css({
+			"opacity": "1"
+		});
+		$(".prices #button6").css({
+			"opacity": "1"
+		});
 
+		setTimeoutConst = setTimeout(function(){
+			$('#animated')
+			.css({
+				"min-height": 0
+			})
+			.animate({
+				"min-height": 170
+			}, {
+				duration: 500,
+				step: function (top) {
+					this.setAttribute("transform", "translate(0," + top + ")");
+				}
+			});
+		}, delay);
 
-    	},
-    	function() {
-    		$(".prices *").css({
-    			"opacity": "0"
-    		});
-    		$(".weeks *, .prices #button1").css({
-    			"opacity": "1"
-    		});
+	},
+	function() {
+		clearTimeout(setTimeoutConst );
+		$(".prices *").css({
+			"opacity": "0"
+		});
+		$(".weeks *, .prices #button1").css({
+			"opacity": "1"
+		});
 
-    		$('#animated')
-    		.css({
-    			"min-height": -140
-    		})
-    		.animate({
-    			"min-height": 0
-    		}, {
-    			duration: 1000,
-    			step: function (top) {
-    				this.setAttribute("transform", "translate(0," + top + ")");
-    			}
-    		});
+		$('#animated')
+		.css({
+			"min-height": -170
+		})
+		.animate({
+			"min-height": 0
+		}, {
+			duration: 500,
+			step: function (top) {
+				this.setAttribute("transform", "translate(0," + top + ")");
+			}
+		});
 
-    	}
-    	);
-    $('.weeks #button6').hover(
-    	function() {
-    		$(".weeks *, .prices *").css({
-    			"opacity": "0"
-    		});
-    		$(".weeks #button1, .prices #button1").css({
-    			"opacity": ".5"
-    		});
-    		$(this).css({
-    			"opacity": "1"
-    		});
-    		$(".prices #button6").css({
-    			"opacity": "1"
-    		});
+	}
+	);
+$('.weeks #button7').hover(
+	function() {
+		$(".weeks *, .prices *").css({
+			"opacity": "0"
+		});
+		$(".weeks #button1, .prices #button1").css({
+			"opacity": ".5"
+		});
+		$(this).css({
+			"opacity": "1"
+		});
+		$(".prices #button7").css({
+			"opacity": "1"
+		});
 
-    		$('#animated')
-    		.css({
-    			"min-height": 0
-    		})
-    		.animate({
-    			"min-height": 170
-    		}, {
-    			duration: 1000,
-    			step: function (top) {
-    				this.setAttribute("transform", "translate(0," + top + ")");
-    			}
-    		});
+		setTimeoutConst = setTimeout(function(){
+			$('#animated')
+			.css({
+				"min-height": 0
+			})
+			.animate({
+				"min-height": 210
+			}, {
+				duration: 500,
+				step: function (top) {
+					this.setAttribute("transform", "translate(0," + top + ")");
+				}
+			});
+		}, delay);
 
+	},
+	function() {
+		clearTimeout(setTimeoutConst );
+		$(".prices *").css({
+			"opacity": "0"
+		});
+		$(".weeks *, .prices #button1").css({
+			"opacity": "1"
+		});
 
-    	},
-    	function() {
-    		$(".prices *").css({
-    			"opacity": "0"
-    		});
-    		$(".weeks *, .prices #button1").css({
-    			"opacity": "1"
-    		});
+		$('#animated')
+		.css({
+			"min-height": -200
+		})
+		.animate({
+			"min-height": 0
+		}, {
+			duration: 500,
+			step: function (top) {
+				this.setAttribute("transform", "translate(0," + top + ")");
+			}
+		});
 
-    		$('#animated')
-    		.css({
-    			"min-height": -170
-    		})
-    		.animate({
-    			"min-height": 0
-    		}, {
-    			duration: 1000,
-    			step: function (top) {
-    				this.setAttribute("transform", "translate(0," + top + ")");
-    			}
-    		});
-
-    	}
-    	);
-    $('.weeks #button7').hover(
-    	function() {
-    		$(".weeks *, .prices *").css({
-    			"opacity": "0"
-    		});
-    		$(".weeks #button1, .prices #button1").css({
-    			"opacity": ".5"
-    		});
-    		$(this).css({
-    			"opacity": "1"
-    		});
-    		$(".prices #button7").css({
-    			"opacity": "1"
-    		});
-
-    		$('#animated')
-    		.css({
-    			"min-height": 0
-    		})
-    		.animate({
-    			"min-height": 220
-    		}, {
-    			duration: 1000,
-    			step: function (top) {
-    				this.setAttribute("transform", "translate(0," + top + ")");
-    			}
-    		});
-
-
-    	},
-    	function() {
-    		$(".prices *").css({
-    			"opacity": "0"
-    		});
-    		$(".weeks *, .prices #button1").css({
-    			"opacity": "1"
-    		});
-
-    		$('#animated')
-    		.css({
-    			"min-height": -200
-    		})
-    		.animate({
-    			"min-height": 0
-    		}, {
-    			duration: 1000,
-    			step: function (top) {
-    				this.setAttribute("transform", "translate(0," + top + ")");
-    			}
-    		});
-
-    	}
-    	);
+	}
+	);
