@@ -1,4 +1,4 @@
-
+$( "#datepicker-1" ).datepicker();
 
 var d = new Date();
 var m = d.getMonth()+1;
@@ -24,13 +24,15 @@ var currentPrice=startPrice-(5000*numberOfWeeks);
 
 
 
-$(".prices #button1").text(currentPrice);
-$(".prices #button2").text("$"+(currentPrice-5000));
-$(".prices #button3").text("$"+(currentPrice-10000));
-$(".prices #button4").text("$"+(currentPrice-15000));
-$(".prices #button5").text("$"+(currentPrice-20000));
-$(".prices #button6").text("$"+(currentPrice-25000));
-$(".prices #button7").text("$"+(currentPrice-30000));
+$(".prices #button1").text(currentPrice).formatCurrency();
+$(".prices #button2").text((currentPrice-5000)).formatCurrency();
+$(".prices #button3").text((currentPrice-10000)).formatCurrency();
+$(".prices #button4").text((currentPrice-15000)).formatCurrency();
+$(".prices #button5").text((currentPrice-20000)).formatCurrency();
+$(".prices #button6").text((currentPrice-25000)).formatCurrency();
+$(".prices #button7").text((currentPrice-30000)).formatCurrency();
+
+
 
 
 $(".bottomTherm").click(function(){
