@@ -1,4 +1,6 @@
-﻿#datepicker-1
+﻿
+
+#datepicker-1
 {
 	position: absolute;
 	top: 45%;
@@ -7,45 +9,82 @@
 	z-index: 10;
 }
 
-.thermometer
+.thermometerWrapper
 {
 	margin: 0 auto;
 	width: 1000px;
-	height: 500px;
+	height: 400px;
 	position: relative;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
+}
 
-
+.thermometer
+{
+	position: absolute;
+	top: 300px;
 }
 
 svg
 {
-	margin-left: 30%;
+	margin-left: 32.6%;
 	height: 100%;
 	position: absolute;
+	top: 140px;
 }
-#bottomTherm, #questionSymbol, .pointer, .button
-{
-	cursor: pointer;
-}
-
 .weeks
 {
 	position: absolute;
 	left: 20.5%;
-	top: 9%;
 	text-align: center;
+	top: 177px;
 }
 
 .prices
 {
 	position: absolute;
+	top: 177px;
 	left: 47%;
-	top: 9%;
 	text-align: center;
 	transition: all 1s;
+}
+.thermText
+{
+	position: absolute;
+	font-weight: 700;
+	color: #fff;
+	text-shadow: -3px 0px 12px #000;
+}
+.howlow
+{
+	left: 25%;
+	font-size: 500%;
+}
+.it
+{
+	left: 39%;
+	font-size: 250%;
+	top: 93px;
+}
+.will
+{
+	left: 22.5%;
+	font-size: 400%;
+	top: 93px;
+}
+.go
+{
+	left: 47.5%;
+	font-size: 400%;
+	top: 93px;
+}
+
+
+
+#bottomTherm, #questionSymbol, .pointer, .button, .bottomTherm
+{
+	cursor: pointer;
 }
 .prices *
 {
@@ -59,12 +98,12 @@ svg
 .button
 {
 	width: 115px;
-	height: 22px;
+	height: 15px;
 	background-color: green;
 	margin: 5px;
 	border-radius: 10px;
 	padding: 5px;
-	line-height: 22px;
+	line-height: 15px;
 	transition: all 1s;
 }
 /*
@@ -134,3 +173,8 @@ svg
 .st6{stroke:#000000;stroke-miterlimit:10;}
 .st7{fill:#FFFFFF;}
 .st8{opacity:0.12;fill:#FFFFFF;}
+.st9{opacity:0.12;fill:#FFFFFF;}
+.st10{fill:#FFFFFF;stroke:#000000;stroke-width:0.25;}
+.st11{fill:#D8D6D6;stroke:#000000;stroke-width:0.25;}
+.st12{opacity:0.24;fill:#AFA6A6;}
+.st13{fill:#081811;stroke:#000000;stroke-width:0.25;}
