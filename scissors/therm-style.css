@@ -1,0 +1,100 @@
+﻿
+#red
+{
+	animation: rot-up 3s ease-out;
+	transform-origin: 0% 100% 0;
+	animation-delay: 4s;
+
+}
+#green
+{
+	animation: rot-down 3s ease-out;
+	transform-origin: 0% 0% 0;
+	animation-delay: 4s;
+}
+
+#transX
+{
+	animation: trans 5s ease-out infinite;
+	animation-delay: 1s;
+}
+
+#yellow, #pink
+{
+	animation: yellowRot .8s ease-out infinite;
+	transform-origin: 100% 0% 0;
+}
+#pink
+{
+	transform-origin: 0% 100% 0;
+}
+
+#blue, #orange
+{
+	animation: blueRot .8s ease-out infinite;
+	transform-origin: 0% 100% 0;
+}
+#orange
+{
+	transform-origin: 100% 0% 0;
+}
+
+
+@keyframes blueRot {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(-40deg);
+
+	}
+	0% {
+		transform: rotate(0deg);
+	}
+
+}
+
+@keyframes yellowRot {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(40deg);
+
+	}
+	0% {
+		transform: rotate(0deg);
+	}
+
+}
+
+
+@keyframes trans {
+	
+	100% {
+		transform: translateX(-50px);
+
+	}
+
+}
+
+@keyframes rot-up {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-90deg);
+
+	}
+
+}
+
+@keyframes rot-down {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(90deg);
+	}
+
+}
