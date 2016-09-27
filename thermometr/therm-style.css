@@ -94,6 +94,10 @@ svg
 {
 	opacity: 1;
 }
+.prices #button7
+{
+	opacity: .8;
+}
 
 .button
 {
