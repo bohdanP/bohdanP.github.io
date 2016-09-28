@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 var delay=500, setTimeoutConst;
 
 var selected= new Date();
@@ -440,3 +442,9 @@ $('.weeks #button7').hover(
 
 	}
 	);
+
+
+
+
+
+});
