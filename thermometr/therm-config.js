@@ -1,4 +1,7 @@
+jQuery.noConflict();
+
 $(document).ready(function(){
+
 
 var delay=500, setTimeoutConst;
 
