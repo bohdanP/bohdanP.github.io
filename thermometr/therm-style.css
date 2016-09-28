@@ -15,8 +15,8 @@
 #datepicker-1
 {
 	position: absolute;
-	top: 140px;
-	left: 97px;
+	top: 233px;
+	left: 815.5px;
 	opacity: 0;
 	z-index: 10;
 	width: 1px;
@@ -119,27 +119,27 @@ svg
 }
 .howlow
 {
-	left: 40px;
-    top: 275px;
-    font-size: 55px;
+	left: 37px;
+	top: 285px;
+	font-size: 65px;
 }
 .it
 {
-	left: 50px;
-	font-size: 250%;
-	top: 330px;
+	left: 66px;
+	font-size: 35px;
+	top: 345px;
 }
 .will
 {
 	left: 335px;
-	top: 275px;
-    font-size: 55px;
+	top: 285px;
+	font-size: 65px;
 }
 .go
 {
-	left: 350px;
-	font-size: 250%;
-	top: 330px;
+	left: 345px;
+	font-size: 35px;
+	top: 345px
 }
 
 

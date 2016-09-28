@@ -22,7 +22,7 @@ var y=d.getFullYear();
 
 var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
 var firstDate = new Date(y,m,day);
-var startDate = new Date(2016,08,23); //month+1 !!!
+var startDate = new Date(2016,09,03); //month+1 !!!
 
 var diffDays = Math.round(Math.abs((firstDate.getTime() - startDate.getTime())/(oneDay)));
 
