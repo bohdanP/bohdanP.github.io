@@ -1,83 +1,141 @@
-﻿
+﻿.thermLatest2
+{
+	opacity: 0;
+	animation: thermLatest 3s ease-out forwards;
+	animation-delay: 3s;
 
+}
+.thermLatest
+{
+	opacity: 0;
+	animation: thermtext 3s ease-out forwards;
+	animation-delay: 5s;
+
+}
 #datepicker-1
 {
 	position: absolute;
-	top: 45%;
-	left: 25%;
+	top: 140px;
+	left: 97px;
 	opacity: 0;
 	z-index: 10;
-}
-
-.thermometerWrapper
-{
-	margin: 0 auto;
-	width: 1000px;
-	height: 400px;
-	position: relative;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	text-transform: uppercase;
-}
-
-.thermometer
-{
-	position: absolute;
-	top: 300px;
+	width: 1px;
+	height: 1px;
 }
 
 svg
 {
-	margin-left: 32.6%;
-	height: 100%;
-	position: absolute;
-	top: 140px;
+	width: 100%;
+	animation: svgAnim 3s ease-out;
 }
+.svgimage
+{
+	width: 480px;
+	height: 400px;
+}
+
+.thermWrapper
+{
+	position: relative;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+
+#dollarTop
+{
+	animation: rot-up 1s ease-in forwards;
+	transform-origin: 0% 100% 0;
+	animation-delay: 4.5s;
+
+}
+#dollarBottom
+{
+	animation: rot-down 1s ease-in forwards;
+	transform-origin: 100% 0% 0;
+	animation-delay: 4.5s;
+}
+
+#halfTop
+{
+	transform-origin: 57.5% 15% 0;
+	animation: rotHalfTop .6s ease-in infinite;
+}
+#halfBottom
+{
+	transform-origin: 62% 72% 0;
+	animation: rotHalfBottom .6s ease-in infinite;
+}
+
+#scissors
+{
+	transform: translate(250px, 0px);
+	animation: trans 4s ease-out forwards;
+	animation-delay: 2.5s;
+}
+
+
 .weeks
 {
 	position: absolute;
-	left: 20.5%;
+	left: 50px;
 	text-align: center;
-	top: 177px;
+	top: 40px;
 }
 
 .prices
 {
 	position: absolute;
-	top: 177px;
-	left: 47%;
+	top: 40px;
+	left: 300px;
 	text-align: center;
 	transition: all 1s;
 }
+.button
+{
+	width: 115px;
+	height: 15px;
+	background-color: green;
+	margin: 5px;
+	border-radius: 10px;
+	padding: 5px;
+	line-height: 15px;
+	transition: all 1s;
+}
+
 .thermText
 {
 	position: absolute;
 	font-weight: 700;
 	color: #fff;
 	text-shadow: -3px 0px 12px #000;
+	z-index: 2;
 }
 .howlow
 {
-	left: 25%;
-	font-size: 500%;
+	left: 20px;
+	top: 240px;
+	font-size: 450%;
 }
 .it
 {
-	left: 39%;
+	left: 50px;
 	font-size: 250%;
-	top: 93px;
+	top: 330px;
 }
 .will
 {
-	left: 22.5%;
-	font-size: 400%;
-	top: 93px;
+	left: 335px;
+	top: 240px;
+	font-size: 450%;
 }
 .go
 {
-	left: 47.5%;
-	font-size: 400%;
-	top: 93px;
+	left: 350px;
+	font-size: 250%;
+	top: 330px;
 }
 
 
@@ -99,33 +157,7 @@ svg
 	opacity: .8;
 }
 
-.button
-{
-	width: 115px;
-	height: 15px;
-	background-color: green;
-	margin: 5px;
-	border-radius: 10px;
-	padding: 5px;
-	line-height: 15px;
-	transition: all 1s;
-}
-/*
-#button1:before {
-	left: -10px;
-	top: 50%;
-	margin-top: -14px;
-	border-width: 14px 10px 14px 0;
-	border-color: transparent #569bc2 transparent transparent;
-}
-#button1:before {
-	content: "";
-	position: absolute;
-	width: 0px;
-	height: 0px;
-	border-style: solid;
-}
-*/
+
 #button1 
 {
 	background-color: #B3D234;
@@ -160,25 +192,116 @@ svg
 
 
 
-
-
-
-
-
-
-
-
-.st0{fill:#575859;}
+.st0{fill:#565759;}
 .st1{fill:#E6E7E9;}
-.st2{fill:#F5B4CD;}
-.st3{fill:#E51F29;}
-.st4{display:none;opacity:0.11;fill:#FFFFFF;}
+.st2{fill:#F4B3CD;}
+.st3{fill:#E41F29;}
+.st4{fill:#FFFFFF;}
 .st5{opacity:0.18;fill:#FFFFFF;}
-.st6{stroke:#000000;stroke-miterlimit:10;}
-.st7{fill:#FFFFFF;}
-.st8{opacity:0.12;fill:#FFFFFF;}
-.st9{opacity:0.12;fill:#FFFFFF;}
-.st10{fill:#FFFFFF;stroke:#000000;stroke-width:0.25;}
-.st11{fill:#D8D6D6;stroke:#000000;stroke-width:0.25;}
-.st12{opacity:0.24;fill:#AFA6A6;}
-.st13{fill:#081811;stroke:#000000;stroke-width:0.25;}
+.st6{fill:#1D1D1B;stroke:#1D1D1B;stroke-miterlimit:10;}
+.st7{opacity:0.12;fill:#FFFFFF;}
+.st8{fill:#FFFFFF;stroke:#000000;stroke-width:0.25;}
+.st9{fill:#D8D6D6;stroke:#000000;stroke-width:0.25;}
+.st10{opacity:0.24;fill:#AEA5A5;}
+.st11{fill:#081811;stroke:#000000;stroke-width:0.25;}
+.st12{fill:#78160E;}
+.st13{fill:#AA1917;}
+.st14{fill:#D21317;}
+.st15{fill:#1C6AAF;}
+.st16{fill:#004F8B;}
+.st17{fill:#A8A8A7;}
+.st18{fill:url(#SVGID_1_);}
+.st19{fill:#D1D1D1;}
+.st20{fill:#7A7A7A;}
+.st21{fill:url(#SVGID_2_);}
+
+
+
+
+@keyframes rotHalfTop {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(20deg);
+
+	}
+	0% {
+		transform: rotate(0deg);
+	}
+
+}
+
+@keyframes rotHalfBottom {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(-20deg);
+
+	}
+	0% {
+		transform: rotate(0deg);
+	}
+
+}
+
+
+@keyframes trans {
+	
+	100% {
+		transform: translate(-600px, 15px);
+
+	}
+
+}
+
+@keyframes rot-up {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+
+		transform: rotate(-90deg) translateX(150px);
+
+	}
+
+}
+
+@keyframes rot-down {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-90deg) translateX(-200px);
+	}
+
+}
+
+@keyframes svgAnim {
+	0% {
+		transform: scale(.02);
+	}
+	100% {
+		transform: scale(1);
+	}
+
+}
+@keyframes thermLatest {
+	0% {
+		transform: scale(.02);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+
+}
+@keyframes thermtext {
+
+	100% {
+		
+		opacity: 1;
+	}
+}
