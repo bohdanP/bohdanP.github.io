@@ -1,6 +1,6 @@
 jQuery.noConflict();
 
-$(document).ready(function(){
+jQuery(document).ready(function(){
 
 
 var delay=500, setTimeoutConst;
@@ -8,7 +8,7 @@ var delay=500, setTimeoutConst;
 var selected= new Date();
 
 
-$('#datepicker-1').datepicker({
+jQuery('#datepicker-1').datepicker({
 	dateFormat: 'yy,mm,dd',
 	minDate: 0,
 });
@@ -33,8 +33,8 @@ var currentPrice=startPrice-(5000*numberOfWeeks);
 
 //alert("d  "+d+"fird  "+firstDate+"startD  "+startDate+"diffw  "+diffDays+" numbw  "+numberOfWeeks);
 
-$("#datepicker-1").on("change",function(){
-	selected = $(this).val();
+jQuery("#datepicker-1").on("change",function(){
+	selected = jQuery(this).val();
 
 	var selectedDate = new Date(selected);
 	var diffDaysSelected = Math.round(Math.abs((selectedDate.getTime() - startDate.getTime())/(oneDay)));
@@ -44,22 +44,22 @@ $("#datepicker-1").on("change",function(){
 
 	//alert("selected  "+selected+"  seldate  "+selectedDate+"  diffwSel  "+diffDaysSelected+" numbwSel  "+numberOfWeeksSelected);
 
-	$(".weeks *, .prices *, #animated").css({
+	jQuery(".weeks *, .prices *, #animated").css({
 		"opacity": "0"
 	});
-	$(".weeks *, .prices #button1").css({
+	jQuery(".weeks *, .prices #button1").css({
 		"opacity": ".5"
 	});
-	$(".weeks #button7, .prices #button7").css({
+	jQuery(".weeks #button7, .prices #button7").css({
 		"opacity": "1"
 	});
 
-	$(".prices #button7").text((selectedPrice)).formatCurrency();
+	jQuery(".prices #button7").text((selectedPrice)).formatCurrency();
 
 	var m1 = selectedDate.getMonth()+1;
 	var day1=selectedDate.getDate();
 	var y1=selectedDate.getFullYear();
-	$(".weeks #button7").text((y1+"-"+m1+"-"+day1));
+	jQuery(".weeks #button7").text((y1+"-"+m1+"-"+day1));
 
 	
 });
@@ -70,51 +70,51 @@ actual();
 
 function actual()
 {
-	$(".prices #button1").text(currentPrice).formatCurrency();
-	$(".prices #button2").text((currentPrice-5000)).formatCurrency();
-	$(".prices #button3").text((currentPrice-10000)).formatCurrency();
-	$(".prices #button4").text((currentPrice-15000)).formatCurrency();
-	$(".prices #button5").text((currentPrice-20000)).formatCurrency();
-	$(".prices #button6").text((currentPrice-25000)).formatCurrency();
-	$( "#datepicker-1" ).datepicker("hide");
+	jQuery(".prices #button1").text(currentPrice).formatCurrency();
+	jQuery(".prices #button2").text((currentPrice-5000)).formatCurrency();
+	jQuery(".prices #button3").text((currentPrice-10000)).formatCurrency();
+	jQuery(".prices #button4").text((currentPrice-15000)).formatCurrency();
+	jQuery(".prices #button5").text((currentPrice-20000)).formatCurrency();
+	jQuery(".prices #button6").text((currentPrice-25000)).formatCurrency();
+	jQuery( "#datepicker-1" ).datepicker("hide");
 };
 
 
 
-$(".bottomTherm").click(function(){
+jQuery(".bottomTherm").click(function(){
 
-	$( "#datepicker-1" ).focus();
+	jQuery( "#datepicker-1" ).focus();
 });
 
-$('.weeks #button7').hover(function(){
+jQuery('.weeks #button7').hover(function(){
 
 
-	$( "#datepicker-1" ).focus();
+	jQuery( "#datepicker-1" ).focus();
 });
 
 
 
 
 
-$('.weeks #button2').hover(
+jQuery('.weeks #button2').hover(
 	function() {
-		$(".prices *").css({
+		jQuery(".prices *").css({
 			"opacity": "0"
-		}); actual(); $("#animated").css({
+		}); actual(); jQuery("#animated").css({
 			"opacity": "1"
 		});
-		$(".weeks *, .prices #button1, .prices #button7").css({
+		jQuery(".weeks *, .prices #button1, .prices #button7").css({
 			"opacity": ".5"
 		});
-		$(this).css({
+		jQuery(this).css({
 			"opacity": "1"
 		});
-		$(".prices #button2").css({
+		jQuery(".prices #button2").css({
 			"opacity": "1"
 		});
 
 		setTimeoutConst = setTimeout(function(){
-			$('#animated')
+			jQuery('#animated')
 			.css({
 				"min-height": 0
 			})
@@ -131,14 +131,14 @@ $('.weeks #button2').hover(
 	},
 	function() {
 		clearTimeout(setTimeoutConst );
-		$(".prices *").css({
+		jQuery(".prices *").css({
 			"opacity": "0"
 		});
-		$(".weeks *, .prices #button1, .prices #button7").css({
+		jQuery(".weeks *, .prices #button1, .prices #button7").css({
 			"opacity": "1"
 		});
 
-		$('#animated')
+		jQuery('#animated')
 		.css({
 			"min-height": -50
 		})
@@ -154,25 +154,25 @@ $('.weeks #button2').hover(
 	}
 	);
 
-$('.weeks #button3').hover(
+jQuery('.weeks #button3').hover(
 	function() {
-		$(".weeks *, .prices *").css({
+		jQuery(".weeks *, .prices *").css({
 			"opacity": "0"
-		}); actual(); $("#animated").css({
+		}); actual(); jQuery("#animated").css({
 			"opacity": "1"
 		});
-		$(".weeks *, .prices #button1, .prices #button7").css({
+		jQuery(".weeks *, .prices #button1, .prices #button7").css({
 			"opacity": ".5"
 		});
-		$(this).css({
+		jQuery(this).css({
 			"opacity": "1"
 		});
-		$(".prices #button3").css({
+		jQuery(".prices #button3").css({
 			"opacity": "1"
 		});
 
 		setTimeoutConst = setTimeout(function(){
-			$('#animated')
+			jQuery('#animated')
 			.css({
 				"min-height": 0
 			})
@@ -189,14 +189,14 @@ $('.weeks #button3').hover(
 	},
 	function() {
 		clearTimeout(setTimeoutConst );
-		$(".prices *").css({
+		jQuery(".prices *").css({
 			"opacity": "0"
 		});
-		$(".weeks *, .prices #button1, .prices #button7").css({
+		jQuery(".weeks *, .prices #button1, .prices #button7").css({
 			"opacity": "1"
 		});
 
-		$('#animated')
+		jQuery('#animated')
 		.css({
 			"min-height": -80
 		})
@@ -212,25 +212,25 @@ $('.weeks #button3').hover(
 	}
 	);
 
-$('.weeks #button4').hover(
+jQuery('.weeks #button4').hover(
 	function() {
-		$(".weeks *, .prices *").css({
+		jQuery(".weeks *, .prices *").css({
 			"opacity": "0"
-		}); actual(); $("#animated").css({
+		}); actual(); jQuery("#animated").css({
 			"opacity": "1"
 		});
-		$(".weeks *, .prices #button1, .prices #button7").css({
+		jQuery(".weeks *, .prices #button1, .prices #button7").css({
 			"opacity": ".5"
 		});
-		$(this).css({
+		jQuery(this).css({
 			"opacity": "1"
 		});
-		$(".prices #button4").css({
+		jQuery(".prices #button4").css({
 			"opacity": "1"
 		});
 
 		setTimeoutConst = setTimeout(function(){
-			$('#animated')
+			jQuery('#animated')
 			.css({
 				"min-height": 0
 			})
@@ -247,14 +247,14 @@ $('.weeks #button4').hover(
 	},
 	function() {
 		clearTimeout(setTimeoutConst );
-		$(".prices *").css({
+		jQuery(".prices *").css({
 			"opacity": "0"
 		});
-		$(".weeks *, .prices #button1, .prices #button7").css({
+		jQuery(".weeks *, .prices #button1, .prices #button7").css({
 			"opacity": "1"
 		});
 
-		$('#animated')
+		jQuery('#animated')
 		.css({
 			"min-height": -110
 		})
@@ -270,29 +270,29 @@ $('.weeks #button4').hover(
 	}
 	);
 
-$('.weeks #button5').hover(
+jQuery('.weeks #button5').hover(
 	function() {
-		$(".weeks *, .prices *").css({
+		jQuery(".weeks *, .prices *").css({
 			"opacity": "0"
-		}); actual(); $("#animated").css({
+		}); actual(); jQuery("#animated").css({
 			"opacity": "1"
 		});
-		$(".weeks *, .prices #button1, .prices #button7").css({
+		jQuery(".weeks *, .prices #button1, .prices #button7").css({
 			"opacity": ".5"
 		});
-		$(this).css({
+		jQuery(this).css({
 			"opacity": "1"
 		});
-		$(".prices #button5").css({
+		jQuery(".prices #button5").css({
 			"opacity": "1"
 		});
 
-		$('#animated')
+		jQuery('#animated')
 		.css({
 			"min-height": 0
 		})
 		setTimeoutConst = setTimeout(function(){
-			$('#animated')
+			jQuery('#animated')
 			.css({
 				"min-height": 0
 			})
@@ -309,14 +309,14 @@ $('.weeks #button5').hover(
 	},
 	function() {
 		clearTimeout(setTimeoutConst );
-		$(".prices *").css({
+		jQuery(".prices *").css({
 			"opacity": "0"
 		});
-		$(".weeks *, .prices #button1, .prices #button7").css({
+		jQuery(".weeks *, .prices #button1, .prices #button7").css({
 			"opacity": "1"
 		});
 
-		$('#animated')
+		jQuery('#animated')
 		.css({
 			"min-height": -140
 		})
@@ -331,25 +331,25 @@ $('.weeks #button5').hover(
 
 	}
 	);
-$('.weeks #button6').hover(
+jQuery('.weeks #button6').hover(
 	function() {
-		$(".weeks *, .prices *").css({
+		jQuery(".weeks *, .prices *").css({
 			"opacity": "0"
-		}); actual(); $("#animated").css({
+		}); actual(); jQuery("#animated").css({
 			"opacity": "1"
 		});
-		$(".weeks *, .prices #button1, .prices #button7").css({
+		jQuery(".weeks *, .prices #button1, .prices #button7").css({
 			"opacity": ".5"
 		});
-		$(this).css({
+		jQuery(this).css({
 			"opacity": "1"
 		});
-		$(".prices #button6").css({
+		jQuery(".prices #button6").css({
 			"opacity": "1"
 		});
 
 		setTimeoutConst = setTimeout(function(){
-			$('#animated')
+			jQuery('#animated')
 			.css({
 				"min-height": 0
 			})
@@ -366,14 +366,14 @@ $('.weeks #button6').hover(
 	},
 	function() {
 		clearTimeout(setTimeoutConst );
-		$(".prices *").css({
+		jQuery(".prices *").css({
 			"opacity": "0"
 		});
-		$(".weeks *, .prices #button1, .prices #button7").css({
+		jQuery(".weeks *, .prices #button1, .prices #button7").css({
 			"opacity": "1"
 		});
 
-		$('#animated')
+		jQuery('#animated')
 		.css({
 			"min-height": -170
 		})
@@ -388,25 +388,25 @@ $('.weeks #button6').hover(
 
 	}
 	);
-$('.weeks #button7').hover(
+jQuery('.weeks #button7').hover(
 	function() {
-		$(".weeks *, .prices *").css({
+		jQuery(".weeks *, .prices *").css({
 			"opacity": "0"
-		});  $("#animated").css({
+		});  jQuery("#animated").css({
 			"opacity": "1"
 		});
-		$(".weeks *, .prices #button1, .prices #button7").css({
+		jQuery(".weeks *, .prices #button1, .prices #button7").css({
 			"opacity": ".5"
 		});
-		$(this).css({
+		jQuery(this).css({
 			"opacity": "1"
 		});
-		$(".prices #button7").css({
+		jQuery(".prices #button7").css({
 			"opacity": "1"
 		});
 
 		setTimeoutConst = setTimeout(function(){
-			$('#animated')
+			jQuery('#animated')
 			.css({
 				"min-height": 0
 			})
@@ -423,14 +423,14 @@ $('.weeks #button7').hover(
 	},
 	function() {
 		clearTimeout(setTimeoutConst );
-		$(".prices *").css({
+		jQuery(".prices *").css({
 			"opacity": "0"
 		});
-		$(".weeks *, .prices #button1, .prices #button7").css({
+		jQuery(".weeks *, .prices #button1, .prices #button7").css({
 			"opacity": "1"
 		});
 
-		$('#animated')
+		jQuery('#animated')
 		.css({
 			"min-height": -200
 		})
