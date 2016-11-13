@@ -1,75 +1,104 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"/>
-    <style tyle="text/css">
-      html,body{
-        width: 100%;
-        height: 100%;
-      }
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="jquery-3.1.1.min.js"></script>
+	<script src="jquery.svg.pan.zoom.js"></script>
+	<style>
+		.container
+		{
+			width: 800px;
+			height: 500px;
+			border: 2px solid black;
+		}
+		svg
+		{
+			width: 100%;
+			height: 100%;
+		}
 
-      #mainViewContainer {
-        width: 95%;
-        height: 95%;
-        border: 1px solid black;
-        margin: 10px;
-        padding: 3px;
-        overflow: hidden;
-      }
 
-      #mainView {
-        width: 100%;
-        height: 100%;
-        min-height: 100%;
-        display: inline;
-      }
+	</style>
 
-      .thumbViewClass {
-        border: 1px solid black;
-        position: absolute;
-        bottom: 5px;
-        left: 5px;
-        width: 20%;
-        height: 30%;
-        margin: 3px
-        padding: 3px;
-        overflow: hidden;
-      }
+</head>
+<body>
+	
+	<div class="container">
+		<?xml version="1.0" encoding="utf-8"?>
+		<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+		<svg version="1.1" id="Шар_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		viewBox="0 0 595.3 595.3" style="enable-background:new 0 0 595.3 595.3;" xml:space="preserve">
+		<style type="text/css">
+			.st0{fill:#4A9EDD;stroke:#000000;stroke-miterlimit:10;}
+			.st1{fill:#BECAD2;stroke:#000000;stroke-miterlimit:10;}
+			.st2{fill:#76A6D2;stroke:#000000;stroke-miterlimit:10;}
+			.st3{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+			.st4{fill:#C59FE2;stroke:#000000;stroke-miterlimit:10;}
+			.st5{fill:#B7D1E5;stroke:#000000;stroke-miterlimit:10;}
+			.st6{fill:#D8D17D;stroke:#000000;stroke-miterlimit:10;}
+			.st7{fill:#E0B2A0;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+		</style>
 
-      #thumbView {
-        z-index: 110;
-        background: white;
-      }
+		<a xlink:href="http://www.buffaloairport.com/Guide/Terminal.aspx">
+		<path class="st0 yy" d="M255,299.3v-2l-8.6,0.4v-10.2h-1v-4.8c0,0-1.7,0.1-6.5,0.2c0,0-1-0.5,0-2.6h6.4l0.5-7.6c0,0,31.5-8.5,90.8,0
+			v7.4l6.3,0.5c0,0,1.7,1.5,0,2.8l-7-0.3l-0.1,5.8h-1.5l0.3,8.9h-7.2v1.6C327.3,299.3,282,297.5,255,299.3z"/>
+		</a>
+		<polygon class="st1" points="164.3,293 337.5,218.3 341.3,226.8 351,222.3 421.3,193 421.3,188 433.8,184 437.3,189.3 530,149 
+		524,133.8 530,131.5 525.8,121.8 425.3,166.3 429,172.6 416.3,177.6 413,171.3 159.8,282 "/>
+		<path class="st2" d="M100.5,314l-35.8,12c0,0-5,2.8-3.5,7s7.3,4,7.3,4l50-21.8V314l41.3-18.5v10.8c0,0,10.8-0.5,22.8-14.8l-3.3-4.8
+		l-15,6.3l-4.5-11L98,308.5L100.5,314z"/>
+		<polygon class="st3" points="258.3,239.8 260.3,244.3 301.5,226.8 299.3,221 "/>
+		<polygon class="st2" points="337.8,218.5 347.4,214.2 350.6,221.8 341.3,226.4 "/>
+		<polygon class="st2" points="378.4,211 374.4,201.9 362.8,206.5 367.4,215.8 "/>
+		<path class="st2" d="M347.4,214.2c0,0,1.4-2.1,9.5-5.3l1.5,0.8l2.1-2l2.3-1.2l4.9,10.1l-16.3,7.3L347.4,214.2z"/>
+		<polygon class="st2" points="258,239 260.3,244.7 301.9,226.4 299.3,220.9 "/>
+		<path class="st4" d="M290,220.3c0,0-6.8,8.3-7.8,22.3l-10.5,4.3h-0.8c0,0-2.8-0.2-7.5,3.8h-2v9.3H254v12l27.3-1.3v7.5h17.8v-7.6
+		l28.2,1.5c0-4.1,0-7.9,0-11.6l-11.2-0.5l2-33.7l-19.2,8.8C299,235.3,297.7,229.3,290,220.3z"/>
+		<path class="st5" d="M236.3,301.8c36.3-4.4,72.6-4.4,108.6,0v6.2H236.3V301.8z"/>
+		<path class="st1" d="M171.8,331l6.5-9.3c18.2-5.1,32.3-7.4,51-9.8v-4.8c0,0,2.5-0.6,7.3-1.4c16.4-2.8,59.4-8.1,116.2,1.4v4.2
+		c0,0,34.3,5.6,44.8,9.8L409,331C329.9,308.2,250.9,309.2,171.8,331z"/>
+		<path class="st3" d="M211.8,323.8v2.3c52.8-9.5,104.8-9.8,155.8-0.2v-2.1C316.5,313.7,264.5,314.3,211.8,323.8z"/>
+		<path class="st6" d="M232.3,343.9h115v-19.3c-38.3-4.9-76.7-4.9-115,0V343.9z"/>
+		<polygon class="st3" points="268,314.9 270.4,314.8 270.4,321.4 268,321.5 "/>
+		<polyline class="st3" points="310.5,320.9 310.5,314.7 312.9,314.8 312.9,321.5 310.5,321.5 "/>
+		<g>
+			<path class="st7" d="M51.1,320.1c0,0-0.9-1,0.1-1.1c0,0,1-0.4,1.7,0l-0.2,1.2l-0.1,0.8L51.1,320.1z"/>
+			<path class="st7" d="M64.6,325.6l0.4,0.9c0,0,0.5,0.6,1.2-0.5s0.7-1.3,0.7-1.3s0.5-1.3-0.4-1C65.6,324,65,324,65,324L64.6,325.6z"
+			/>
+			<path class="st7" d="M46.9,320.3l1.1-0.2l-0.2,2l-0.6,0.3c0,0,0,1.3-1.1,1l-0.5-3.5c0,0,0.2-0.6,0.9-0.4
+			C46.4,319.4,46.8,319.6,46.9,320.3z"/>
+			<path class="st7" d="M61.2,323l3.6,0.9c0,0,0.1,0.1,0.2,0.4l-0.4,1.3c0,0-0.2,0.2-0.4,0.2c-0.3,0-3.8-1-3.8-1L61.2,323z"/>
+			<path class="st7" d="M56.8,321.6l4.4,1c0,0,0.2,0.1,0.2,0.5l-0.5,1.5c0,0-0.2,0.3-0.5,0.2s-4.6-1.2-4.6-1.2L56.8,321.6z"/>
+			<path class="st7" d="M56.3,323.7c0,0-0.2,0.1-0.6,0.1l-5.4-1.3l0.3-2.6l1.8,0.4c0,0,0.2,0,0.4-0.2l3.7,0.9c0,0,0.4,0.2,0.4,0.5
+			C56.8,322,56.3,323.7,56.3,323.7z"/>
+			<ellipse transform="matrix(0.9086 -0.4177 0.4177 0.9086 -129.6712 50.0306)" class="st7" cx="49.5" cy="321.3" rx="2" ry="2"/>
+			<path class="st7" d="M56.4,321.1c0,0,0.2-0.6,0.2-0.9c0-0.1-0.2-0.2-0.4-0.4c-0.2-0.1-3.2-0.7-3.2-0.7l-0.2,1L56.4,321.1z"/>
+		</g>
+		<g>
+			<path class="st7" d="M85.2,301.3c0,0-0.9-1,0.1-1.1c0,0,1-0.4,1.7,0l-0.2,1.2l-0.1,0.8L85.2,301.3z"/>
+			<path class="st7" d="M98.8,306.8l0.4,0.9c0,0,0.5,0.6,1.2-0.5s0.7-1.3,0.7-1.3s0.5-1.3-0.4-1s-1.5,0.4-1.5,0.4L98.8,306.8z"/>
+			<path class="st7" d="M81,301.6l1.1-0.2l-0.2,2l-0.6,0.3c0,0,0,1.3-1.1,1l-0.5-3.5c0,0,0.2-0.6,0.9-0.4
+			C80.5,300.7,80.9,300.9,81,301.6z"/>
+			<path class="st7" d="M95.3,304.2l3.6,0.9c0,0,0.1,0.1,0.2,0.4l-0.4,1.3c0,0-0.2,0.2-0.4,0.2s-3.8-1-3.8-1L95.3,304.2z"/>
+			<path class="st7" d="M90.9,302.9l4.4,1c0,0,0.2,0.1,0.2,0.5L95,306c0,0-0.2,0.3-0.5,0.2c-0.3,0-4.6-1.2-4.6-1.2L90.9,302.9z"/>
+			<path class="st7" d="M90.4,305c0,0-0.2,0.1-0.6,0.1l-5.4-1.3l0.3-2.6l1.8,0.4c0,0,0.2,0,0.4-0.2l3.7,0.9c0,0,0.4,0.2,0.4,0.5
+			C90.9,303.2,90.4,305,90.4,305z"/>
+			<ellipse transform="matrix(0.9086 -0.4177 0.4177 0.9086 -118.7248 62.5628)" class="st7" cx="83.6" cy="302.5" rx="2" ry="2"/>
+			<path class="st7" d="M90.5,302.3c0,0,0.2-0.6,0.2-0.9c0-0.1-0.2-0.2-0.4-0.4s-3.2-0.7-3.2-0.7l-0.2,1L90.5,302.3z"/>
+		</g>
+	</svg>
+</div>
+<script>
+	
+	$("svg").svgPanZoom();
 
-      #scopeContainer {
-        z-index: 120;
-      }
-    </style>
-  </head>
+$(".yy").hover(function(){
+	css("fill","red");
+});
 
-  <body>
+</script>
 
-    <div id="mainViewContainer">
-      <embed id="mainView" type="image/svg+xml" src="tiger.svg"/>
-    </div>
 
-    <div id="thumbViewContainer">
-      <svg id="scopeContainer" class="thumbViewClass">
-        <g>
-          <rect id="scope" fill="red" fill-opacity="0.1" stroke="red" stroke-width="2px" x="0" y="0" width="0" height="0"/>
-          <line id="line1" stroke="red" stroke-width="2px" x1="0" y1="0" x2="0" y2="0"/>
-          <line id="line2" stroke="red" stroke-width="2px" x1="0" y1="0" x2="0" y2="0"/>
-        </g>
-      </svg>
-      <embed id="thumbView" type="image/svg+xml" src="tiger.svg" class="thumbViewClass"/>
-    </div>
-
-    <script src="http://ariutta.github.io/svg-pan-zoom/dist/svg-pan-zoom.js" type="text/javascript" ></script>
-    <script src="http://ariutta.github.io/svg-pan-zoom/demo/thumbnailViewer.js" type="text/javascript" ></script>
-
-    <script type="text/javascript">
-      thumbnailViewer({mainViewId: 'mainView',thumbViewId: 'thumbView'});
-    </script>
-  </body>
-
+</body>
 </html>
