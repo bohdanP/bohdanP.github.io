@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		.container
+		{
+			margin: 20px auto;
+			border: 1px grey solid;
+			width: 450px;
+			height: 803px;
+			position: relative;
+			overflow: hidden;
+		}
+		.layerF,.layerS,.layerT,.wrapper1,.layerAnim
+		{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+		}
+		.layerF
+		{
+			background: url(layerF.png) no-repeat;
+			background-size: cover;
+		}
+		.layerS
+		{
+			background: url(layerS.png) no-repeat;
+			background-size: cover;
+			animation: skew 4s alternate-reverse infinite linear;
+		}
+		.layerT
+		{
+			background: url(layerT.png) no-repeat;
+			background-size: cover;
+		}
+		.wrapper1
+		{
+			animation: scale 4s alternate-reverse infinite linear;
+		}
+		.layerAnim
+		{
+			background: url("splite.png") no-repeat;
+			background-size: cover;
+			animation: anim 1.6s steps(4) infinite ;
+		}
+		@keyframes skew
+		{
+			0% { transform: skewY(-3deg); }
+			50% { transform: skewY(0deg); }
+			100% { transform: skewY(3deg); }
+		}
+		@keyframes scale 
+		{
+			0% { transform: scale(1.03);}
+			50% { transform: scale(1);}
+			100% { transform: scale(.98);}
+		}
+		@keyframes anim 
+		{
+			100% {	background-position: 0 -3212px;	}
+		}
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<div class="layerF"></div>
+		<div class="wrapper1"><div class="layerS"></div></div>
+		<div class="layerT"></div>
+		<div class="layerAnim"></div>
+	</div>
+
+</body>
+</html>
