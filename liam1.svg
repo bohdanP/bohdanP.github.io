@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<svg version="1.1" id="Шар_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2478 1051.9" style="enable-background:new 0 0 2478 1051.9;" xml:space="preserve">
+	<style type="text/css">
+	.st0{fill:#767A7B;}
+	.st1{fill:none;stroke:red;stroke-width:15px;}
+
+	/*head animation*/
+
+	#head
+	{
+		position: relative;
+		animation: head 2s alternate forwards 1s;
+		opacity: 0;
+	}
+	.animated{
+		position: relative;
+		-webkit-animation: animated 2s infinite; /* Safari 4.0 - 8.0 */
+		animation: animated 2s alternate forwards infinite 3.8s;
+		opacity: 0;
+	}
+	.puzzle0{
+		position: relative;
+		-webkit-animation: animated 2s infinite; /* Safari 4.0 - 8.0 */
+		animation: puzzle0 2s forwards   2.4s;
+		opacity: 0; 
+	}
+	.puzzle1{
+		position: relative;
+		-webkit-animation: animated 2s infinite; /* Safari 4.0 - 8.0 */
+		animation: puzzle1 2s forwards   .7s;
+		opacity: 0;
+	}
+	.puzzle2{
+		position: relative;
+		-webkit-animation: animated 2s infinite; /* Safari 4.0 - 8.0 */
+		animation: puzzle2 2s forwards  1.7s;
+		opacity: 0;
+	}
+	.text_anim
+	{
+		position: relative;
+		-webkit-animation: animated 2s infinite; /* Safari 4.0 - 8.0 */
+		animation: text_anim 2s forwards  4s;
+	}
+	@keyframes head {
+		100% {
+			
+			opacity: 1;
+		}
+	}
+	@keyframes text_anim {
+		100% {
+			transform: translateX(100%);
+		}
+	}
+	@keyframes animated {
+		0% {
+			opacity: 1;
+			transform: rotateX(-90deg);
+		}
+		50% {
+			transform: translate(0.6%, 26%) rotate(-50deg)
+		}
+		100% {
+			transform: translate(0) rotate(0deg);
+			opacity: 1;
+		}
+	}
+	@keyframes puzzle0 {
+		0%   {
+			transform:  rotate(-50deg) translate(-55%, 0%);
+			opacity: 0;
+		}
+		
+		50%{
+			/*transform:  rotate(-45deg);*/
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	@keyframes puzzle1 {
+		0%   {
+			transform:  rotate(-50deg) translate(-35%, -25%);
+			opacity: 0;
+		}
+		50%{
+			
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	@keyframes puzzle2 {
+		0%   {
+			transform:  rotate(-50deg) translate(-55%, -25%);
+		}
+		50%{
+			/*transform:  rotate(-45deg);*/
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+	/*text animation*/
+	#r1	{
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: r1 1.5s forwards;
+	}
+	@keyframes 	r1 {
+		from {
+			stroke-dashoffset: 1000;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	#r2	{
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: r2 3s forwards .5s;
+	}
+	@keyframes 	r2 {
+		from {
+			stroke-dashoffset: 1000;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	/****/
+	#e1	{
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: e1 2s forwards .8s;
+	}
+	@keyframes 	e1 {
+		from {
+			stroke-dashoffset: 1000;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	#e2	{
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: r2 2s forwards 1.4s; 
+	}
+	@keyframes 	e2 {
+		from {
+			stroke-dashoffset: 1000;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	/****/
+	#t1	{
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: t1 2s forwards 1.7s;
+	}
+	@keyframes 	t1 {
+		from {
+			stroke-dashoffset: 1000;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	#t2	{
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: t2 2s forwards 2s;
+	}
+	@keyframes 	t2 {
+		from {
+			stroke-dashoffset: 1000;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	/****/
+	#h1	{
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: h1 2s forwards 2.2s;
+	}
+	@keyframes 	h1 {
+		from {
+			stroke-dashoffset: 1000;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	#h2	{
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: h2 2s forwards 2.4s;
+	}
+	@keyframes 	h2 {
+		from {
+			stroke-dashoffset: 1000;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	#h3	{
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: h3 2s forwards 2.6s;
+	}
+	@keyframes 	h3 {
+		from {
+			stroke-dashoffset: 1000;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	/****/
+	#i	{
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: i 2s forwards 2.7s;
+	}
+	@keyframes 	i {
+		from {
+			stroke-dashoffset: 1000;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	/****/
+	#n1	{
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: n1 2s forwards 2.8s;
+	}
+	@keyframes 	n1 {
+		from {
+			stroke-dashoffset: 1000;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	#n2	{
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: n2 2s forwards 2.9s;
+	}
+	@keyframes 	n2 {
+		from {
+			stroke-dashoffset: 1000;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	/****/
+	#k1	{
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: k1 2s forwards 3s;
+	}
+	@keyframes 	k1 {
+		from {
+			stroke-dashoffset: 1000;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	#k2	{
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: k2 2s forwards 3.1s; 
+	}
+	@keyframes 	k2 {
+		from {
+			stroke-dashoffset: 1000;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+
+	</style>
+
+	<defs>
+		<clipPath id="clipFont">
+			<path  class="st10" d="M1036.3,544.7H936.2v123.4h-10.7V379.6h91.9c28.9,0,51.9,7.5,69.1,22.4c17.1,14.9,25.7,35.2,25.7,60.8
+			c0,19.7-6.1,36.9-18.3,51.6c-12.2,14.7-27.8,23.9-46.7,27.4l77.1,123.4v2.8h-11.3L1036.3,544.7z M936.2,534h91
+			c22.2,0,40.1-6.7,53.8-20.2c13.7-13.5,20.5-30.4,20.5-50.9c0-22.5-7.6-40.2-22.7-53.1c-15.1-12.9-35.8-19.4-62.1-19.4h-80.5V534z"
+			/>
+			<path  class="st0" d="M1347.4,525.1h-144.7v132.4h164.9v10.7H1192V379.6h175.6v10.7h-164.9v124h144.7V525.1z"/>
+			<path class="st0" d="M1769.8,668.1h-10.7V525.1h-184.3v143.1h-10.7V379.6h10.7v134.7h184.3V379.6h10.7V668.1z"/>
+			<path class="st0" d="M1867.7,668.1H1857V379.6h10.7V668.1z"/>
+			<path class="st0" d ="M2162.8,668.1h-10.7l-186.3-270.3v270.3h-10.9V379.6h10.9l186.3,269.7V379.6h10.7V668.1z"/>
+			<path  class="st0" d="M2298.9,516.4l-46.2,42.6v109.2H2242V379.6h10.7v166.8l47.6-46.6L2420,379.6h15.5L2306.8,509l138.5,159.1h-13.9
+			L2298.9,516.4z"/>
+			<path  class="st0" d="M1642.4,302.8h-168.9v446.8h-17.2V302.8h-168.9v-17.2h355V302.8z"/>
+		</clipPath>
+	</defs>
+	<g id="head">
+		<path class="st0" d="M711.4,306.1L711.4,306.1c-0.1-0.4-0.2-0.6-0.4-1l0,0C711.1,305.5,711.3,305.9,711.4,306.1z"/>
+		<path class="st0 puzzle1" d="M323.1,491.3c2.4,29.8,23.9,48.8,50.3,35.6c6.7-3.4,16.2,3.1,14.7,10.5c-4.9,22.3-21.1,60.7-21.6,60.6
+		c-15.9-5-50.8-22-72.6-23.8c-11.9-1-24.5,9-14.7,24.3c23.9,37.1-24.8,46.1-43.6,38.1c-21-8.9-18.4-20.9-7.6-43.7
+		c3.4-7.2-1-13-4.3-16c-22.2-19.5-65.7,3.4-91.8,14.2c-0.4,0.1-27.4-57.1-13.8-77c3.1-4.6,9.5-5.3,13.9-3.2
+		c34.7,16,42.9,6.4,42.1-29.1c-0.6-25.5-25.2-23.3-34.2-19.3c-31.8,14.1-26.8-51.7-10.6-76.8c0.2-0.4,62.1,26.2,90.1,13.7
+		c8.2-3.6,11.9-13,8.3-21.1c-1.3-3-3.1-6-4.9-9c-6.8-11.3-2.9-26.2,8.7-32.6c9.7-5.3,22.7-6.8,34.1-4.7
+		c14.9,2.9,22.6,19.5,15.5,32.8c-3.6,6.7-6.8,13.3-3.8,19.3c1.9,3.7,5.8,6,10,6.1c27.4,0.8,56.2-15,78.8-27.8c0.5-0.2,1.1,0,1.3,0.5
+		c8.7,27.2,40.7,61,22.8,75.9c-9.9,8.2-20.7-3.4-29.1-4.2H361C331.3,428.9,321.7,474,323.1,491.3z"/>
+		<path class="st0" d="M711,305.2c0.1,0.4,0.2,0.7,0.4,1l0,0C711.3,305.9,711.1,305.5,711,305.2z"/>
+		<path class="st0 puzzle2" d="M633.5,502c-15.6,19.7-24.9,3.8-40.1,0.8c-7.2-1.3-13.3,3.7-14.9,10.9c-7.1,32.6,16.1,50.8,24.6,74.3
+		c-14.5,17.7-44.3,34.1-68.1,30.3c-7.9-1.3-17.5-10.8-11.2-20.3c21-31.1-0.4-55-32.1-55.8c-25.7-0.6-42.5,23.9-32.6,48.8
+		c3.6,9,10.9,28.1-11.3,27.9c-23-0.2-50.7-10.6-67.5-18.7c6-24,24.5-50.1,19.3-75.3c-1.9-9.6-11.7-16.3-23.4-11.8
+		c-22.3,8.7-36.9,7.3-39.2-22c-1.1-14.2,2.2-34.8,16.8-42.7c6.1-3.2,16.2-1.2,26.2,4.9c11.5,7.1,26.3,3.4,28.8-9.9
+		c4.8-24.3-21.7-61.4-28.5-84.4v-0.4l0,0c19.7-6.2,63.9-25.6,79.5-7.9c2.9,3.2,4.8,10.5,1.7,13.5c-27.6,26.8,12,63.4,39.4,54.2
+		c10.3-3.5,38.1-20.8,23.4-39.8c-2.6-3.4-14.9-15-6.5-22.6c22.3-19.8,62,1,87.4,8.8c-8.2,23.1-32.1,55.9-24,83.9
+		c2.4,8.3,15,13.7,22,8.7c14.3-10.2,24.8-11.4,30.3-4.1C645.5,468.7,643.2,489.6,633.5,502z"/>
+		<path class="st0 animated" d="M295.2,274.7c9.3,22.8-31.9,39.5-41,41.1c-24.3-0.8-21.3-32.6-21.3-32.6s3.1-17.5-8.8-21  c-6.3-2.8-17.1,6.9-26.1,14.3s-13.8,21.4-32.3,40.6c-25.6-10.6-56.1-21-73.7-41.3c6.1-16.4,17.3,1.6,33.3-24  c8.9-8.5-9.7-38-17.7-45.6c-7.5-7.1-26.6-14.9-35.7-12.6c-18.3,4.5-17.2,20.4-29.9,34.2C14.9,216.5,1.5,153.4,0,153.9  c-1.5,0.5,50.4-13.4,65.5-27.3c10.8-10,6.9-27.9-6.8-33.1c-7.8-3-20.2-2.4-22.8-11.9C31.2,64,51.9,37,74.3,30.1  c16.5-5.2,30.3,5.3,30.4,22.7c-0.1,72.4,60-19.1,71.4-52.8c19.6,11.3,64.5,31.8,71.5,54.3c3.2,10.6-4.1,21.3-15,22.4  c-10.3,1-26.2-5.8-29.7,6.3c-2,18,11.5,37.7,26.3,45.8l0,0c11.6,6.3,24,5.4,31-8.7c0.6-1.3,1.2-2.7,1.7-4.2  c3.4-9.9,14.1-13.7,24.1-10.8c12.3,3.5,41.6,32.8,57,73.3c-19.2,9.7-68.3,24.3-77.4,41.6C251.3,260.5,286.9,254.4,295.2,274.7z"/>
+		<path class="st0 puzzle0" d="M567.8,217.5c-7.5,12.9-9.1,54.8,15.1,56.4c9.4,0.6,19.3-3.2,24.2-5.8c6.8-3.5,21.1-1.2,23.3,6.1  c8.1,27.5-9,56.7-21.4,79.8c-27.2-6.7-83.3-30.3-103.7-2.3c-8.8,12,9.5,25.6,11.4,30.6c4.9,12-5.3,23.3-15.6,25.5  c-25.6,5.4-47.9-14.2-27-44.2c2.6-3.7,3-8.7,0.8-12.7c-15.4-29.8-77.5-11.5-97.8-5c-7.9-19.3-14.5-64.2-13.2-69.7  s18.8,9.3,24.1,11.5c3.8,1.5,23.4,18.9,40.2-5.3c9.7-16.8,8.7-55.3-10.2-66.3c-4.2-2.4-13.8,1.3-18.3,3.4  c-54.1,25-36.6-61.4-15.7-90.9c0.8-1.7,77.9,42.4,104.7,16.7c3.5-3.4,4.9-11.5-2.8-18.7c-14.5-13.5-12.5-24.8,1.2-32.3  c16.6-9.3,42.7-9.9,52.5,6.8c4.2,7.1,3.4,13.8,0.4,18.5c-7.5,11.9-21.6,23.8-10.3,35.4c1.2,1.2,2.8,2,4.4,2.3  c35.2,5.5,90.8-24,92.5-24.8c7.6,28.1,11.9,43.9,8.8,69.3c-2.6,21-16.5,10.8-19.8,8.4C595.5,196.3,580.2,196.1,567.8,217.5z"/>
+		<path class="st0" d="M711.4,306.1L711.4,306.1c-0.1-0.4-0.2-0.6-0.4-1l0,0C711.1,305.5,711.3,305.9,711.4,306.1z"/>
+		<path class="st0" d="M783,498.6c-22.7-30.5-33.6-59.8-20.7-89.5c15.7-36.2,7.2-47.6-7.2-103.9c-14.3-55.9-67.8-154.9-115.4-170.1
+		c-0.6-0.2,6.4,21.9,8.7,46.4c2.9,30.4-11.3,61.3-31.7,43.1c-18-16-34-12.1-39.9,0.8c-5.9,13-5.5,36,9.9,36.8
+		c16,0.7,32.6-15.3,49.6,1.1c17.1,16.3-2.6,70.3-18.4,98.7c-14.4,25.7-19.1,42.1-24.6,61.4c-5.5,19.3-0.4,24.3,6.4,22.6
+		c13-3.1,22.5-14.5,36.6-4.6c14.2,10.1,22.5,37.7,7.6,63.1c-14.9,25.2-27.6,18.4-40.6,12.4c-13-5.9-13.8,4.3-13.7,10.3
+		c0.1,7.8,5.6,22.3,13,32.8c7.5,10.5,22.6,23.3,4.8,42.3c-17.9,19-66.4,33.6-83,27.5c-13.3-4.9-18.5-19.8-10.3-35.1
+		c18-33.8-6.6-39.2-19.8-40.7c-14.8-1.8-35.3,15.4-22.2,41.2c5.6,11.1,3.1,22-5.4,31.2s-23.4,6.4-54.3-0.6
+		c-30.9-7.1-80.9-30.2-100.6-38c-19.7-7.8-24.9,4.3-17.9,14.8c17.9,26.1-1,50.5-40.7,49.9c-35.8-0.5-49.5-25-47.6-36.4
+		c2.2-12.9,12.6-29.6-1.9-32.9c-7.9-1.8-30.6,0-66.8,19.6l0,0l60.2,79.3l-60-78.7c13.7,28.7,28.1,53.4,39.9,69.3
+		c29.7,40.1,44,69.6,45.4,96c4,76.2-12.6,150.1-59.7,262.7c0,0,392.2,0,427.1,0c-8.4-16.9-13.5-26.8-16.6-54.1
+		c-4-35,1.8-75.2,10.5-102.1c5.9-18.1,27.8-30.6,48.8-30.9c34.4-0.5,65.4,10.2,118.8,0.4c27.8-5,26.2-46.3,19.2-75.1
+		c-7-28.8,15.7-34.8,15.6-46.6c-0.1-6.5,2.6-11.4-13.8-21.4c30-16.3,19.7-31.5,14.2-43.6c-19.6-43,2.3-42.8,11.1-46.3
+		c8.8-3.5,32.3-7.8,35-27C834.7,565.3,805.6,529.3,783,498.6z M640.8,138.3L640.8,138.3L640.8,138.3z"/>
+	</g>
+	<g id="lines" clip-path="url(#clipFont)">
+		<path id="r1" class="st1" d="M930,668.1V384.9h102c0,0,75,8.1,75,77.3s-72,77.2-72,77.2h-94h-4.8"/>
+		<path id="r2" class="st1" d="M1041.9,542.3c-0.6,2.6,79.1,128.9,79.1,128.9"/>
+		<path id="e1" class="st1" d="M1367.6,385.2c0,0-163.6,2.2-170.6,0c0,5.1,0.5,277.7,0.5,277.7h178"/>
+		<path id="e2" class="st1" d="M1199,519.6c0,0,151.6-1.7,152.7,0"/>
+		<path id="t2" class="st1" d="M1287.4,294.6c0,0,172.4-1,177.5,0s177.5,0,177.5,0"/>
+		<path id="t1" class="st1" d="M1464.9,297.9c0,0,3.2,427.4,0,451.7"/>
+		<path id="h1" class="st1" d="M1569.5,379.6v139.9c0,0,0.3,150.7,0,148.5"/>
+		<path id="h3" class="st1" d="M1571.5,519.1c0,0,196.2-1.1,198.3,0.5"/>
+		<path id="h2" class="st1" d="M1764.5,379.6c0,0-0.5,290.4,0.5,291.3"/>
+		<path id="i" class="st1" d="M1862.4,379.6c0,0-1.1,288.8,0,290.3"/>
+		<path id="n1" class="st1" d="M1960.3,379.6c-0.3-6.1,0,288.3,0,288.3"/>
+		<path id="n2" class="st1" d="M1963,385.1c0,0,197.1,289,195.3,283.2c-1.8-5.8-1.3-288.6-1.3-288.6"/>
+		<path id="k1" class="st1" d="M2247.3,379.6c0,0,0.2,287.4,0.7,288.5"/>
+		<path id="k2" class="st1" d="M2428,377.4l-177.5,178l48.5-47c0,0,139.8,160.5,142.5,163.5"/>
+	</g>
+
+	</svg>
+
+
